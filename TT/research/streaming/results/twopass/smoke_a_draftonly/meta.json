@@ -1,0 +1,13 @@
+{
+ "engine": "simulstreaming-draft",
+ "chunk": 0.5,
+ "frame_threshold": 25,
+ "sil": 0.75,
+ "ct2": "/siyuan/FunASR_extracted/FunASR-main/TT/research/streaming/downloads/_ct2_v3",
+ "stream_model": "../downloads/whisper-atc-openai.pt",
+ "vad_thr": 69.78,
+ "wall_sec": 126.75,
+ "dur": 112.6,
+ "rtf": 1.1256,
+ "track": "draft"
+}

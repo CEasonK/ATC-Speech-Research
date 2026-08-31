@@ -1,0 +1,534 @@
+[
+ {
+  "contest": "opening",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 5.0,
+    "ranked": [
+     {
+      "variant": "THIS IS SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 1.8786420822143555,
+      "median_score": 1.9693716764450073,
+      "t_start": 10.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 1.9590626955032349,
+      "median_score": 1.9968383312225342,
+      "t_start": 0.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "SAINT JOHNS INTERNATIONAL INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 2.130842685699463,
+      "median_score": 2.1713101863861084,
+      "t_start": 0.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CYYT SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 2.4580540657043457,
+      "median_score": 2.4697189331054688,
+      "t_start": 10.0,
+      "n_windows": 3
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 235.0,
+    "ranked": [
+     {
+      "variant": "THIS IS SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 2.519057273864746,
+      "median_score": 2.611180543899536,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "SAINT JOHNS INTERNATIONAL INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 2.5709264278411865,
+      "median_score": 2.6271480321884155,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 2.6585397720336914,
+      "median_score": 2.712198495864868,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "CYYT SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 2.9698452949523926,
+      "median_score": 3.0198458433151245,
+      "t_start": 230.0,
+      "n_windows": 2
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "alti_word_a",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 75.0,
+    "ranked": [
+     {
+      "variant": "TEMPERATURE ONE ALTIMETER THREE ZERO TWO THREE APPROACH",
+      "score": 1.274383783340454,
+      "median_score": 1.3504340648651123,
+      "t_start": 70.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE ALTITUDE THREE ZERO TWO THREE APPROACH",
+      "score": 1.6638482809066772,
+      "median_score": 1.7772436141967773,
+      "t_start": 70.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE QNH THREE ZERO TWO THREE APPROACH",
+      "score": 2.5487067699432373,
+      "median_score": 2.593909502029419,
+      "t_start": 70.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "alti_word_b",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "TEMPERATURE ONE ALTIMETER THREE ZERO TWO THREE APPROACH",
+      "score": 2.5807621479034424,
+      "median_score": 2.635429859161377,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE ALTITUDE THREE ZERO TWO THREE APPROACH",
+      "score": 2.8211495876312256,
+      "median_score": 2.921457290649414,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE QNH THREE ZERO TWO THREE APPROACH",
+      "score": 3.549980878829956,
+      "median_score": 3.63525652885437,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "closing",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 0.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.0894144773483276,
+      "median_score": 1.177950382232666,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "ONE FIVE WHEN REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.130232334136963,
+      "median_score": 1.2051295638084412,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "ONE FIVE IF REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.3249661922454834,
+      "median_score": 1.3500651121139526,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "ONE FIVE WHEN REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.3339896202087402,
+      "median_score": 1.4050697684288025,
+      "t_start": 0.0,
+      "n_windows": 2
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE WHEN REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.5150607824325562,
+      "median_score": 1.563655972480774,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.5250333547592163,
+      "median_score": 1.5755869150161743,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE IF REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.6454918384552002,
+      "median_score": 1.7493568658828735,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE WHEN REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 1.6609548330307007,
+      "median_score": 1.7078132629394531,
+      "t_start": 225.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "tail",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 75.0,
+    "ranked": [
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 1.0712624788284302,
+      "median_score": 1.0981223583221436,
+      "t_start": 70.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 1.4718894958496094,
+      "median_score": 1.4896210432052612,
+      "t_start": 75.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT ADVISE ON INITIAL CONTACT YOU HAVE INFORMATION FOXTROT",
+      "score": 1.8944990634918213,
+      "median_score": 1.9217572212219238,
+      "t_start": 75.0,
+      "n_windows": 3
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 1.4284844398498535,
+      "median_score": 1.470278263092041,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 1.7857434749603271,
+      "median_score": 1.8555270433425903,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT ADVISE ON INITIAL CONTACT YOU HAVE INFORMATION FOXTROT",
+      "score": 1.9158422946929932,
+      "median_score": 2.0410830974578857,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "opening",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 110.0,
+    "ranked": [
+     {
+      "variant": "THIS IS SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.112806558609009,
+      "median_score": 4.260103702545166,
+      "t_start": 105.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.1508114337921143,
+      "median_score": 4.272017478942871,
+      "t_start": 105.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CYYT SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.3904902935028076,
+      "median_score": 4.780013561248779,
+      "t_start": 105.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "SAINT JOHNS INTERNATIONAL INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.8262767791748047,
+      "median_score": 4.165363788604736,
+      "t_start": 105.0,
+      "n_windows": 3
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 235.0,
+    "ranked": [
+     {
+      "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.620793104171753,
+      "median_score": 3.7863954305648804,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "THIS IS SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.6581058502197266,
+      "median_score": 3.9122204780578613,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "SAINT JOHNS INTERNATIONAL INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 3.875138998031616,
+      "median_score": 3.8843791484832764,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "CYYT SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+      "score": 4.192903995513916,
+      "median_score": 4.341439247131348,
+      "t_start": 230.0,
+      "n_windows": 2
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "alti_word_a",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 65.0,
+    "ranked": [
+     {
+      "variant": "TEMPERATURE ONE ALTIMETER THREE ZERO TWO THREE APPROACH",
+      "score": 2.919649839401245,
+      "median_score": 3.046658754348755,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE ALTITUDE THREE ZERO TWO THREE APPROACH",
+      "score": 3.606652021408081,
+      "median_score": 3.869713544845581,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE QNH THREE ZERO TWO THREE APPROACH",
+      "score": 3.886571168899536,
+      "median_score": 4.252028942108154,
+      "t_start": 60.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "alti_word_b",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "TEMPERATURE ONE ALTIMETER THREE ZERO TWO THREE APPROACH",
+      "score": 4.117784023284912,
+      "median_score": 4.157204627990723,
+      "t_start": 235.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE ALTITUDE THREE ZERO TWO THREE APPROACH",
+      "score": 4.634446620941162,
+      "median_score": 4.758510589599609,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TEMPERATURE ONE QNH THREE ZERO TWO THREE APPROACH",
+      "score": 5.137187480926514,
+      "median_score": 5.398221492767334,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "closing",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 0.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 2.1116409301757812,
+      "median_score": 2.194512724876404,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "ONE FIVE WHEN REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 2.3624842166900635,
+      "median_score": 2.403234124183655,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "ONE FIVE IF REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 2.538102865219116,
+      "median_score": 2.5795068740844727,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "ONE FIVE WHEN REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 2.655590057373047,
+      "median_score": 2.7174676656723022,
+      "t_start": 0.0,
+      "n_windows": 2
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE WHEN REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 3.2442657947540283,
+      "median_score": 4.6914801597595215,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 3.258495569229126,
+      "median_score": 4.677681922912598,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE IF REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 3.3080835342407227,
+      "median_score": 4.8106465339660645,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE WHEN REQUESTING APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+      "score": 3.4035823345184326,
+      "median_score": 4.777042865753174,
+      "t_start": 225.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "contest": "tail",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 75.0,
+    "ranked": [
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 2.452779769897461,
+      "median_score": 2.852663040161133,
+      "t_start": 75.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 2.8162848949432373,
+      "median_score": 2.9382050037384033,
+      "t_start": 80.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT ADVISE ON INITIAL CONTACT YOU HAVE INFORMATION FOXTROT",
+      "score": 3.2199184894561768,
+      "median_score": 3.296555280685425,
+      "t_start": 75.0,
+      "n_windows": 3
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 225.0,
+    "ranked": [
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 2.645942449569702,
+      "median_score": 3.250074625015259,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT THAT YOU HAVE INFORMATION FOXTROT",
+      "score": 2.9833011627197266,
+      "median_score": 3.1949241161346436,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "LANDING AND DEPARTING RUNWAY TWO EIGHT ADVISE ON INITIAL CONTACT YOU HAVE INFORMATION FOXTROT",
+      "score": 3.211573839187622,
+      "median_score": 3.355473041534424,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  }
+ }
+]

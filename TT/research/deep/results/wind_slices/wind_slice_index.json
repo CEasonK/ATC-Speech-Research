@@ -1,0 +1,40 @@
+{
+ "centers": {
+  "CYYT_ATIS_a": {
+   "t_open": 55.0,
+   "slice_center": 62.0,
+   "path": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/CYYT_ATIS_a_windslice.wav"
+  },
+  "CYYT_ATIS_b": {
+   "t_open": 230.0,
+   "slice_center": 237.0,
+   "path": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/CYYT_ATIS_b_windslice.wav"
+  }
+ },
+ "decodes": [
+  {
+   "id": "CYYT_ATIS_a_windslice_atc",
+   "text": "WIND TWO FOUR ZERO FIVE RESIDUALITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY INF"
+  },
+  {
+   "id": "CYYT_ATIS_b_windslice_atc",
+   "text": "LEATHER AT ZERO TWO ZERO ZERO ZULU TWO FOUR ZERO AT FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TAROM REPORT LINE UP ONE ALTITUDE THREE ZERO TWO THREE ARNAV LEAV"
+  },
+  {
+   "id": "CYYT_ATIS_a_windslice_v3",
+   "text": "Wind 240. Visibility 15. T 4000 Q. Temperature 1. Depoint minus altimeter 3023. Approach. RNAB Zulu Runway. Inform Zander Center on frequency 123."
+  },
+  {
+   "id": "CYYT_ATIS_b_windslice_v3",
+   "text": "........................"
+  },
+  {
+   "id": "CYYT_ATIS_a_windslice_qwen",
+   "text": "Runway two four zero five, visibility one five, two four thousand feet, temperature one two point nine, altimeter three zero two three. Approach, RNAV Zulu runway. Inform Standby Center on frequency one two."
+  },
+  {
+   "id": "CYYT_ATIS_b_windslice_qwen",
+   "text": "Weather is zero two zero zero two four zero. X five. Visibility one five two four thousand feet. Turn two point minus one. Altimeter three zero two three. RNAV blue runway two eight. Infor"
+  }
+ ]
+}

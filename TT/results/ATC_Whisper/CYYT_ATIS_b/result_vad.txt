@@ -1,0 +1,10 @@
+文件名: CYYT_01
+音频路径: /siyuan/FunASR_extracted/FunASR-main/TT/Tequipmentdata/CYYT_cyyt1_atis_20260817160101/CYYT_cyyt1_atis_20260817160101.wav
+模型: whisper-large-v3-finetuned-for-ATC
+方法: vad
+
+原始输出:
+Thank you. so RUNWAY FOUR RUNWAY RUNWAY THREE so Thank you RUNWAY FOUR Thank you RUNWAY RUNWAY RUNWAY FOUR Thank you Thank you . FOUR TWO EIGHT INFORM WHETHER AT ZERO TWO ZERO ZERO SYDNEY TWO FOUR THREE ZERO THREE INFORM Weather IS ZERO TWO ZERO ZERO SOON WIND TWO FOUR
+
+后处理结果:
+Thank you. so RUNWAY four RUNWAY RUNWAY three so thank you RUNWAY four thank you RUNWAY RUNWAY RUNWAY four thank you thank you . Four two eight INFORM. whether at zero two zero zero sydney two four three zero three INFORM. weather is zero two zero zero soon WIND two four

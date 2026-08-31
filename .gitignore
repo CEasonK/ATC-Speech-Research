@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.DS_Store
+# 训练产物与大数据(不入库)
+**/exp/
+**/tensorboard/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.ckpt

@@ -1,0 +1,152 @@
+[
+ {
+  "id": "atc_greedy_a_inst01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_greedy_a_inst01.txt",
+  "text": "LANDING AND DEPARTING TWO EIGHT INFORM ATTACHED RUNWAY TWO EIGHT INFORM LANDING AND DEPARTING TWO EIGHT INFORM ATTACHED RUNWAY TWO EIGHT"
+ },
+ {
+  "id": "atc_beam5_a_inst01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_a_inst01.txt",
+  "text": "SIONS INFORMATION WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE DISABILITY ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE TWO TWO THREE APPROACH ARNAB ZULU RUNWAY TWO EIGHT INFORM FIENDER CENTER TO ONE THREE THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam8_a_inst01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam8_a_inst01.txt",
+  "text": "SIONS INFORMATION WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE DISABILITY ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE FOR TWO THREE APPROACH ARNAB ZULU RUNWAY TWO EIGHT INFORM FIENDER CENTER TO ONE THREE THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam5_t02_a_inst01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_t02_a_inst01.txt",
+  "text": "INFORMATION RUNWAY TWO EIGHT INFORM LANDING AND DEPARTING TWO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_greedy_a_inst02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_greedy_a_inst02.txt",
+  "text": "EIGHT CHARLES AND FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO FIVE RESIDUALITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAB ZULU RUNWAY INFORM VIENNAIR CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED APPROACH ON INDIA LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM EIGHT TWO TWO THAT YOU HAVE INFORMATION ON EIGHT"
+ },
+ {
+  "id": "atc_beam5_a_inst02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_a_inst02.txt",
+  "text": "EIGHT JOHNS AND FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO FIVE RESIDUALITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAB ZULU RUNWAY INFORM DEANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED APPROACH ON INDIA LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM EIGHT TWO TWO THAT YOU HAVE INFORMATION ON EIGHT"
+ },
+ {
+  "id": "atc_beam8_a_inst02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam8_a_inst02.txt",
+  "text": "EIGHT JOHNS AND FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO FIVE RESIDUALITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAB ZULU RUNWAY INFORM DEANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED APPROACH ON INDIA LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM EIGHT TWO TWO THAT YOU HAVE INFORMATION ON EIGHT"
+ },
+ {
+  "id": "atc_beam5_t02_a_inst02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_t02_a_inst02.txt",
+  "text": "EIGHT CHARLES AND FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO FIVE RESIDUALITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAB ZULU RUNWAY INFORM VIENNAIR CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED APPROACH ON INDIA LANDING AND DEPARTING RUNWAY TWO EIGHT INFORM EIGHT TWO TWO THAT YOU HAVE INFORMATION ON EIGHT"
+ },
+ {
+  "id": "atc_greedy_a_inst03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_greedy_a_inst03.txt",
+  "text": "INFORMATION FOXTROT WEATHER IS ZERO TWO ZERO ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TO SOUTHERNAIR TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT INFORM FANDAS CENTER ON FREQUENCY ONE TWO THREE ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT THANKS TO THREE THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam5_a_inst03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_a_inst03.txt",
+  "text": "INFORMATION FOXTROT WEATHER IS ZERO TWO ZERO ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO THREE TWO TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT INFORM FANDAS CENTER ON FREQUENCY ONE TWO THREE ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT EIGHT TWO THREE THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam8_a_inst03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam8_a_inst03.txt",
+  "text": "INFORMATION FOXTROT WEATHER IS ZERO TWO ZERO ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO THREE TWO TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT INFORM FANDAS CENTER ON FREQUENCY ONE TWO THREE ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT EIGHT TWO THREE THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam5_t02_a_inst03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_t02_a_inst03.txt",
+  "text": "INFORMATION FOXTROT WEATHER IS ZERO TWO ZERO ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TO SOUTHERNAIR TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT INFORM FANDAS CENTER ON FREQUENCY ONE TWO THREE ONE FIVE AS REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT EIGHT TWO THREE THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_greedy_a_inst04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_greedy_a_inst04.txt",
+  "text": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE REQUESTING LEVEL ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAD RUNWAY TWO EIGHT INFORM"
+ },
+ {
+  "id": "atc_beam5_a_inst04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_a_inst04.txt",
+  "text": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAD RUNWAY TWO EIGHT INFORM"
+ },
+ {
+  "id": "atc_beam8_a_inst04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam8_a_inst04.txt",
+  "text": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAD RUNWAY TWO EIGHT INFORM"
+ },
+ {
+  "id": "atc_beam5_t02_a_inst04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_t02_a_inst04.txt",
+  "text": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE REQUESTING LEVEL ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAD RUNWAY TWO EIGHT INFORM"
+ },
+ {
+  "id": "atc_greedy_b_inst00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_greedy_b_inst00.txt",
+  "text": "INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO DEGREES TWO FOUR ZERO AT FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TAROM REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE ARNAV LIMA RUNWAY TWO EIGHT INFORM FIENDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING ONE EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam5_b_inst00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_b_inst00.txt",
+  "text": "INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO DEGREES TWO FOUR ZERO AT FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TAROM REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE ARNAV LIMA RUNWAY TWO EIGHT INFORM FIENDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING ONE EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam8_b_inst00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam8_b_inst00.txt",
+  "text": "ALTITUDE THREE ZERO THREE THREE ARNAV LIMA RUNWAY TWO EIGHT INFORM DEANDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING ONE EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "atc_beam5_t02_b_inst00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/atc_beam5_t02_b_inst00.txt",
+  "text": "INFORMATION FOXTROT WHETHER AT ZERO TWO ZERO ZERO DESCENDING TWO FOUR ZERO AT FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TAROM REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE ARNAV LIMA RUNWAY TWO EIGHT INFORM FIENDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING ONE EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ },
+ {
+  "id": "qwen_a_inst01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/qwen_a_inst01.txt",
+  "text": "Tucson information box. Weather at zero two zero zero zero. Wind two four zero. Expose. Visibility one two four thousand feet. Temperature one. This point minus one. Altimeter three two three. Approve. RNAV zero runway two eight. Inform the ender center T one three three decimal one five for request to depart from initial contact. Landing and departing two eight. Inform A two C that you have information box job."
+ },
+ {
+  "id": "qwen_a_inst02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/qwen_a_inst02.txt",
+  "text": "Saint John's in Foxrock. Weather at zero two zero zero three. Wind two four zero five. Visibility one five. Two four thousand feet. Temperature one two point minus. Altimeter three zero two three. Approach. RNAV Lulu Runway. Inform the center on frequency one three three decimal one five for requested approach on initial. Landing and departing runway T eight. Inform ATC that you have information on."
+ },
+ {
+  "id": "qwen_a_inst03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/qwen_a_inst03.txt",
+  "text": "John's information box drop. Weather is zero two zero zero. Wind two four zero. S five. Visibility one five. Two feet. Temperature one. Two point minus one. Altimeter three zero two three. Approach RNAV. Blue runway two eight. Inform the air center on frequency one two three one five for request for the first initial contact. Landing and departing runway two eight. A two C that you have information box drop."
+ },
+ {
+  "id": "qwen_a_inst04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/qwen_a_inst04.txt",
+  "text": "Wind John's information box. Weather is zero two zero zero two. Wind two four zero. S five. Visibility one two four thousand feet. Temperature one two point minus one. Altimeter three zero two three. Approach. RNAV runway two eight. Inform."
+ },
+ {
+  "id": "qwen_b_inst00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/qwen_b_inst00.txt",
+  "text": "Information box dot weather is zero two zero zero three two four zero S five visibility one five two four thousand feet turn two point minus one altimeter three zero two three RNAV new runway two eight inform standard center on frequency three decimal one five for requested approach on initial contact landing and departing runway inform ATC that you have information box dot"
+ },
+ {
+  "id": "sv_a_inst01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/sv_a_inst01.txt",
+  "text": "楕赬 work Mountain gra楕 gra楕 gra"
+ },
+ {
+  "id": "sv_a_inst02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/sv_a_inst02.txt",
+  "text": "楕 hiding work gra楕 gra楕 gra楕 gra"
+ },
+ {
+  "id": "sv_a_inst03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/sv_a_inst03.txt",
+  "text": "楕 hiding work gra楕 gra"
+ },
+ {
+  "id": "sv_a_inst04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/sv_a_inst04.txt",
+  "text": "楕 hiding work gra楕 gra楕 gra楕 gra楕 gra楕 gra"
+ },
+ {
+  "id": "sv_b_inst00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_v2/sv_b_inst00.txt",
+  "text": "楕 hiding work Mountain gra楕 gra楕 gra楕 gra"
+ }
+]

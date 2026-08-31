@@ -1,0 +1,34 @@
+{
+ "system": "m2m100_418M-back",
+ "based_on": "qwen_constrained",
+ "back_en": [
+  "St. John's Information F World Weather Coordination Time 02.0",
+  "Wind to 240, wind speed to 5",
+  "Visibility 15, cloud high 24000 feet",
+  "Temperature 1 to zero.",
+  "Correction of sea pressure 323.",
+  "Close to RNAV Z Runway 28",
+  "First contact to notify the Gund Center, frequency 123.15, according to request",
+  "Close to the first contact, landing and departure route 28",
+  "Notification control, you have received information F",
+  "Close to RNAV Z Runway 28",
+  "Close to the first contact, landing and departure route 28",
+  "Notification control, you have received information F"
+ ],
+ "chrf_per_line": [
+  0.4053,
+  0.2371,
+  0.3307,
+  0.3512,
+  0.1264,
+  0.377,
+  0.3516,
+  0.42,
+  0.5119,
+  0.377,
+  0.42,
+  0.5119
+ ],
+ "chrf_mean": 0.3684,
+ "elapsed_sec": 4.0
+}

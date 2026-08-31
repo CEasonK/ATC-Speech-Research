@@ -1,0 +1,26 @@
+[
+ {
+  "id": "CYYT_ATIS_a_c59_qwen",
+  "text": "Constant box drop. Weather zero two zero zero zero. Wind two four zero five. Visibility one five two four thousand feet. Temperature one two point minus. Altimeter three zero two three. Approach. Rnab Zulu one."
+ },
+ {
+  "id": "CYYT_ATIS_a_c61_qwen",
+  "text": "020020, wind 2405, visibility 15, 24,000 feet, temperature 1, 0.10, altimeter 3023. Approach, RNAV Zulu runway. Inform Standby Center on."
+ },
+ {
+  "id": "CYYT_ATIS_a_c63_qwen",
+  "text": "Q405, visibility one five, Q4000, temperature one two point minus, altimeter three zero two three, approach, RNAV Zulu runway, inform standard center on frequency one three three decimal one."
+ },
+ {
+  "id": "CYYT_ATIS_b_c236_qwen",
+  "text": "Information box. Dot weather is zero two zero zero two four zero. X five. Visibility one five. Two four thousand feet. Turn two point minus one. Altimeter three zero two three. RNAV blue runway."
+ },
+ {
+  "id": "CYYT_ATIS_b_c238_qwen",
+  "text": "Zero two zero zero two four zero X five. Visibility one five two four thousand feet. Turn two point minus one. Altimeter three zero two three. RNAV blue runway two eight. Inform standard center on."
+ },
+ {
+  "id": "CYYT_ATIS_b_c240_qwen",
+  "text": "Two four zero X five, visibility one five two four thousand feet. Turn two point minus one. Altimeter three zero three three. RNAV blue runway two eight. Inform standard center on frequency three decimal one five."
+ }
+]

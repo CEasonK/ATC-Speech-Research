@@ -1,0 +1,210 @@
+{
+ "source": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/a_final.txt",
+ "system": "qwen2.5-7b-instruct",
+ "variant": "free",
+ "gen_sec": 6.4,
+ "en": [
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO TWO THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ ],
+ "zh": [
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO HUNDRED ZULU 世界协调时",
+  "风向二百四十度，风速五。",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET 能见度 15，云底高 24000 英尺",
+  "TEMPERATURE ONE DEW POINT MINUS ONE 温度 1℃，露点 零下1℃",
+  "ALTIMETER THREE ZERO TWO THREE 3023 英寸汞柱 修正海压",
+  "进近RNAVZulu跑道二十八号。",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED INFORM GANDER CENTER ON FREQUENCY 123.15 按需",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT 进近，首次联系，落地和起飞跑道28",
+  "通知空中交通管制，您收到福克斯信息。",
+  "进近RNAVZulu跑道二十八号。",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT 进近，首次联系，落地和起飞跑道28",
+  "通知空中交通管制，您收到福克斯信息。"
+ ],
+ "raw_output_preview": "1. 圣约翰斯飞行情报区福克斯天气报告时间为世界时零二零零。\n2. 风向二百四十度，风速五。\n3. 能见度一英里五百二十四英尺。\n4. 气温一，露点零下一。\n5. 气压高度表30.23。\n6. 进近RNAVZulu跑道二十八号。\n7. 初始联系时通知盖德中心，频率一百二十三点一五，如要求。\n8. 进近初始联系时，降落和起飞使用跑道二十八号。\n9. 通知空中交通管制，您收到福克斯信息。\n10. 进近RNAVZulu跑道二十八号。\n11. 初始联系时，降落和起飞使用跑道二十八号。\n12. 通知空中交通管制，您收到福克斯信息。",
+ "unparsed_lines": 0,
+ "metrics": {
+  "numeric_fidelity": 0.9167,
+  "term_hit_rate": 0.8182
+ },
+ "numeric_detail": [
+  {
+   "line": 1,
+   "en": [
+    "0200"
+   ],
+   "zh": [],
+   "ok": false
+  },
+  {
+   "line": 2,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 3,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 4,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 5,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 6,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 7,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 8,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 9,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 10,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 11,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 12,
+   "en": [],
+   "zh": [],
+   "ok": true
+  }
+ ],
+ "term_misses": [
+  {
+   "line": 1,
+   "term": "\\bSAINT JOHNS\\b|\\bSAINT JOHN\\b",
+   "expected": "圣约翰斯|圣约翰",
+   "zh": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO HUNDRED ZULU 世界协调时"
+  },
+  {
+   "line": 1,
+   "term": "\\bINFORMATION FOXTROT\\b|\\bINFORMATION [A-Z]\\b",
+   "expected": "信息|通播|情报",
+   "zh": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO HUNDRED ZULU 世界协调时"
+  },
+  {
+   "line": 1,
+   "term": "\\bWEATHER\\b",
+   "expected": "天气|气象",
+   "zh": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO HUNDRED ZULU 世界协调时"
+  },
+  {
+   "line": 7,
+   "term": "\\bGANDER\\b",
+   "expected": "冈德|甘德|Gander",
+   "zh": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED INFORM GANDER CENTER ON FREQUENCY 123.15 按需"
+  },
+  {
+   "line": 7,
+   "term": "\\bCENTER\\b",
+   "expected": "中心",
+   "zh": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED INFORM GANDER CENTER ON FREQUENCY 123.15 按需"
+  },
+  {
+   "line": 7,
+   "term": "\\bFREQUENCY\\b",
+   "expected": "频率",
+   "zh": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED INFORM GANDER CENTER ON FREQUENCY 123.15 按需"
+  }
+ ],
+ "retries": [
+  {
+   "bad": 7,
+   "fixed": 7
+  },
+  {
+   "bad": 7,
+   "fixed": 7
+  },
+  {
+   "bad": 7,
+   "fixed": 6
+  }
+ ]
+}

@@ -1,0 +1,506 @@
+[
+ {
+  "contest": "altimeter_b",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "NINER ONE ALTITUDE THREE ZERO THREE THREE APPROACH RNAV ZULU RUNWAY",
+      "score": 2.2050023078918457,
+      "median_score": 2.6776833534240723,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH RNAV ZULU RUNWAY",
+      "score": 2.3035330772399902,
+      "median_score": 2.6747007369995117,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "NINER ONE ALTITUDE THREE ZERO THREE THREE APPROACH RNAV ZULU RUNWAY"
+ },
+ {
+  "contest": "temperature_a",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 110.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 1.1562598943710327,
+      "median_score": 1.3008912801742554,
+      "t_start": 110.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 1.7994701862335205,
+      "median_score": 1.9300340414047241,
+      "t_start": 110.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.119317054748535,
+      "median_score": 2.275094747543335,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.121997594833374,
+      "median_score": 2.243842601776123,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE TWO DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.176511526107788,
+      "median_score": 2.197678565979004,
+      "t_start": 110.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.242933988571167,
+      "median_score": 2.3496720790863037,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.440474271774292,
+      "median_score": 2.6066009998321533,
+      "t_start": 115.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE ZERO TWO THREE"
+ },
+ {
+  "contest": "temperature_b",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 1.4061415195465088,
+      "median_score": 1.4359160661697388,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 1.9914659261703491,
+      "median_score": 2.0872151851654053,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.0181403160095215,
+      "median_score": 2.125270366668701,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE TWO DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.0375592708587646,
+      "median_score": 2.1316561698913574,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.038039207458496,
+      "median_score": 2.113706350326538,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.073166847229004,
+      "median_score": 2.2797951698303223,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.3731586933135986,
+      "median_score": 2.591538429260254,
+      "t_start": 225.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE ZERO TWO THREE"
+ },
+ {
+  "contest": "visibility_v5",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 110.0,
+    "ranked": [
+     {
+      "variant": "ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.5550832748413086,
+      "median_score": 2.5550832748413086,
+      "t_start": 110.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.983738660812378,
+      "median_score": 2.983738660812378,
+      "t_start": 110.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO TWO THOUSAND FEET TEMPERATURE",
+      "score": 3.4953038692474365,
+      "median_score": 3.4953038692474365,
+      "t_start": 110.0,
+      "n_windows": 1
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.0815563201904297,
+      "median_score": 2.0815563201904297,
+      "t_start": 230.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.2493183612823486,
+      "median_score": 2.2493183612823486,
+      "t_start": 230.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO TWO THOUSAND FEET TEMPERATURE",
+      "score": 2.772385358810425,
+      "median_score": 2.772385358810425,
+      "t_start": 230.0,
+      "n_windows": 1
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE"
+ },
+ {
+  "contest": "approach_b_archive",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "TWO THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT",
+      "score": 2.7186872959136963,
+      "median_score": 3.316303014755249,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT",
+      "score": 2.886765241622925,
+      "median_score": 2.9123926162719727,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TWO THREE APPROACH RNAV LIMA RUNWAY TWO EIGHT",
+      "score": 3.0282037258148193,
+      "median_score": 3.765378713607788,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TWO THREE APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+      "score": 3.1746468544006348,
+      "median_score": 3.210026979446411,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "TWO THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT"
+ },
+ {
+  "contest": "altimeter_b",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "NINER ONE ALTITUDE THREE ZERO THREE THREE APPROACH RNAV ZULU RUNWAY",
+      "score": 2.8754019737243652,
+      "median_score": 2.9815895557403564,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH RNAV ZULU RUNWAY",
+      "score": 2.9549810886383057,
+      "median_score": 3.0733835697174072,
+      "t_start": 220.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "NINER ONE ALTITUDE THREE ZERO THREE THREE APPROACH RNAV ZULU RUNWAY"
+ },
+ {
+  "contest": "temperature_a",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 70.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 1.5802216529846191,
+      "median_score": 1.611641764640808,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE TWO DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 1.8995985984802246,
+      "median_score": 1.9329833984375,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.1289334297180176,
+      "median_score": 2.164926290512085,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.1355443000793457,
+      "median_score": 2.1633002758026123,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.1558821201324463,
+      "median_score": 2.1920180320739746,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.183145523071289,
+      "median_score": 2.1967267990112305,
+      "t_start": 70.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.321183681488037,
+      "median_score": 2.3569090366363525,
+      "t_start": 65.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE"
+ },
+ {
+  "contest": "temperature_b",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.043367385864258,
+      "median_score": 2.058041572570801,
+      "t_start": 235.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE TWO DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.181065559387207,
+      "median_score": 2.1861419677734375,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.3103106021881104,
+      "median_score": 2.324239730834961,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.318031072616577,
+      "median_score": 2.3865854740142822,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.412989854812622,
+      "median_score": 2.436113119125366,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.4179444313049316,
+      "median_score": 2.4489927291870117,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT ONE ALTITUDE THREE ZERO TWO THREE",
+      "score": 2.483755350112915,
+      "median_score": 2.527036190032959,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE ZERO TWO THREE"
+ },
+ {
+  "contest": "visibility_v5",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 25.0,
+    "ranked": [
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.2897982597351074,
+      "median_score": 2.2897982597351074,
+      "t_start": 25.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.5648157596588135,
+      "median_score": 2.5648157596588135,
+      "t_start": 25.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO TWO THOUSAND FEET TEMPERATURE",
+      "score": 2.600783109664917,
+      "median_score": 2.600783109664917,
+      "t_start": 25.0,
+      "n_windows": 1
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.2960495948791504,
+      "median_score": 2.2960495948791504,
+      "t_start": 220.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE VISIBILITY ONE FIVE TWO TWO THOUSAND FEET TEMPERATURE",
+      "score": 2.722987413406372,
+      "median_score": 2.722987413406372,
+      "t_start": 220.0,
+      "n_windows": 1
+     },
+     {
+      "variant": "ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.7791621685028076,
+      "median_score": 2.7791621685028076,
+      "t_start": 220.0,
+      "n_windows": 1
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE"
+ },
+ {
+  "contest": "approach_b_archive",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT",
+      "score": 2.744396924972534,
+      "median_score": 2.760901927947998,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TWO THREE APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+      "score": 2.9912517070770264,
+      "median_score": 3.0071358680725098,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TWO THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT",
+      "score": 3.1049628257751465,
+      "median_score": 3.130387544631958,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "TWO THREE APPROACH RNAV LIMA RUNWAY TWO EIGHT",
+      "score": 3.372969150543213,
+      "median_score": 3.4317917823791504,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true,
+  "winner": "TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT"
+ }
+]

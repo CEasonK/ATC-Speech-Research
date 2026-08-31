@@ -1,0 +1,74 @@
+[
+ {
+  "id": "CYYT_ATIS_a_c59_atc",
+  "text": "AND FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR ZERO FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECOINT NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU ONE"
+ },
+ {
+  "id": "CYYT_ATIS_a_c61_atc",
+  "text": "TWO ZERO ZERO ZULU WIND TWO FOUR ZERO FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY INFORM FIENDER CENTER ON"
+ },
+ {
+  "id": "CYYT_ATIS_a_c63_atc",
+  "text": "TWO FOUR ZERO FIVE RESIDUALITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAB ZULU RUNWAY INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE"
+ },
+ {
+  "id": "CYYT_ATIS_b_c236_atc",
+  "text": "FOXTROT WHETHER ITS ZERO TWO ZERO ZERO ZULU TWO FOUR ZERO AT FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TURN REPORT LINE UP ONE ALTITUDE THREE ZERO TWO THREE ARNAV LIMA RUNWAY TWO"
+ },
+ {
+  "id": "CYYT_ATIS_b_c238_atc",
+  "text": "TWO ZERO ZERO JULIETT TWO FOUR ZERO AT FIVE LEAVING LEVEL ONE FIVE TWO FOUR THOUSAND FEET TURN REPORT LINE UP ONE ALTITUDE THREE ZERO THREE THREE ARNAV JULIETT RUNWAY TWO EIGHT INFORM FIENDER CENTRAL"
+ },
+ {
+  "id": "CYYT_ATIS_b_c240_atc",
+  "text": "AT FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TAROM REPORT NINER ONE ALTITUDE THREE ZERO THREE THREE ARNAV LIMA RUNWAY TWO EIGHT INFORM DEANDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE"
+ },
+ {
+  "id": "CYYT_ATIS_a_c59_turbo",
+  "text": "air inter foxtrot weather at zero two zero zero zulu wind two four zero five visibility one five two four thousand feet temperature one is point minus altimeter three zero two three approach rnav zulu one"
+ },
+ {
+  "id": "CYYT_ATIS_a_c61_turbo",
+  "text": "two zero zero wind two four zero five visibility one five  two four thousand feet temperature one is point minus altimeter three zero two three approach rnav zulu runway inform zander center on"
+ },
+ {
+  "id": "CYYT_ATIS_a_c63_turbo",
+  "text": "two four zero five visibility one five two four thousand fuel temperature one is point minus altimeter three zero two three approach rnav zulu runway inform sander center on frequency one three three decimal one"
+ },
+ {
+  "id": "CYYT_ATIS_b_c236_turbo",
+  "text": "whether it zero two zero three two four zero at five visibility one five two four thousand feet turn two point minus one altimeter three zero two three rNav Zulu runway two"
+ },
+ {
+  "id": "CYYT_ATIS_b_c238_turbo",
+  "text": "two zero zero three two four zero X-ray visibility one five two four thousand feet turn two point minus one altimeter three zero three two ARNav Zulu runway two eight informed gender center on"
+ },
+ {
+  "id": "CYYT_ATIS_b_c240_turbo",
+  "text": "at five visability one five two four thousand feet turn two point minus one altimeter three zero two three rnav zulu runway two eight inform sander center on frequency three decimal one five"
+ },
+ {
+  "id": "CYYT_ATIS_a_c59_v3ts",
+  "text": "Weather  at  0 200 ,  wind  240 ,  visibility  15 ,  T 4 000 Q ,  temperature  1 ,  viewpoint  minus ,  alt imeter  30 23 ,  approach ,  RNA V  0 100 ."
+ },
+ {
+  "id": "CYYT_ATIS_a_c61_v3ts",
+  "text": "2 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0"
+ },
+ {
+  "id": "CYYT_ATIS_a_c63_v3ts",
+  "text": "3 - 2 - 4 - 0 - 5 ,  visibility  1 - 5 ,  2 - 4 - 000 - Q ,  temperature  1 ,  2 - point - min us ,  alt imeter  3 - 0 - 2 - 3 ,  approach ,    RNA V  Z ulu  runway ,  inform  G ander  Center  on  frequency  1 - 2 - 3 - 1 - 2 - 3 ."
+ },
+ {
+  "id": "CYYT_ATIS_b_c236_v3ts",
+  "text": "Weather  at  0 200 3 ,  240 ,  at  5 ,  visibility  15 ,  24 000  feet ,  turn ,  report  minus  1 ,  alt imeter  30 23 ,  RNA V  Z ulu  runway  Z ulu ."
+ },
+ {
+  "id": "CYYT_ATIS_b_c238_v3ts",
+  "text": "2 - 0 - 2 - 0 - 0 - 3 - 2 - 4 - 0 - X - 5 ,  visibility  1 - 5 - 2 - 4 - 000 - Q - 10 ,  report  minus  1 ,  alt imeter  3 - 0 - 2 - 3 .    RNA V ,  new  runway  2 - 8 ,  inform  G ander  Center  on ..."
+ },
+ {
+  "id": "CYYT_ATIS_b_c240_v3ts",
+  "text": "X - F iles ,  Vis ibility  1 - 5 ,  24 , 000  feet ,  10 ,  2 . - 1 ,  Alt imeter  3 - 0 - 2 - 3 .    RNA V ,  New  Run way  2 - 8 ,  Inform  G ander  Center  on  Fre quency  3 - 1 - 5 - 0 ."
+ }
+]

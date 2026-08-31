@@ -1,0 +1,166 @@
+[
+ {
+  "contest": "altimeter",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "ONE ALTITUDE THREE ZERO TWO THREE APPROACH",
+     "score": 1.2791680097579956,
+     "t_start": 120.0
+    },
+    {
+     "variant": "ONE ALTITUDE THREE ZERO THREE THREE APPROACH",
+     "score": 1.6286588907241821,
+     "t_start": 120.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "ONE ALTITUDE THREE ZERO TWO THREE APPROACH",
+     "score": 1.6057485342025757,
+     "t_start": 230.0
+    },
+    {
+     "variant": "ONE ALTITUDE THREE ZERO THREE THREE APPROACH",
+     "score": 1.6161096096038818,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "ONE ALTITUDE THREE ZERO TWO THREE APPROACH"
+ },
+ {
+  "contest": "approach_name",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT",
+     "score": 1.3674983978271484,
+     "t_start": 75.0
+    },
+    {
+     "variant": "THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT",
+     "score": 1.5700632333755493,
+     "t_start": 25.0
+    },
+    {
+     "variant": "THREE APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "score": 1.7474108934402466,
+     "t_start": 25.0
+    },
+    {
+     "variant": "THREE APPROACH RNAV LIMA RUNWAY TWO EIGHT",
+     "score": 1.8920931816101074,
+     "t_start": 25.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT",
+     "score": 2.010983943939209,
+     "t_start": 230.0
+    },
+    {
+     "variant": "THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT",
+     "score": 2.172492027282715,
+     "t_start": 230.0
+    },
+    {
+     "variant": "THREE APPROACH RNAV LIMA RUNWAY TWO EIGHT",
+     "score": 2.3178634643554688,
+     "t_start": 230.0
+    },
+    {
+     "variant": "THREE APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "score": 2.4390523433685303,
+     "t_start": 220.0
+    }
+   ]
+  },
+  "dual_witness_agree": false,
+  "winner": "CONFLICT(THREE APPROACH ARNAV ZULU RUNWAY TWO vs THREE APPROACH ARNAV LIMA RUNWAY TWO)"
+ },
+ {
+  "contest": "airport_final",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 1.3527824878692627,
+     "t_start": 55.0
+    },
+    {
+     "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 1.952732801437378,
+     "t_start": 55.0
+    },
+    {
+     "variant": "SIENT JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 2.015925407409668,
+     "t_start": 80.0
+    },
+    {
+     "variant": "JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 2.0762624740600586,
+     "t_start": 70.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 2.4787299633026123,
+     "t_start": 230.0
+    },
+    {
+     "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 2.598857879638672,
+     "t_start": 230.0
+    },
+    {
+     "variant": "JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 2.6645054817199707,
+     "t_start": 230.0
+    },
+    {
+     "variant": "SIENT JOHNS INFORMATION FOXTROT WEATHER AT",
+     "score": 2.7528982162475586,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT"
+ },
+ {
+  "contest": "visibility_inst03",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR",
+     "score": 1.4019187688827515,
+     "t_start": 80.0
+    },
+    {
+     "variant": "ZERO WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR",
+     "score": 1.524971842765808,
+     "t_start": 85.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR",
+     "score": 2.0008974075317383,
+     "t_start": 210.0
+    },
+    {
+     "variant": "ZERO WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR",
+     "score": 2.1355180740356445,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "ZERO WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR"
+ }
+]

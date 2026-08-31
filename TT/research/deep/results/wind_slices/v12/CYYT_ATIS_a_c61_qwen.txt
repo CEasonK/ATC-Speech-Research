@@ -1,0 +1,1 @@
+020020, wind 2405, visibility 15, 24,000 feet, temperature 1, 0.10, altimeter 3023. Approach, RNAV Zulu runway. Inform Standby Center on.

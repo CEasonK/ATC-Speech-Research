@@ -1,0 +1,132 @@
+[
+ {
+  "wer_token_level": 0.4043,
+  "wer_edit_over_len": 0.4043,
+  "hyp_len": 272,
+  "ref_len": 376,
+  "token_latency": {
+   "n": 215,
+   "match_ratio": 0.793,
+   "median": 1.2,
+   "p95": 1.794,
+   "mean": 1.248
+  },
+  "lag_mean": 0.4342,
+  "lag_curve_n": 22,
+  "rtf": 1.0601,
+  "events": 271,
+  "cfg": {
+   "frame_threshold": 12,
+   "chunk": 0.5,
+   "beams": 1,
+   "rtf": 1.0601
+  },
+  "half": true,
+  "prompt": true,
+  "name": "atc_ft12_c0.5_p"
+ },
+ {
+  "wer_token_level": 0.4069,
+  "wer_edit_over_len": 0.4069,
+  "hyp_len": 272,
+  "ref_len": 376,
+  "token_latency": {
+   "n": 215,
+   "match_ratio": 0.793,
+   "median": 1.457,
+   "p95": 1.966,
+   "mean": 1.487
+  },
+  "lag_mean": 0.4468,
+  "lag_curve_n": 22,
+  "rtf": 1.0329,
+  "events": 271,
+  "cfg": {
+   "frame_threshold": 25,
+   "chunk": 0.5,
+   "beams": 1,
+   "rtf": 1.0329
+  },
+  "half": true,
+  "prompt": true,
+  "name": "atc_ft25_c0.5_p"
+ },
+ {
+  "wer_token_level": 0.4043,
+  "wer_edit_over_len": 0.4043,
+  "hyp_len": 265,
+  "ref_len": 376,
+  "token_latency": {
+   "n": 215,
+   "match_ratio": 0.814,
+   "median": 1.937,
+   "p95": 2.402,
+   "mean": 1.966
+  },
+  "lag_mean": 0.4506,
+  "lag_curve_n": 22,
+  "rtf": 1.025,
+  "events": 264,
+  "cfg": {
+   "frame_threshold": 50,
+   "chunk": 0.5,
+   "beams": 1,
+   "rtf": 1.025
+  },
+  "half": true,
+  "prompt": true,
+  "name": "atc_ft50_c0.5_p"
+ },
+ {
+  "wer_token_level": 0.4043,
+  "wer_edit_over_len": 0.4043,
+  "hyp_len": 265,
+  "ref_len": 376,
+  "token_latency": {
+   "n": 215,
+   "match_ratio": 0.814,
+   "median": 1.454,
+   "p95": 1.966,
+   "mean": 1.522
+  },
+  "lag_mean": 0.4401,
+  "lag_curve_n": 22,
+  "rtf": 1.0195,
+  "events": 264,
+  "cfg": {
+   "frame_threshold": 25,
+   "chunk": 0.5,
+   "beams": 1,
+   "rtf": 1.0195
+  },
+  "half": true,
+  "prompt": false,
+  "name": "atc_ft25_c0.5_nop"
+ },
+ {
+  "wer_token_level": 0.4176,
+  "wer_edit_over_len": 0.4176,
+  "hyp_len": 272,
+  "ref_len": 376,
+  "token_latency": {
+   "n": 211,
+   "match_ratio": 0.779,
+   "median": 1.434,
+   "p95": 1.896,
+   "mean": 1.453
+  },
+  "lag_mean": 0.4557,
+  "lag_curve_n": 22,
+  "rtf": 1.1518,
+  "events": 271,
+  "cfg": {
+   "frame_threshold": 25,
+   "chunk": 0.5,
+   "beams": 1,
+   "rtf": 1.1518
+  },
+  "half": true,
+  "prompt": true,
+  "name": "atc_ft25_c0.5_ml16_p"
+ }
+]

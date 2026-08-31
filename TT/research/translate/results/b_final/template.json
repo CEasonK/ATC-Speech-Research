@@ -1,0 +1,33 @@
+{
+ "system": "rule-template-v1",
+ "en": [
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO THREE THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE WHEN REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ ],
+ "zh": [
+  "圣约翰斯机场通播信息 Foxtrot（F），气象观测时间 0200 世界协调时。",
+  "风向 240，风速 5 节。",
+  "能见度 15，云底高 24000 英尺。",
+  "温度 1℃，露点零下 1℃。",
+  "修正海压 3033（30.33 英寸汞柱）。",
+  "进近方式 RNAV Z，使用跑道 28。",
+  "当被要求时联系冈德中心，频率 123.15。",
+  "落地和起飞使用跑道 28，首次联系进近时报告。",
+  "联系时告知管制（ATC）你已收到通播信息 Foxtrot（F）。",
+  "进近方式 RNAV Z，使用跑道 28。",
+  "落地和起飞使用跑道 28，首次联系进近时报告。",
+  "联系时告知管制（ATC）你已收到通播信息 Foxtrot（F）。"
+ ],
+ "unparsed_lines": 0,
+ "unparsed_idx": []
+}

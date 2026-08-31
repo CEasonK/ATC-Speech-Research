@@ -1,0 +1,185 @@
+[
+ {
+  "contest": "visibility_final",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 55.0,
+    "ranked": [
+     {
+      "variant": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+      "score": 1.274163007736206,
+      "median_score": 1.6427778005599976,
+      "t_start": 55.0
+     },
+     {
+      "variant": "WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET",
+      "score": 1.3478683233261108,
+      "median_score": 1.662116289138794,
+      "t_start": 55.0
+     },
+     {
+      "variant": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO TWO THOUSAND FEET",
+      "score": 1.7696892023086548,
+      "median_score": 2.07450532913208,
+      "t_start": 55.0
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "WIND TWO FOUR ZERO AT FIVE DESCENDING LEVEL ONE FIVE TWO FOUR THOUSAND FEET",
+      "score": 1.0407817363739014,
+      "median_score": 1.123976230621338,
+      "t_start": 230.0
+     },
+     {
+      "variant": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+      "score": 1.1085201501846313,
+      "median_score": 1.1953442096710205,
+      "t_start": 230.0
+     },
+     {
+      "variant": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO TWO THOUSAND FEET",
+      "score": 1.5902588367462158,
+      "median_score": 1.6038739681243896,
+      "t_start": 225.0
+     }
+    ]
+   }
+  },
+  "dual_witness_agree": false,
+  "winner": "CONFLICT(WIND TWO FOUR ZERO AT FIVE VISIBILITY ON vs WIND TWO FOUR ZERO AT FIVE DESCENDING LE)"
+ },
+ {
+  "contest": "approach_final",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 85.0,
+    "ranked": [
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT INFORM",
+      "score": 0.8439075946807861,
+      "median_score": 0.8521490693092346,
+      "t_start": 85.0
+     },
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH RNAV ZULU RUNWAY TWO EIGHT INFORM",
+      "score": 0.9532976150512695,
+      "median_score": 0.9839026927947998,
+      "t_start": 85.0
+     },
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT INFORM",
+      "score": 1.0972700119018555,
+      "median_score": 1.1471874713897705,
+      "t_start": 90.0
+     },
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH RNAV LIMA RUNWAY TWO EIGHT INFORM",
+      "score": 1.2593742609024048,
+      "median_score": 1.278078556060791,
+      "t_start": 90.0
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV LIMA RUNWAY TWO EIGHT INFORM",
+      "score": 1.3457051515579224,
+      "median_score": 1.7914752960205078,
+      "t_start": 230.0
+     },
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY TWO EIGHT INFORM",
+      "score": 1.4284405708312988,
+      "median_score": 1.8612507581710815,
+      "t_start": 230.0
+     },
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH RNAV LIMA RUNWAY TWO EIGHT INFORM",
+      "score": 1.518592119216919,
+      "median_score": 1.9287172555923462,
+      "t_start": 230.0
+     },
+     {
+      "variant": "ALTITUDE THREE ZERO TWO THREE APPROACH RNAV ZULU RUNWAY TWO EIGHT INFORM",
+      "score": 1.5629349946975708,
+      "median_score": 1.9768980741500854,
+      "t_start": 230.0
+     }
+    ]
+   }
+  },
+  "dual_witness_agree": false,
+  "winner": "CONFLICT(ALTITUDE THREE ZERO TWO THREE APPROACH A vs ALTITUDE THREE ZERO TWO THREE APPROACH A)"
+ },
+ {
+  "contest": "airport_v4",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 25.0,
+    "ranked": [
+     {
+      "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.5233210325241089,
+      "median_score": 1.9838916063308716,
+      "t_start": 20.0
+     },
+     {
+      "variant": "SIENT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.5370352268218994,
+      "median_score": 2.0356874465942383,
+      "t_start": 20.0
+     },
+     {
+      "variant": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.7562929391860962,
+      "median_score": 1.7592244148254395,
+      "t_start": 25.0
+     },
+     {
+      "variant": "TUCSON INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.8811395168304443,
+      "median_score": 2.1849381923675537,
+      "t_start": 25.0
+     }
+    ]
+   },
+   "CYYT_ATIS_b": {
+    "anchor_t": 235.0,
+    "ranked": [
+     {
+      "variant": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.5225615501403809,
+      "median_score": 1.7576985955238342,
+      "t_start": 235.0
+     },
+     {
+      "variant": "SIENT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.5594247579574585,
+      "median_score": 1.8172009587287903,
+      "t_start": 235.0
+     },
+     {
+      "variant": "TUCSON INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.6797820329666138,
+      "median_score": 1.8896287083625793,
+      "t_start": 235.0
+     },
+     {
+      "variant": "EIGHT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+      "score": 1.7202519178390503,
+      "median_score": 1.8298438787460327,
+      "t_start": 235.0
+     }
+    ]
+   }
+  },
+  "dual_witness_agree": true,
+  "winner": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR"
+ }
+]

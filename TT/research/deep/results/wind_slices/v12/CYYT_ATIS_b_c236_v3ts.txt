@@ -1,0 +1,1 @@
+Weather  at  0 200 3 ,  240 ,  at  5 ,  visibility  15 ,  24 000  feet ,  turn ,  report  minus  1 ,  alt imeter  30 23 ,  RNA V  Z ulu  runway  Z ulu .

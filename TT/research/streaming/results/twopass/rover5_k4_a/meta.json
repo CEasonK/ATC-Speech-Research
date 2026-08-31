@@ -1,0 +1,27 @@
+{
+ "engine": "twopass",
+ "chunk": 1.0,
+ "frame_threshold": 25,
+ "half": true,
+ "sil": 0.75,
+ "ct2": "/siyuan/FunASR_extracted/FunASR-main/TT/research/streaming/downloads/_ct2_atc",
+ "stream_model": "downloads/whisper-atc-openai.pt",
+ "vad_gate": "RMS>8 & CV600>0.2",
+ "max_utt": 30.0,
+ "channel": "CYYT_ATIS_a",
+ "template": "CYYT_ATIS_a.txt",
+ "refine_engines": 3,
+ "fusion": true,
+ "no_prompt": true,
+ "rover": true,
+ "prior": "none_rover",
+ "qwen": "worker",
+ "wall_sec": 138.61,
+ "dur": 112.6,
+ "rtf": 1.231,
+ "word_src_counts": {
+  "rover": 273
+ },
+ "track": "refined",
+ "n_sent": 4
+}

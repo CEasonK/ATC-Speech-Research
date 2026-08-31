@@ -1,0 +1,10 @@
+{
+ "engine": "offline_ct2",
+ "ct2": "/siyuan/FunASR_extracted/FunASR-main/TT/research/streaming/downloads/_ct2_v3",
+ "beams": 5,
+ "prompt": false,
+ "lang": "en",
+ "dur": 112.6,
+ "wall_sec": 5.75,
+ "rtf": 0.051
+}

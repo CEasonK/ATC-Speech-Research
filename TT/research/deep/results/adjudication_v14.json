@@ -1,0 +1,60 @@
+{
+ "seg03_digits": {
+  "scores": {
+   "NINE_TWO_THREE": 1.6148,
+   "SEVEN_TWO_THREE": 1.8973
+  },
+  "winner": "NINE_TWO_THREE",
+  "margin_to_2nd": 0.2825,
+  "decidable": false,
+  "ranking": [
+   "NINE_TWO_THREE",
+   "SEVEN_TWO_THREE"
+  ]
+ },
+ "seg02_callsign": {
+  "scores": {
+   "NINE_SEVEN_TWO_THREE": 2.7975,
+   "JAL_SEVEN_TWO_THREE": 2.9478,
+   "SEVEN_TWO_THREE": 3.0412,
+   "JAL_NINE_TWO_THREE": 3.0177
+  },
+  "winner": "NINE_SEVEN_TWO_THREE",
+  "margin_to_2nd": 0.1503,
+  "decidable": false,
+  "ranking": [
+   "NINE_SEVEN_TWO_THREE",
+   "JAL_SEVEN_TWO_THREE",
+   "JAL_NINE_TWO_THREE",
+   "SEVEN_TWO_THREE"
+  ]
+ },
+ "seg06_fedex_num": {
+  "scores": {
+   "ONE_FIVE": 0.8897,
+   "ONE_FIVE_ZERO": 1.122
+  },
+  "winner": "ONE_FIVE",
+  "margin_to_2nd": 0.2323,
+  "decidable": false,
+  "ranking": [
+   "ONE_FIVE",
+   "ONE_FIVE_ZERO"
+  ]
+ },
+ "seg06_x_slot2": {
+  "scores": {
+   "JOHNSON_LEVEL": 0.8897,
+   "JOIN_YOU_OUT_OF": 0.707,
+   "JUST_OUT_OF": 0.7643
+  },
+  "winner": "JOIN_YOU_OUT_OF",
+  "margin_to_2nd": 0.0573,
+  "decidable": false,
+  "ranking": [
+   "JOIN_YOU_OUT_OF",
+   "JUST_OUT_OF",
+   "JOHNSON_LEVEL"
+  ]
+ }
+}

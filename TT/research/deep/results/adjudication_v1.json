@@ -1,0 +1,300 @@
+[
+ {
+  "contest": "visibility",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "DISABILITY ONE FIVE",
+     "score": 3.0900354385375977,
+     "t_start": 85.0
+    },
+    {
+     "variant": "VISIBILITY ONE FIVE",
+     "score": 3.198401689529419,
+     "t_start": 65.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "VISIBILITY ONE FIVE",
+     "score": 3.363227367401123,
+     "t_start": 230.0
+    },
+    {
+     "variant": "DISABILITY ONE FIVE",
+     "score": 3.5732126235961914,
+     "t_start": 210.0
+    }
+   ]
+  },
+  "dual_witness_agree": false,
+  "winner": "CONFLICT(DISABILITY ONE FIVE vs VISIBILITY ONE FIVE)"
+ },
+ {
+  "contest": "runway",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "RUNWAY TWO EIGHT",
+     "score": 1.3747639656066895,
+     "t_start": 15.0
+    },
+    {
+     "variant": "RUNWAY TWO NINE",
+     "score": 4.3270111083984375,
+     "t_start": 15.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "RUNWAY TWO EIGHT",
+     "score": 1.0445657968521118,
+     "t_start": 230.0
+    },
+    {
+     "variant": "RUNWAY TWO NINE",
+     "score": 4.8228912353515625,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "RUNWAY TWO EIGHT"
+ },
+ {
+  "contest": "center",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "INFORM GANDER CENTER",
+     "score": 1.281019926071167,
+     "t_start": 15.0
+    },
+    {
+     "variant": "INFORM FANDAS CENTER",
+     "score": 1.5985625982284546,
+     "t_start": 15.0
+    },
+    {
+     "variant": "INFORM SANDGREN CENTER",
+     "score": 2.9694905281066895,
+     "t_start": 15.0
+    },
+    {
+     "variant": "INFORM MONCTON CENTER",
+     "score": 3.71706223487854,
+     "t_start": 40.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "INFORM GANDER CENTER",
+     "score": 1.917128562927246,
+     "t_start": 225.0
+    },
+    {
+     "variant": "INFORM FANDAS CENTER",
+     "score": 2.992194175720215,
+     "t_start": 235.0
+    },
+    {
+     "variant": "INFORM SANDGREN CENTER",
+     "score": 4.469423770904541,
+     "t_start": 235.0
+    },
+    {
+     "variant": "INFORM MONCTON CENTER",
+     "score": 4.483184814453125,
+     "t_start": 205.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "INFORM GANDER CENTER"
+ },
+ {
+  "contest": "frequency",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "FREQUENCY ONE TWO THREE DECIMAL ONE FIVE",
+     "score": 1.1360689401626587,
+     "t_start": 70.0
+    },
+    {
+     "variant": "FREQUENCY ONE TWO TWO ONE FIVE",
+     "score": 1.1958439350128174,
+     "t_start": 75.0
+    },
+    {
+     "variant": "FREQUENCY ONE TWO THREE DECIMAL ONE SIX",
+     "score": 1.6128102540969849,
+     "t_start": 55.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "FREQUENCY ONE TWO THREE DECIMAL ONE SIX",
+     "score": 2.282261848449707,
+     "t_start": 80.0
+    },
+    {
+     "variant": "FREQUENCY ONE TWO THREE DECIMAL ONE FIVE",
+     "score": 2.303905963897705,
+     "t_start": 230.0
+    },
+    {
+     "variant": "FREQUENCY ONE TWO TWO ONE FIVE",
+     "score": 2.5809390544891357,
+     "t_start": 80.0
+    }
+   ]
+  },
+  "dual_witness_agree": false,
+  "winner": "CONFLICT(FREQUENCY ONE TWO THREE DECIMAL ONE FIVE vs FREQUENCY ONE TWO THREE DECIMAL ONE SIX)"
+ },
+ {
+  "contest": "time_zulu",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "ZERO TWO ZERO ZERO ZULU",
+     "score": 1.7518621683120728,
+     "t_start": 20.0
+    },
+    {
+     "variant": "ZERO TWO ZERO ZERO JULIETT",
+     "score": 2.045172691345215,
+     "t_start": 30.0
+    },
+    {
+     "variant": "ZERO TWO ZERO ZERO JULIET",
+     "score": 3.179788112640381,
+     "t_start": 30.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "ZERO TWO ZERO ZERO JULIETT",
+     "score": 1.6237761974334717,
+     "t_start": 230.0
+    },
+    {
+     "variant": "ZERO TWO ZERO ZERO ZULU",
+     "score": 1.7428700923919678,
+     "t_start": 230.0
+    },
+    {
+     "variant": "ZERO TWO ZERO ZERO JULIET",
+     "score": 2.734722375869751,
+     "t_start": 205.0
+    }
+   ]
+  },
+  "dual_witness_agree": false,
+  "winner": "CONFLICT(ZERO TWO ZERO ZERO ZULU vs ZERO TWO ZERO ZERO JULIETT)"
+ },
+ {
+  "contest": "airport",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "EIGHT JOHNS INFORMATION FOXTROT",
+     "score": 0.8581910133361816,
+     "t_start": 55.0
+    },
+    {
+     "variant": "SAINT JOHNS INFORMATION FOXTROT",
+     "score": 1.4089397192001343,
+     "t_start": 70.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "EIGHT JOHNS INFORMATION FOXTROT",
+     "score": 2.137805223464966,
+     "t_start": 230.0
+    },
+    {
+     "variant": "SAINT JOHNS INFORMATION FOXTROT",
+     "score": 2.1840851306915283,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "EIGHT JOHNS INFORMATION FOXTROT"
+ },
+ {
+  "contest": "approach",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "APPROACH ARNAV ZULU",
+     "score": 1.7355698347091675,
+     "t_start": 65.0
+    },
+    {
+     "variant": "APPROACH RNAV ZULU",
+     "score": 2.225358247756958,
+     "t_start": 65.0
+    },
+    {
+     "variant": "APPROACH ARNAV NEW",
+     "score": 2.7357096672058105,
+     "t_start": 35.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "APPROACH ARNAV ZULU",
+     "score": 3.6631743907928467,
+     "t_start": 215.0
+    },
+    {
+     "variant": "APPROACH RNAV ZULU",
+     "score": 4.448543071746826,
+     "t_start": 230.0
+    },
+    {
+     "variant": "APPROACH ARNAV NEW",
+     "score": 4.686800956726074,
+     "t_start": 215.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "APPROACH ARNAV ZULU"
+ },
+ {
+  "contest": "ceiling",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "TWO FOUR THOUSAND FEET TEMPERATURE",
+     "score": 1.0917932987213135,
+     "t_start": 35.0
+    },
+    {
+     "variant": "CEILING TWO FOUR THOUSAND FEET TEMPERATURE",
+     "score": 1.7917665243148804,
+     "t_start": 60.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "TWO FOUR THOUSAND FEET TEMPERATURE",
+     "score": 2.384186267852783,
+     "t_start": 90.0
+    },
+    {
+     "variant": "CEILING TWO FOUR THOUSAND FEET TEMPERATURE",
+     "score": 2.7298130989074707,
+     "t_start": 215.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "TWO FOUR THOUSAND FEET TEMPERATURE"
+ }
+]

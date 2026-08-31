@@ -1,0 +1,181 @@
+{
+ "source": "results/zeroprior_en_b.txt",
+ "system": "qwen2.5-7b-instruct",
+ "variant": "constrained",
+ "load_sec": 135.4,
+ "en": [
+  "SIX TO EIGHT INFORM ATC THAT YOU HAVE INFORMATION FOXTROT SAME INFORMATION FOXTROT WHETHER AT ZERO TWO ZERO ZERO ZULU",
+  "TWO FOUR ZERO AT FIVE",
+  "VISABILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TURN REPORT LINE UP ONE",
+  "ALTITUDE THREE ZERO TWO THREE",
+  "ARNAV LIMA RUNWAY TWO EIGHT",
+  "INFORM FIENDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE OF REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING ONE EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "FIVE TANGO INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO",
+  "FOUR XRAY DISABILITY ONE"
+ ],
+ "zh": [
+  "6至8号，向空管|管制|ATC报告收到通播信息F，无论世界协调时零点整。",
+  "240节，5分钟。",
+  "能见度1524000英尺，云底高24000英尺。",
+  "转到跑道等待线1号。",
+  "修正海压3023。",
+  "RNAV L跑道28。",
+  "按需首次联系冈德中心，频率3.15。",
+  "进近在首次联系，落地和起飞跑道18。",
+  "向空管|管制|ATC报告收到通播信息F。",
+  "5 Tango，世界协调时零点整天气，风向2。",
+  "4 Xray，1号设备故障。"
+ ],
+ "raw_output_preview": "1. 6至8号，向塔台报告收到通播信息F，无论世界协调时零点整。\n2. 240节，5分钟。\n3. 能见度15，云底高24000英尺。\n4. 转到跑道等待线1号。\n5. 修正海压3023。\n6. RNAV L跑道28。\n7. 按需首次联系冈德中心，频率15.1。\n8. 进近在首次联系，落地和起飞跑道18。\n9. 向塔台报告收到通播信息F。\n10. 5 Tango，世界协调时零点整天气，风向2。\n11. 5 Tango，1号设备故障。",
+ "unparsed_lines": 0,
+ "metrics": {
+  "numeric_fidelity": 0.7273,
+  "term_hit_rate": 0.9375
+ },
+ "numeric_detail": [
+  {
+   "line": 1,
+   "en": [
+    "6",
+    "8",
+    "0200"
+   ],
+   "zh": [
+    "6",
+    "8",
+    "0"
+   ],
+   "ok": false
+  },
+  {
+   "line": 2,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 3,
+   "en": [
+    "1524000"
+   ],
+   "zh": [
+    "1524000",
+    "24000"
+   ],
+   "ok": false
+  },
+  {
+   "line": 4,
+   "en": [
+    "1"
+   ],
+   "zh": [
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 5,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 6,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 7,
+   "en": [
+    "315"
+   ],
+   "zh": [
+    "315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 8,
+   "en": [
+    "18"
+   ],
+   "zh": [
+    "18"
+   ],
+   "ok": true
+  },
+  {
+   "line": 9,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 10,
+   "en": [
+    "5",
+    "0200",
+    "2"
+   ],
+   "zh": [
+    "5",
+    "0",
+    "2"
+   ],
+   "ok": false
+  },
+  {
+   "line": 11,
+   "en": [
+    "4",
+    "1"
+   ],
+   "zh": [
+    "4",
+    "1"
+   ],
+   "ok": true
+  }
+ ],
+ "term_misses": [
+  {
+   "line": 10,
+   "term": "\\bINFORMATION FOXTROT\\b|\\bINFORMATION [A-Z]\\b",
+   "expected": "信息|通播|情报",
+   "zh": "5 Tango，世界协调时零点整天气，风向2。"
+  }
+ ],
+ "retries": [
+  {
+   "bad": 6,
+   "fixed": 6
+  },
+  {
+   "bad": 6,
+   "fixed": 6
+  },
+  {
+   "bad": 6,
+   "fixed": 6
+  }
+ ]
+}

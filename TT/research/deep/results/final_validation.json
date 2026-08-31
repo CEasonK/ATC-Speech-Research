@@ -1,0 +1,414 @@
+{
+ "a": {
+  "atc": {
+   "rows": [
+    {
+     "line": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+     "anchor": "INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO",
+     "t": 55.0,
+     "nll_correct_pos": 1.596426248550415,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.4229873418807983
+    },
+    {
+     "line": "WIND TWO FOUR ZERO AT FIVE",
+     "anchor": "WIND TWO FOUR ZERO AT FIVE",
+     "t": 90.0,
+     "nll_correct_pos": 1.1111795902252197,
+     "n_tokens": 10,
+     "nll_wrong_pos": 1.4251291751861572
+    },
+    {
+     "line": "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "anchor": "THOUSAND FEET",
+     "t": 25.0,
+     "nll_correct_pos": 3.024260997772217,
+     "n_tokens": 16,
+     "nll_wrong_pos": 2.79842209815979
+    },
+    {
+     "line": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "anchor": "TEMPERATURE ONE",
+     "t": 90.0,
+     "nll_correct_pos": 3.0755345821380615,
+     "n_tokens": 13,
+     "nll_wrong_pos": 2.5620856285095215
+    },
+    {
+     "line": "ALTIMETER THREE ZERO TWO THREE",
+     "anchor": "ALTIMETER THREE ZERO TWO THREE",
+     "t": 70.0,
+     "nll_correct_pos": 1.0519922971725464,
+     "n_tokens": 12,
+     "nll_wrong_pos": 1.0519922971725464
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 70.0,
+     "nll_correct_pos": 0.8287509679794312,
+     "n_tokens": 14,
+     "nll_wrong_pos": 0.8287509679794312
+    },
+    {
+     "line": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+     "anchor": "CENTER ON FREQUENCY",
+     "t": 70.0,
+     "nll_correct_pos": 0.8762243986129761,
+     "n_tokens": 32,
+     "nll_wrong_pos": 1.0664979219436646
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 75.0,
+     "nll_correct_pos": 1.082036018371582,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.2910126447677612
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 105.0,
+     "nll_correct_pos": 1.9583470821380615,
+     "n_tokens": 17,
+     "nll_wrong_pos": 1.0336594581604004
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 70.0,
+     "nll_correct_pos": 0.8287509679794312,
+     "n_tokens": 14,
+     "nll_wrong_pos": 0.8287509679794312
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 75.0,
+     "nll_correct_pos": 1.082036018371582,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.2910126447677612
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 105.0,
+     "nll_correct_pos": 1.9583470821380615,
+     "n_tokens": 17,
+     "nll_wrong_pos": 2.1682183742523193
+    }
+   ],
+   "weighted_nll_correct": 1.4724831581115723,
+   "weighted_nll_wrongpos": 1.440214843641628
+  },
+  "v3": {
+   "rows": [
+    {
+     "line": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+     "anchor": "INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO",
+     "t": 75.0,
+     "nll_correct_pos": 2.263763189315796,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.6677035093307495
+    },
+    {
+     "line": "WIND TWO FOUR ZERO AT FIVE",
+     "anchor": "WIND TWO FOUR ZERO AT FIVE",
+     "t": 90.0,
+     "nll_correct_pos": 2.3515570163726807,
+     "n_tokens": 10,
+     "nll_wrong_pos": 2.6630213260650635
+    },
+    {
+     "line": "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "anchor": "THOUSAND FEET",
+     "t": 25.0,
+     "nll_correct_pos": 2.2352981567382812,
+     "n_tokens": 16,
+     "nll_wrong_pos": 2.5765576362609863
+    },
+    {
+     "line": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "anchor": "TEMPERATURE ONE",
+     "t": 90.0,
+     "nll_correct_pos": 1.9984136819839478,
+     "n_tokens": 13,
+     "nll_wrong_pos": 1.9984136819839478
+    },
+    {
+     "line": "ALTIMETER THREE ZERO TWO THREE",
+     "anchor": "ALTIMETER THREE ZERO TWO THREE",
+     "t": 90.0,
+     "nll_correct_pos": 1.566588044166565,
+     "n_tokens": 12,
+     "nll_wrong_pos": 2.4737651348114014
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 5.0,
+     "nll_correct_pos": 1.8849694728851318,
+     "n_tokens": 14,
+     "nll_wrong_pos": 2.0265166759490967
+    },
+    {
+     "line": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+     "anchor": "CENTER ON FREQUENCY",
+     "t": 70.0,
+     "nll_correct_pos": 0.9280896186828613,
+     "n_tokens": 32,
+     "nll_wrong_pos": 1.0528223514556885
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 75.0,
+     "nll_correct_pos": 1.3266716003417969,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.6452229022979736
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 60.0,
+     "nll_correct_pos": 1.7541298866271973,
+     "n_tokens": 17,
+     "nll_wrong_pos": 2.146430730819702
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 5.0,
+     "nll_correct_pos": 1.8849694728851318,
+     "n_tokens": 14,
+     "nll_wrong_pos": 2.0265166759490967
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 75.0,
+     "nll_correct_pos": 1.3266716003417969,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.6452229022979736
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 60.0,
+     "nll_correct_pos": 1.7541298866271973,
+     "n_tokens": 17,
+     "nll_wrong_pos": 1.5369517803192139
+    }
+   ],
+   "weighted_nll_correct": 1.6777493818239733,
+   "weighted_nll_wrongpos": 1.820562330159274
+  }
+ },
+ "b": {
+  "atc": {
+   "rows": [
+    {
+     "line": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+     "anchor": "INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO",
+     "t": 230.0,
+     "nll_correct_pos": 1.4777926206588745,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.4777926206588745
+    },
+    {
+     "line": "WIND TWO FOUR ZERO AT FIVE",
+     "anchor": "WIND TWO FOUR ZERO AT FIVE",
+     "t": 230.0,
+     "nll_correct_pos": 2.41999888420105,
+     "n_tokens": 10,
+     "nll_wrong_pos": 2.41999888420105
+    },
+    {
+     "line": "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "anchor": "THOUSAND FEET",
+     "t": 230.0,
+     "nll_correct_pos": 1.3499435186386108,
+     "n_tokens": 16,
+     "nll_wrong_pos": 3.713409423828125
+    },
+    {
+     "line": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "anchor": "TEMPERATURE ONE",
+     "t": 160.0,
+     "nll_correct_pos": 4.988232612609863,
+     "n_tokens": 13,
+     "nll_wrong_pos": 4.659915924072266
+    },
+    {
+     "line": "ALTIMETER THREE ZERO THREE THREE",
+     "anchor": "ALTIMETER THREE ZERO THREE THREE",
+     "t": 230.0,
+     "nll_correct_pos": 0.7941504120826721,
+     "n_tokens": 13,
+     "nll_wrong_pos": 0.7941504120826721
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 230.0,
+     "nll_correct_pos": 1.941664457321167,
+     "n_tokens": 14,
+     "nll_wrong_pos": 2.1322731971740723
+    },
+    {
+     "line": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE WHEN REQUESTED",
+     "anchor": "CENTER ON FREQUENCY",
+     "t": 220.0,
+     "nll_correct_pos": 2.0829062461853027,
+     "n_tokens": 33,
+     "nll_wrong_pos": 2.0319669246673584
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 230.0,
+     "nll_correct_pos": 1.2996253967285156,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.2996253967285156
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 230.0,
+     "nll_correct_pos": 0.31534266471862793,
+     "n_tokens": 17,
+     "nll_wrong_pos": 0.31534266471862793
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 230.0,
+     "nll_correct_pos": 1.941664457321167,
+     "n_tokens": 14,
+     "nll_wrong_pos": 1.941664457321167
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 230.0,
+     "nll_correct_pos": 1.2996253967285156,
+     "n_tokens": 25,
+     "nll_wrong_pos": 1.2996253967285156
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 230.0,
+     "nll_correct_pos": 0.31534266471862793,
+     "n_tokens": 17,
+     "nll_wrong_pos": 0.31534266471862793
+    }
+   ],
+   "weighted_nll_correct": 1.6068482492958103,
+   "weighted_nll_wrongpos": 1.7624106919980265
+  },
+  "v3": {
+   "rows": [
+    {
+     "line": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+     "anchor": "INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO",
+     "t": 230.0,
+     "nll_correct_pos": 2.6589515209198,
+     "n_tokens": 25,
+     "nll_wrong_pos": 2.6585397720336914
+    },
+    {
+     "line": "WIND TWO FOUR ZERO AT FIVE",
+     "anchor": "WIND TWO FOUR ZERO AT FIVE",
+     "t": 235.0,
+     "nll_correct_pos": 4.046793460845947,
+     "n_tokens": 10,
+     "nll_wrong_pos": 4.047253608703613
+    },
+    {
+     "line": "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "anchor": "THOUSAND FEET",
+     "t": 230.0,
+     "nll_correct_pos": 2.139075756072998,
+     "n_tokens": 16,
+     "nll_wrong_pos": 3.866807460784912
+    },
+    {
+     "line": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "anchor": "TEMPERATURE ONE",
+     "t": 0.0,
+     "nll_correct_pos": 4.491912364959717,
+     "n_tokens": 13,
+     "nll_wrong_pos": 3.932706832885742
+    },
+    {
+     "line": "ALTIMETER THREE ZERO THREE THREE",
+     "anchor": "ALTIMETER THREE ZERO THREE THREE",
+     "t": 230.0,
+     "nll_correct_pos": 1.6351380348205566,
+     "n_tokens": 13,
+     "nll_wrong_pos": 1.7616485357284546
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 220.0,
+     "nll_correct_pos": 2.820781946182251,
+     "n_tokens": 14,
+     "nll_wrong_pos": 3.0060861110687256
+    },
+    {
+     "line": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE WHEN REQUESTED",
+     "anchor": "CENTER ON FREQUENCY",
+     "t": 230.0,
+     "nll_correct_pos": 1.7198580503463745,
+     "n_tokens": 33,
+     "nll_wrong_pos": 1.7198580503463745
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 230.0,
+     "nll_correct_pos": 1.823683261871338,
+     "n_tokens": 25,
+     "nll_wrong_pos": 3.4755795001983643
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 200.0,
+     "nll_correct_pos": 1.0507676601409912,
+     "n_tokens": 17,
+     "nll_wrong_pos": 1.3035634756088257
+    },
+    {
+     "line": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "anchor": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "t": 220.0,
+     "nll_correct_pos": 2.820781946182251,
+     "n_tokens": 14,
+     "nll_wrong_pos": 3.0060861110687256
+    },
+    {
+     "line": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "anchor": "LANDING AND DEPARTING RUNWAY",
+     "t": 230.0,
+     "nll_correct_pos": 1.823683261871338,
+     "n_tokens": 25,
+     "nll_wrong_pos": 3.4755795001983643
+    },
+    {
+     "line": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "anchor": "HAVE INFORMATION FOXTROT",
+     "t": 200.0,
+     "nll_correct_pos": 1.0507676601409912,
+     "n_tokens": 17,
+     "nll_wrong_pos": 1.3360285758972168
+    }
+   ],
+   "weighted_nll_correct": 2.177775061345315,
+   "weighted_nll_wrongpos": 2.7135555685103476
+  }
+ }
+}

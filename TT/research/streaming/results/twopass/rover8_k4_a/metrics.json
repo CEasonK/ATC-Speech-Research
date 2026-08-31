@@ -1,0 +1,18 @@
+{
+ "wer_token_level": 0.0282,
+ "wer_edit_over_len": 0.0282,
+ "hyp_len": 282,
+ "ref_len": 284,
+ "token_latency": {
+  "n": 277,
+  "match_ratio": 0.982,
+  "median": 14.637,
+  "p95": 26.506,
+  "mean": 14.727
+ },
+ "lag_mean": 0.291,
+ "lag_curve_n": 22,
+ "rtf": 1.1316,
+ "events": 282,
+ "latency_unmatched": 0
+}

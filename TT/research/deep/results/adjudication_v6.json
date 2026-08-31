@@ -1,0 +1,974 @@
+[
+ {
+  "contest": "temperature_a",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 60.0,
+    "ranked": [
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+      "score": 1.558168888092041,
+      "median_score": 1.829498052597046,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.4213171005249023,
+      "median_score": 3.0082452297210693,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.5272209644317627,
+      "median_score": 2.7426254749298096,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS TWO ALTITUDE",
+      "score": 2.859790563583374,
+      "median_score": 3.0156779289245605,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.001826286315918,
+      "median_score": 3.2309467792510986,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.0125789642333984,
+      "median_score": 3.3585424423217773,
+      "t_start": 65.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.1897013187408447,
+      "median_score": 3.4280858039855957,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.6805951595306396,
+      "median_score": 3.7808194160461426,
+      "t_start": 65.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "temperature_b",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+      "score": 2.184277057647705,
+      "median_score": 2.694394826889038,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.7499496936798096,
+      "median_score": 3.1427502632141113,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.983271837234497,
+      "median_score": 3.353489875793457,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.048776865005493,
+      "median_score": 3.588871955871582,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.2220401763916016,
+      "median_score": 3.4354798793792725,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS TWO ALTITUDE",
+      "score": 3.271216630935669,
+      "median_score": 3.8396670818328857,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.30719256401062,
+      "median_score": 3.7079246044158936,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.655703067779541,
+      "median_score": 4.058835506439209,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "freq_b",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "CENTER ON FREQUENCY THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 1.7924506664276123,
+      "median_score": 1.8071248531341553,
+      "t_start": 225.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO TWO DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.630925178527832,
+      "median_score": 2.7476110458374023,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.7330315113067627,
+      "median_score": 2.856724262237549,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE POINT ONE FIVE AS REQUESTED",
+      "score": 3.7331786155700684,
+      "median_score": 3.9105124473571777,
+      "t_start": 230.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "freq_a",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 95.0,
+    "ranked": [
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO TWO DECIMAL ONE FIVE AS REQUESTED",
+      "score": 1.9691308736801147,
+      "median_score": 2.6347100734710693,
+      "t_start": 95.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 1.9837838411331177,
+      "median_score": 2.609002113342285,
+      "t_start": 95.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE POINT ONE FIVE AS REQUESTED",
+      "score": 2.0973503589630127,
+      "median_score": 3.3081741333007812,
+      "t_start": 95.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.3091816902160645,
+      "median_score": 2.990795135498047,
+      "t_start": 95.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "vis_struct_a",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 60.0,
+    "ranked": [
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 1.0934085845947266,
+      "median_score": 1.8493905067443848,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE CLOUDS TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 1.6614511013031006,
+      "median_score": 2.3981778621673584,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE SCATTERED TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 1.6687006950378418,
+      "median_score": 2.3899381160736084,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 1.6868400573730469,
+      "median_score": 2.2129876613616943,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE AND ONE HALF MILES FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.0953567028045654,
+      "median_score": 3.5576796531677246,
+      "t_start": 60.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY FIFTEEN KILOMETERS FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.1342649459838867,
+      "median_score": 3.587351083755493,
+      "t_start": 60.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "vis_struct_b",
+  "judge": "atc",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 1.5155832767486572,
+      "median_score": 1.5741686820983887,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE SCATTERED TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.0626113414764404,
+      "median_score": 2.110966920852661,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.135974168777466,
+      "median_score": 2.3020501136779785,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE CLOUDS TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.2209014892578125,
+      "median_score": 2.268153667449951,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY FIFTEEN KILOMETERS FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.3891348838806152,
+      "median_score": 3.6185436248779297,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE AND ONE HALF MILES FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.4924421310424805,
+      "median_score": 3.5469987392425537,
+      "t_start": 215.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "temperature_a",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 25.0,
+    "ranked": [
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+      "score": 1.9949535131454468,
+      "median_score": 2.0890486240386963,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS TWO ALTITUDE",
+      "score": 2.304171562194824,
+      "median_score": 2.42087721824646,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.362534284591675,
+      "median_score": 2.428133964538574,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.3629863262176514,
+      "median_score": 2.4189274311065674,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.388732433319092,
+      "median_score": 2.535691499710083,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.5362555980682373,
+      "median_score": 2.6866860389709473,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+      "score": 2.539660930633545,
+      "median_score": 2.7458722591400146,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.5695035457611084,
+      "median_score": 2.6817333698272705,
+      "t_start": 25.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "temperature_b",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.6475303173065186,
+      "median_score": 2.9120051860809326,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.7168407440185547,
+      "median_score": 2.8235039710998535,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.790970802307129,
+      "median_score": 2.8415844440460205,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.795240879058838,
+      "median_score": 3.0627903938293457,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+      "score": 2.9211316108703613,
+      "median_score": 3.0958194732666016,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 2.9308712482452393,
+      "median_score": 3.0245633125305176,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS TWO ALTITUDE",
+      "score": 3.0368411540985107,
+      "median_score": 3.1013879776000977,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.054084062576294,
+      "median_score": 3.117565155029297,
+      "t_start": 220.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "freq_b",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 230.0,
+    "ranked": [
+     {
+      "variant": "CENTER ON FREQUENCY THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 1.655975103378296,
+      "median_score": 1.6899127960205078,
+      "t_start": 230.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.0431313514709473,
+      "median_score": 2.197457790374756,
+      "t_start": 235.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO TWO DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.410463809967041,
+      "median_score": 2.51468825340271,
+      "t_start": 235.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE POINT ONE FIVE AS REQUESTED",
+      "score": 2.972100257873535,
+      "median_score": 3.039621353149414,
+      "t_start": 235.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "freq_a",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 95.0,
+    "ranked": [
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE POINT ONE FIVE AS REQUESTED",
+      "score": 1.8873919248580933,
+      "median_score": 2.548989772796631,
+      "t_start": 95.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.0314528942108154,
+      "median_score": 2.3930294513702393,
+      "t_start": 95.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO TWO DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.2686619758605957,
+      "median_score": 2.6508021354675293,
+      "t_start": 95.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.3151750564575195,
+      "median_score": 2.8270010948181152,
+      "t_start": 95.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "vis_struct_a",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 0.0,
+    "ranked": [
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.125669240951538,
+      "median_score": 2.1769946813583374,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.374305486679077,
+      "median_score": 2.3939238786697388,
+      "t_start": 5.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE CLOUDS TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.4103708267211914,
+      "median_score": 2.4715691804885864,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY FIFTEEN KILOMETERS FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.573082208633423,
+      "median_score": 2.5917800664901733,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE SCATTERED TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.6113595962524414,
+      "median_score": 2.659839391708374,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE AND ONE HALF MILES FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.8551464080810547,
+      "median_score": 2.8696210384368896,
+      "t_start": 5.0,
+      "n_windows": 2
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "vis_struct_b",
+  "judge": "v3",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.106433153152466,
+      "median_score": 2.136688232421875,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.4704298973083496,
+      "median_score": 2.502150297164917,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE CLOUDS TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.5308334827423096,
+      "median_score": 2.5446038246154785,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE SCATTERED TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.679924726486206,
+      "median_score": 2.6871368885040283,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY FIFTEEN KILOMETERS FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.7397525310516357,
+      "median_score": 2.789491653442383,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE AND ONE HALF MILES FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 2.898400068283081,
+      "median_score": 2.93798565864563,
+      "t_start": 215.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "temperature_a",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 115.0,
+    "ranked": [
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.331671714782715,
+      "median_score": 3.7072649002075195,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.596851348876953,
+      "median_score": 3.990387439727783,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.7143378257751465,
+      "median_score": 4.032081604003906,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS TWO ALTITUDE",
+      "score": 3.7303850650787354,
+      "median_score": 4.128603935241699,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.8467893600463867,
+      "median_score": 4.189695358276367,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.9478931427001953,
+      "median_score": 3.9711971282958984,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 3.9980530738830566,
+      "median_score": 4.249842643737793,
+      "t_start": 115.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+      "score": 4.214422702789307,
+      "median_score": 4.488672256469727,
+      "t_start": 115.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "temperature_b",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 210.0,
+    "ranked": [
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 4.3354363441467285,
+      "median_score": 5.316934108734131,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+      "score": 4.3678765296936035,
+      "median_score": 5.533271312713623,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE POINT NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 4.425061225891113,
+      "median_score": 5.404893398284912,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 4.432066917419434,
+      "median_score": 5.443514823913574,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINE DEW POINT MINUS ONE ALTITUDE",
+      "score": 4.4762444496154785,
+      "median_score": 5.40927267074585,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER DEW POINT MINUS ONE ALTITUDE",
+      "score": 4.596467971801758,
+      "median_score": 5.455382347106934,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DEW POINT MINUS TWO ALTITUDE",
+      "score": 4.832516670227051,
+      "median_score": 5.541182518005371,
+      "t_start": 215.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "THOUSAND FEET TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+      "score": 5.0979766845703125,
+      "median_score": 5.308882713317871,
+      "t_start": 215.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "freq_b",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 220.0,
+    "ranked": [
+     {
+      "variant": "CENTER ON FREQUENCY THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 2.85078501701355,
+      "median_score": 3.966928005218506,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 3.5844919681549072,
+      "median_score": 4.6046528816223145,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO TWO DECIMAL ONE FIVE AS REQUESTED",
+      "score": 3.866612195968628,
+      "median_score": 4.980743885040283,
+      "t_start": 220.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE POINT ONE FIVE AS REQUESTED",
+      "score": 4.647583961486816,
+      "median_score": 5.498538494110107,
+      "t_start": 220.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "freq_a",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 0.0,
+    "ranked": [
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 4.0072245597839355,
+      "median_score": 4.328413724899292,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO TWO DECIMAL ONE FIVE AS REQUESTED",
+      "score": 4.091155052185059,
+      "median_score": 4.22581934928894,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "CENTER ON FREQUENCY THREE DECIMAL ONE FIVE AS REQUESTED",
+      "score": 4.114312171936035,
+      "median_score": 4.359008312225342,
+      "t_start": 0.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "CENTER ON FREQUENCY ONE TWO THREE POINT ONE FIVE AS REQUESTED",
+      "score": 4.393244743347168,
+      "median_score": 4.476685523986816,
+      "t_start": 0.0,
+      "n_windows": 2
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "vis_struct_a",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_a": {
+    "anchor_t": 30.0,
+    "ranked": [
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.3658108711242676,
+      "median_score": 3.5219595432281494,
+      "t_start": 30.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE CLOUDS TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.6268322467803955,
+      "median_score": 4.180379867553711,
+      "t_start": 30.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE SCATTERED TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.6596603393554688,
+      "median_score": 4.124004364013672,
+      "t_start": 30.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.751138687133789,
+      "median_score": 3.848276138305664,
+      "t_start": 25.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE AND ONE HALF MILES FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 4.059797763824463,
+      "median_score": 4.37299108505249,
+      "t_start": 30.0,
+      "n_windows": 3
+     },
+     {
+      "variant": "AT FIVE VISIBILITY FIFTEEN KILOMETERS FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 4.442033767700195,
+      "median_score": 4.66772985458374,
+      "t_start": 30.0,
+      "n_windows": 3
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ },
+ {
+  "contest": "vis_struct_b",
+  "judge": "turbo_atcosim",
+  "channels": {
+   "CYYT_ATIS_b": {
+    "anchor_t": 235.0,
+    "ranked": [
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.6064040660858154,
+      "median_score": 3.639062285423279,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 3.950242280960083,
+      "median_score": 4.075672030448914,
+      "t_start": 230.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE SCATTERED TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 4.042984962463379,
+      "median_score": 4.142721652984619,
+      "t_start": 235.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE FIVE CLOUDS TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 4.053454399108887,
+      "median_score": 4.2375617027282715,
+      "t_start": 235.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY ONE AND ONE HALF MILES FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 4.471668243408203,
+      "median_score": 4.6445488929748535,
+      "t_start": 235.0,
+      "n_windows": 2
+     },
+     {
+      "variant": "AT FIVE VISIBILITY FIFTEEN KILOMETERS FEW TWO FOUR THOUSAND FEET TEMPERATURE",
+      "score": 5.065128326416016,
+      "median_score": 5.104122877120972,
+      "t_start": 230.0,
+      "n_windows": 2
+     }
+    ]
+   }
+  },
+  "dual_agree": true
+ }
+]

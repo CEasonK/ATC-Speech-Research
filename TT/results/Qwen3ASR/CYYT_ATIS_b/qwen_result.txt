@@ -1,0 +1,7 @@
+音频文件: CYYT_cyyt1_atis_20260817160101.wav
+模型: Qwen3-ASR-1.7B
+识别时间: 20260819_174820
+============================================================
+识别结果:
+Eight. Inform ATC that you have information box drawn. Information box drawn. Weather is zero two zero zero two two four zero. X five. Visibility one five. Two four thousand feet. Run. Two point nine one. Altitude three zero two three. RNAV new runway two. Inform standard center frequency three three decimal one five for request to depart on initial contact. Landing and departing one eight. Inform ATC that you have information box drawn. Run information box drawn. Weather is zero two zero zero two two four zero. X five. Visibility one five.
+============================================================

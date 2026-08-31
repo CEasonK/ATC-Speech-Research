@@ -1,0 +1,26 @@
+{
+ "per_word_asr": {
+  "a": {
+   "n": 242,
+   "median": 1.72,
+   "p95": 2.87,
+   "translate": 0.44,
+   "e2e_budget": 2.16,
+   "match_ratio": 0.896
+  },
+  "b": {
+   "n": 197,
+   "median": 1.94,
+   "p95": 5.74,
+   "translate": 0.44,
+   "e2e_budget": 2.38,
+   "match_ratio": 0.853
+  }
+ },
+ "translate_measured_sec": 0.44,
+ "note": "ASR=evaluate_run对齐口径词级token延迟(K4受控,SAlignAtt draft轨,J10/J11重跑);译=Qwen7B bf16 greedy实测0.44s/句;总预算=P50+首句翻译。b轨2026-08-27随K4b评测窗对齐周期(26.2s→27.85s)重算:旧1.34/6.41为窗错配(周期间停顿被切)下的边界伪象",
+ "provenance": {
+  "engine": "run_2pass.py+evaluate_run.py(fixed)",
+  "date": "2026-08-27"
+ }
+}

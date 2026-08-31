@@ -1,0 +1,292 @@
+{
+ "slices": {
+  "CYYT_ATIS_a_c59": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/v12/CYYT_ATIS_a_c59.wav",
+  "CYYT_ATIS_a_c61": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/v12/CYYT_ATIS_a_c61.wav",
+  "CYYT_ATIS_a_c63": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/v12/CYYT_ATIS_a_c63.wav",
+  "CYYT_ATIS_b_c236": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/v12/CYYT_ATIS_b_c236.wav",
+  "CYYT_ATIS_b_c238": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/v12/CYYT_ATIS_b_c238.wav",
+  "CYYT_ATIS_b_c240": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/wind_slices/v12/CYYT_ATIS_b_c240.wav"
+ },
+ "incremental": {
+  "atc|CYYT_ATIS_b|H_wind": [
+   {
+    "prefix": "WIND",
+    "per_tok": 4.4372053146362305,
+    "score": 8.874410629272461,
+    "n_tok": 2
+   },
+   {
+    "prefix": "WIND TWO",
+    "per_tok": 2.1403250694274902,
+    "score": 6.420975208282471,
+    "n_tok": 3
+   },
+   {
+    "prefix": "WIND TWO FOUR",
+    "per_tok": 0.4275543212890625,
+    "score": 2.1377716064453125,
+    "n_tok": 5
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO",
+    "per_tok": 0.4104501860482352,
+    "score": 2.8731513023376465,
+    "n_tok": 7
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT",
+    "per_tok": 0.48567211627960205,
+    "score": 3.8853769302368164,
+    "n_tok": 8
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT FIVE",
+    "per_tok": 0.27941279411315917,
+    "score": 2.794127941131592,
+    "n_tok": 10
+   }
+  ],
+  "atc|CYYT_ATIS_b|H_nowind": [
+   {
+    "prefix": "TWO",
+    "per_tok": 2.112526257832845,
+    "score": 6.337578773498535,
+    "n_tok": 3
+   },
+   {
+    "prefix": "TWO FOUR",
+    "per_tok": 0.7881243705749512,
+    "score": 3.940621852874756,
+    "n_tok": 5
+   },
+   {
+    "prefix": "TWO FOUR ZERO",
+    "per_tok": 0.535541159766061,
+    "score": 3.7487881183624268,
+    "n_tok": 7
+   },
+   {
+    "prefix": "TWO FOUR ZERO AT",
+    "per_tok": 0.6622239351272583,
+    "score": 5.297791481018066,
+    "n_tok": 8
+   },
+   {
+    "prefix": "TWO FOUR ZERO AT FIVE",
+    "per_tok": 0.4063436985015869,
+    "score": 4.063436985015869,
+    "n_tok": 10
+   }
+  ],
+  "atc|CYYT_ATIS_a|H_at": [
+   {
+    "prefix": "WIND",
+    "per_tok": 2.9093832969665527,
+    "score": 5.8187665939331055,
+    "n_tok": 2
+   },
+   {
+    "prefix": "WIND TWO",
+    "per_tok": 1.5806884765625,
+    "score": 4.7420654296875,
+    "n_tok": 3
+   },
+   {
+    "prefix": "WIND TWO FOUR",
+    "per_tok": 0.5586348533630371,
+    "score": 2.7931742668151855,
+    "n_tok": 5
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO",
+    "per_tok": 0.22702271597726004,
+    "score": 1.5891590118408203,
+    "n_tok": 7
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT",
+    "per_tok": 0.3105079233646393,
+    "score": 2.4840633869171143,
+    "n_tok": 8
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT FIVE",
+    "per_tok": 0.14588642120361328,
+    "score": 1.4588642120361328,
+    "n_tok": 10
+   }
+  ],
+  "atc|CYYT_ATIS_a|H_noat": [
+   {
+    "prefix": "WIND",
+    "per_tok": 2.9093832969665527,
+    "score": 5.8187665939331055,
+    "n_tok": 2
+   },
+   {
+    "prefix": "WIND TWO",
+    "per_tok": 1.5806884765625,
+    "score": 4.7420654296875,
+    "n_tok": 3
+   },
+   {
+    "prefix": "WIND TWO FOUR",
+    "per_tok": 0.5586348533630371,
+    "score": 2.7931742668151855,
+    "n_tok": 5
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO",
+    "per_tok": 0.22702271597726004,
+    "score": 1.5891590118408203,
+    "n_tok": 7
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO FIVE",
+    "per_tok": 0.21352530850304496,
+    "score": 1.9217277765274048,
+    "n_tok": 9
+   }
+  ],
+  "v3|CYYT_ATIS_b|H_wind": [
+   {
+    "prefix": "WIND",
+    "per_tok": 3.49391508102417,
+    "score": 6.98783016204834,
+    "n_tok": 2
+   },
+   {
+    "prefix": "WIND TWO",
+    "per_tok": 2.329657872517904,
+    "score": 6.988973617553711,
+    "n_tok": 3
+   },
+   {
+    "prefix": "WIND TWO FOUR",
+    "per_tok": 0.8031554222106934,
+    "score": 4.015777111053467,
+    "n_tok": 5
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO",
+    "per_tok": 0.6424914768763951,
+    "score": 4.497440338134766,
+    "n_tok": 7
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT",
+    "per_tok": 0.6821315884590149,
+    "score": 5.457052707672119,
+    "n_tok": 8
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT FIVE",
+    "per_tok": 0.40463814735412595,
+    "score": 4.04638147354126,
+    "n_tok": 10
+   }
+  ],
+  "v3|CYYT_ATIS_b|H_nowind": [
+   {
+    "prefix": "TWO",
+    "per_tok": 1.7469313939412434,
+    "score": 5.2407941818237305,
+    "n_tok": 3
+   },
+   {
+    "prefix": "TWO FOUR",
+    "per_tok": 0.9995556831359863,
+    "score": 4.997778415679932,
+    "n_tok": 5
+   },
+   {
+    "prefix": "TWO FOUR ZERO",
+    "per_tok": 0.7037297657557896,
+    "score": 4.926108360290527,
+    "n_tok": 7
+   },
+   {
+    "prefix": "TWO FOUR ZERO AT",
+    "per_tok": 0.6989620327949524,
+    "score": 5.591696262359619,
+    "n_tok": 8
+   },
+   {
+    "prefix": "TWO FOUR ZERO AT FIVE",
+    "per_tok": 0.43799920082092286,
+    "score": 4.3799920082092285,
+    "n_tok": 10
+   }
+  ],
+  "v3|CYYT_ATIS_a|H_at": [
+   {
+    "prefix": "WIND",
+    "per_tok": 3.1485533714294434,
+    "score": 6.297106742858887,
+    "n_tok": 2
+   },
+   {
+    "prefix": "WIND TWO",
+    "per_tok": 2.3175487518310547,
+    "score": 6.952646255493164,
+    "n_tok": 3
+   },
+   {
+    "prefix": "WIND TWO FOUR",
+    "per_tok": 0.9438158988952636,
+    "score": 4.719079494476318,
+    "n_tok": 5
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO",
+    "per_tok": 0.4419017178671701,
+    "score": 3.0933120250701904,
+    "n_tok": 7
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT",
+    "per_tok": 0.4726339876651764,
+    "score": 3.781071901321411,
+    "n_tok": 8
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO AT FIVE",
+    "per_tok": 0.2789961814880371,
+    "score": 2.789961814880371,
+    "n_tok": 10
+   }
+  ],
+  "v3|CYYT_ATIS_a|H_noat": [
+   {
+    "prefix": "WIND",
+    "per_tok": 3.1485533714294434,
+    "score": 6.297106742858887,
+    "n_tok": 2
+   },
+   {
+    "prefix": "WIND TWO",
+    "per_tok": 2.3175487518310547,
+    "score": 6.952646255493164,
+    "n_tok": 3
+   },
+   {
+    "prefix": "WIND TWO FOUR",
+    "per_tok": 0.9438158988952636,
+    "score": 4.719079494476318,
+    "n_tok": 5
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO",
+    "per_tok": 0.4419017178671701,
+    "score": 3.0933120250701904,
+    "n_tok": 7
+   },
+   {
+    "prefix": "WIND TWO FOUR ZERO FIVE",
+    "per_tok": 0.2970406214396159,
+    "score": 2.673365592956543,
+    "n_tok": 9
+   }
+  ]
+ }
+}

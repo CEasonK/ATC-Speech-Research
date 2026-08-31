@@ -1,0 +1,378 @@
+{
+ "CYYT_ATIS_a": {
+  "atc": [
+   {
+    "variant": "WIND TWO SEVEN ZERO AT FIVE",
+    "score": 2.157198667526245,
+    "median_score": 3.082680106163025,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO DEGREES AT FIVE",
+    "score": 2.358983039855957,
+    "median_score": 2.4605857133865356,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE KNOTS",
+    "score": 2.411405324935913,
+    "median_score": 2.6015905141830444,
+    "t_start": 55.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 2.58073353767395,
+    "median_score": 2.589442253112793,
+    "t_start": 55.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO ZERO ZERO AT FIVE",
+    "score": 2.7029025554656982,
+    "median_score": 3.479957699775696,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE ZERO",
+    "score": 2.863974094390869,
+    "median_score": 3.265613555908203,
+    "t_start": 55.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE FIVE",
+    "score": 2.9115560054779053,
+    "median_score": 3.2245932817459106,
+    "t_start": 55.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT EIGHT",
+    "score": 2.9623427391052246,
+    "median_score": 3.1693365573883057,
+    "t_start": 55.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ZERO FIVE",
+    "score": 3.054063081741333,
+    "median_score": 3.2829623222351074,
+    "t_start": 55.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND THREE ONE ZERO AT FIVE",
+    "score": 3.071683168411255,
+    "median_score": 3.7082618474960327,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO THREE ZERO AT FIVE",
+    "score": 3.246814012527466,
+    "median_score": 3.698220133781433,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WINDS TWO FOUR ZERO AT FIVE",
+    "score": 3.3427700996398926,
+    "median_score": 3.399726152420044,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "SURFACE WIND TWO FOUR ZERO AT FIVE",
+    "score": 3.5764100551605225,
+    "median_score": 3.765981674194336,
+    "t_start": 55.0,
+    "n_windows": 2
+   }
+  ],
+  "v3": [
+   {
+    "variant": "WIND TWO FOUR ZERO AT ZERO FIVE",
+    "score": 2.912693977355957,
+    "median_score": 2.912693977355957,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO DEGREES AT FIVE",
+    "score": 3.0026252269744873,
+    "median_score": 3.0026252269744873,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE FIVE",
+    "score": 3.1149821281433105,
+    "median_score": 3.1149821281433105,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT EIGHT",
+    "score": 3.153278350830078,
+    "median_score": 3.153278350830078,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "SURFACE WIND TWO FOUR ZERO AT FIVE",
+    "score": 3.228212594985962,
+    "median_score": 3.228212594985962,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 3.269834518432617,
+    "median_score": 3.269834518432617,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE ZERO",
+    "score": 3.3252739906311035,
+    "median_score": 3.3252739906311035,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE KNOTS",
+    "score": 3.7024121284484863,
+    "median_score": 3.7024121284484863,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WINDS TWO FOUR ZERO AT FIVE",
+    "score": 3.863671064376831,
+    "median_score": 3.863671064376831,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO SEVEN ZERO AT FIVE",
+    "score": 4.296925067901611,
+    "median_score": 4.296925067901611,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO THREE ZERO AT FIVE",
+    "score": 4.353268623352051,
+    "median_score": 4.353268623352051,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO ZERO ZERO AT FIVE",
+    "score": 4.414828300476074,
+    "median_score": 4.414828300476074,
+    "t_start": 0.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND THREE ONE ZERO AT FIVE",
+    "score": 4.451122283935547,
+    "median_score": 4.451122283935547,
+    "t_start": 0.0,
+    "n_windows": 1
+   }
+  ]
+ },
+ "CYYT_ATIS_b": {
+  "atc": [
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 2.4193274974823,
+    "median_score": 2.5356143712997437,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE KNOTS",
+    "score": 2.5398550033569336,
+    "median_score": 2.592241644859314,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO DEGREES AT FIVE",
+    "score": 2.657687187194824,
+    "median_score": 2.7295364141464233,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "SURFACE WIND TWO FOUR ZERO AT FIVE",
+    "score": 3.10135817527771,
+    "median_score": 3.217034339904785,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT EIGHT",
+    "score": 3.163405418395996,
+    "median_score": 3.4014885425567627,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WINDS TWO FOUR ZERO AT FIVE",
+    "score": 3.264155149459839,
+    "median_score": 3.403438687324524,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO ZERO ZERO AT FIVE",
+    "score": 3.3395307064056396,
+    "median_score": 3.7852805852890015,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND THREE ONE ZERO AT FIVE",
+    "score": 3.34779953956604,
+    "median_score": 3.74126660823822,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE ZERO",
+    "score": 3.3738515377044678,
+    "median_score": 3.433174252510071,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO SEVEN ZERO AT FIVE",
+    "score": 3.393608570098877,
+    "median_score": 3.6087868213653564,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ZERO FIVE",
+    "score": 3.4445996284484863,
+    "median_score": 3.589098572731018,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE FIVE",
+    "score": 3.46970272064209,
+    "median_score": 3.6187838315963745,
+    "t_start": 230.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO THREE ZERO AT FIVE",
+    "score": 3.542508602142334,
+    "median_score": 3.6920230388641357,
+    "t_start": 230.0,
+    "n_windows": 2
+   }
+  ],
+  "v3": [
+   {
+    "variant": "SURFACE WIND TWO FOUR ZERO AT FIVE",
+    "score": 3.978790044784546,
+    "median_score": 4.135611653327942,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO DEGREES AT FIVE",
+    "score": 4.102866172790527,
+    "median_score": 4.1842241287231445,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO THREE ZERO AT FIVE",
+    "score": 4.684884548187256,
+    "median_score": 4.768533706665039,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 4.754920482635498,
+    "median_score": 4.877770185470581,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ZERO FIVE",
+    "score": 4.755218982696533,
+    "median_score": 4.867764234542847,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO ZERO ZERO AT FIVE",
+    "score": 4.800664901733398,
+    "median_score": 4.811839580535889,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE KNOTS",
+    "score": 4.986969947814941,
+    "median_score": 5.023576021194458,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WINDS TWO FOUR ZERO AT FIVE",
+    "score": 5.058585166931152,
+    "median_score": 5.105957269668579,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT EIGHT",
+    "score": 5.123989582061768,
+    "median_score": 5.17668342590332,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND THREE ONE ZERO AT FIVE",
+    "score": 5.13081169128418,
+    "median_score": 5.186058521270752,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO SEVEN ZERO AT FIVE",
+    "score": 5.138721942901611,
+    "median_score": 5.2266809940338135,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE FIVE",
+    "score": 5.250260829925537,
+    "median_score": 5.278197288513184,
+    "t_start": 215.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT ONE ZERO",
+    "score": 5.333652496337891,
+    "median_score": 5.3840413093566895,
+    "t_start": 215.0,
+    "n_windows": 2
+   }
+  ]
+ }
+}

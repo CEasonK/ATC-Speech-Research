@@ -1,0 +1,65 @@
+{
+ "contamination_band": 1.4,
+ "callsign_seg01": {
+  "scores": {
+   "SIERRA": 0.5374,
+   "SHAMROCK": 0.6026,
+   "SHANGHAI_AIR": 0.4854
+  },
+  "winner": "SHANGHAI_AIR",
+  "margin_to_2nd": 0.052,
+  "decidable": false,
+  "ranking": [
+   "SHANGHAI_AIR",
+   "SIERRA",
+   "SHAMROCK"
+  ]
+ },
+ "callsign_seg08": {
+  "scores": {
+   "SIERRA": 1.5155,
+   "SHAMROCK": 1.6147,
+   "SHANGHAI_AIR": 1.3502
+  },
+  "winner": "SHANGHAI_AIR",
+  "margin_to_2nd": 0.1653,
+  "decidable": false,
+  "ranking": [
+   "SHANGHAI_AIR",
+   "SIERRA",
+   "SHAMROCK"
+  ]
+ },
+ "orange_slot": {
+  "scores": {
+   "NINER": 2.6485,
+   "LINER": 2.4186,
+   "LINE": 2.6792
+  },
+  "winner": "LINER",
+  "margin_to_2nd": 0.2299,
+  "decidable": false,
+  "ranking": [
+   "LINER",
+   "NINER",
+   "LINE"
+  ]
+ },
+ "x_slot_seg06": {
+  "scores": {
+   "JOHNSON": 0.7251,
+   "LEAVING_FLIGHT": 0.8979,
+   "PASSING_FLIGHT": 0.9108,
+   "JUST_ON": 0.8805
+  },
+  "winner": "JOHNSON",
+  "margin_to_2nd": 0.1554,
+  "decidable": false,
+  "ranking": [
+   "JOHNSON",
+   "JUST_ON",
+   "LEAVING_FLIGHT",
+   "PASSING_FLIGHT"
+  ]
+ }
+}

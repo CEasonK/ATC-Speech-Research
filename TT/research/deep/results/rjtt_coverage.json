@@ -1,0 +1,73 @@
+{
+ "definition": "终稿 token 被 ≥2 个证据源支持的占比；可信下界",
+ "overall": {
+  "tokens": 233,
+  "supported": 194,
+  "coverage": 0.833
+ },
+ "per_segment": [
+  {
+   "seg": "seg00",
+   "tokens": 48,
+   "supported": 40,
+   "coverage": 0.833,
+   "conf": "medium-low"
+  },
+  {
+   "seg": "seg01",
+   "tokens": 46,
+   "supported": 38,
+   "coverage": 0.826,
+   "conf": "medium"
+  },
+  {
+   "seg": "seg02",
+   "tokens": 12,
+   "supported": 7,
+   "coverage": 0.583,
+   "conf": "low"
+  },
+  {
+   "seg": "seg03",
+   "tokens": 13,
+   "supported": 10,
+   "coverage": 0.769,
+   "conf": "medium"
+  },
+  {
+   "seg": "seg04",
+   "tokens": 8,
+   "supported": 4,
+   "coverage": 0.5,
+   "conf": "low-medium"
+  },
+  {
+   "seg": "seg05",
+   "tokens": 7,
+   "supported": 4,
+   "coverage": 0.571,
+   "conf": "low"
+  },
+  {
+   "seg": "seg06",
+   "tokens": 34,
+   "supported": 32,
+   "coverage": 0.941,
+   "conf": "medium"
+  },
+  {
+   "seg": "seg07",
+   "tokens": 48,
+   "supported": 45,
+   "coverage": 0.938,
+   "conf": "medium"
+  },
+  {
+   "seg": "seg08",
+   "tokens": 17,
+   "supported": 14,
+   "coverage": 0.824,
+   "conf": "medium"
+  }
+ ]
+}

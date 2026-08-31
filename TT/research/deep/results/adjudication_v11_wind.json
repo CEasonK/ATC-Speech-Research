@@ -1,0 +1,126 @@
+{
+ "CYYT_ATIS_a": {
+  "atc": [
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 1.4588642120361328,
+    "median_score": 2.0285075902938843,
+    "t_start": 65.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO FIVE",
+    "score": 1.9217277765274048,
+    "median_score": 2.458168685436249,
+    "t_start": 65.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO SEVEN ZERO AT FIVE",
+    "score": 2.157198667526245,
+    "median_score": 2.473019003868103,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "TWO FOUR ZERO AT FIVE",
+    "score": 2.7816503047943115,
+    "median_score": 2.7960946559906006,
+    "t_start": 65.0,
+    "n_windows": 2
+   }
+  ],
+  "v3": [
+   {
+    "variant": "WIND TWO FOUR ZERO FIVE",
+    "score": 2.673365592956543,
+    "median_score": 2.7293546199798584,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 2.789961814880371,
+    "median_score": 2.7943698167800903,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "WIND TWO SEVEN ZERO AT FIVE",
+    "score": 3.9800262451171875,
+    "median_score": 4.0338616371154785,
+    "t_start": 60.0,
+    "n_windows": 2
+   },
+   {
+    "variant": "TWO FOUR ZERO AT FIVE",
+    "score": 4.40226411819458,
+    "median_score": 4.42721962928772,
+    "t_start": 60.0,
+    "n_windows": 2
+   }
+  ]
+ },
+ "CYYT_ATIS_b": {
+  "atc": [
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 2.794127941131592,
+    "median_score": 2.794127941131592,
+    "t_start": 235.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO FIVE",
+    "score": 3.2191765308380127,
+    "median_score": 3.2191765308380127,
+    "t_start": 235.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "ZULU WIND TWO FOUR ZERO AT FIVE",
+    "score": 3.820141077041626,
+    "median_score": 3.820141077041626,
+    "t_start": 235.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "TWO FOUR ZERO AT FIVE",
+    "score": 4.063436985015869,
+    "median_score": 4.063436985015869,
+    "t_start": 235.0,
+    "n_windows": 1
+   }
+  ],
+  "v3": [
+   {
+    "variant": "WIND TWO FOUR ZERO FIVE",
+    "score": 3.8364548683166504,
+    "median_score": 3.8364548683166504,
+    "t_start": 235.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "WIND TWO FOUR ZERO AT FIVE",
+    "score": 4.04638147354126,
+    "median_score": 4.04638147354126,
+    "t_start": 235.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "TWO FOUR ZERO AT FIVE",
+    "score": 4.3799920082092285,
+    "median_score": 4.3799920082092285,
+    "t_start": 235.0,
+    "n_windows": 1
+   },
+   {
+    "variant": "ZULU WIND TWO FOUR ZERO AT FIVE",
+    "score": 4.404876708984375,
+    "median_score": 4.404876708984375,
+    "t_start": 235.0,
+    "n_windows": 1
+   }
+  ]
+ }
+}

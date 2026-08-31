@@ -1,0 +1,164 @@
+{
+ "seg00": {
+  "detected": "en",
+  "auto": {
+   "text": "I'm going to U-T-F-A-1-0-Y-A passing 1-8-9-4-5-2-4-0 U-T-F-A-1-0-Y-A, I'm passing to you, control, climb maintain, fly over 3-2-0 climb maintain, fly over 3-2-0, U-T-F-A-1-0-Y-A",
+   "avg_logprob": -0.4705,
+   "n_tokens": 99
+  },
+  "en": {
+   "text": "KTX10Y, passing 18945, 240 KTX10Y, Alpha, attention, control, climb maintain, FL320 climb maintain, FL320, KTX10Y",
+   "avg_logprob": -0.5766,
+   "n_tokens": 43
+  },
+  "ja": {
+   "text": "JRJR10E、パーシング18945、240JRJR10E、アルファ、195、クラウドメンテンス、320クラウドメンテンス、320、JRJR10E",
+   "avg_logprob": -0.4351,
+   "n_tokens": 64
+  }
+ },
+ "seg01": {
+  "detected": "en",
+  "auto": {
+   "text": "I'm in for the level 3.0.0. Direct to Maida. I'm in for the level 3.0.0. Direct to Maida. I'm in for the level 3.0.0. Direct to Maida. I'm in for the level 3.0.0. Direct to Maida.",
+   "avg_logprob": -0.4023,
+   "n_tokens": 70
+  },
+  "en": {
+   "text": "Tokyo Control, good afternoon, Shanghai Air 896, climb in for level 200. Shanghai Air 767, Tokyo Control, climb in for level 300, 1K direct Maida. Climb in for level 300, direct Maida, Shanghai Air 896.",
+   "avg_logprob": -0.2894,
+   "n_tokens": 54
+  },
+  "ja": {
+   "text": "東京コントロール 上海1896 上海インフラレベル200上海1896 東京コントロール 上海インフラレベル300 一回ダイレクト 前田上海インフラレベル300 前田 上海1896",
+   "avg_logprob": -0.2588,
+   "n_tokens": 73
+  }
+ },
+ "seg02": {
+  "detected": "ja",
+  "auto": {
+   "text": "MADES, ASTRAEBOS 3200.",
+   "avg_logprob": -1.7172,
+   "n_tokens": 16
+  },
+  "en": {
+   "text": "723, close to Madagascar, A330.",
+   "avg_logprob": -1.0527,
+   "n_tokens": 15
+  },
+  "ja": {
+   "text": "1773クロスまででアクセラレボ32ドロー",
+   "avg_logprob": -0.6898,
+   "n_tokens": 18
+  }
+ },
+ "seg03": {
+  "detected": "ja",
+  "auto": {
+   "text": "",
+   "avg_logprob": -0.8071,
+   "n_tokens": 2
+  },
+  "en": {
+   "text": "Japan Air 723, course 5D, go ahead, Flaherty, 320.",
+   "avg_logprob": -1.039,
+   "n_tokens": 21
+  },
+  "ja": {
+   "text": "JPY723コスマディグアットフラルボ320",
+   "avg_logprob": -0.5406,
+   "n_tokens": 20
+  }
+ },
+ "seg04": {
+  "detected": "en",
+  "auto": {
+   "text": "Orange Liner 1A, speak to Azak, Zafi.",
+   "avg_logprob": -1.0167,
+   "n_tokens": 19
+  },
+  "en": {
+   "text": "Orange Liner 1A, speak to Azad, Zafi.",
+   "avg_logprob": -0.8831,
+   "n_tokens": 16
+  },
+  "ja": {
+   "text": "オレンジライナー1A、BKZ、バーシー",
+   "avg_logprob": -0.5425,
+   "n_tokens": 19
+  }
+ },
+ "seg05": {
+  "detected": "en",
+  "auto": {
+   "text": "I can't believe it.",
+   "avg_logprob": -1.2303,
+   "n_tokens": 8
+  },
+  "en": {
+   "text": "That's a bust.",
+   "avg_logprob": -1.1895,
+   "n_tokens": 6
+  },
+  "ja": {
+   "text": "ご視聴ありがとうございました",
+   "avg_logprob": -0.3705,
+   "n_tokens": 6
+  }
+ },
+ "seg06": {
+  "detected": "en",
+  "auto": {
+   "text": "",
+   "avg_logprob": -2.2484,
+   "n_tokens": 2
+  },
+  "en": {
+   "text": "Tokyo Control, FedEx 15 heavy, join two out of 180, climbing 240. FedEx 15, Tokyo Control, climb and maintain. Cleared for 320, you're steady. Climb 320, FedEx 15 heavy.",
+   "avg_logprob": -0.3687,
+   "n_tokens": 47
+  },
+  "ja": {
+   "text": "東京コントロールFETEX15 heavy ジョンシュアドブ180 カーミング240FETEX15東京コントロール カーミング240 カーミング320にシャリカーミング320 FETEX15 heavy",
+   "avg_logprob": -0.4197,
+   "n_tokens": 68
+  }
+ },
+ "seg07": {
+  "detected": "ja",
+  "auto": {
+   "text": "",
+   "avg_logprob": -3.0695,
+   "n_tokens": 2
+  },
+  "en": {
+   "text": "Tokyo Control, Japan Air 239 leaving flight level 175, climbing flight level 200. Japan 237, Tokyo Control, Rika Direct EGOT, climb maintain flight level 300. Direct EGOT, climb flight level 300, Japan Air 239.",
+   "avg_logprob": -0.3469,
+   "n_tokens": 53
+  },
+  "ja": {
+   "text": "TKC、JR239R、リーディングフライトレベル175、クライミングフライトレベル200JR237、TKC、立海ダイレクト、OE、E5とクライムメンテファルバー302ダイレクトE5とクライムフライトレベル300、JR239R",
+   "avg_logprob": -0.3077,
+   "n_tokens": 96
+  }
+ },
+ "seg08": {
+  "detected": "en",
+  "auto": {
+   "text": ", TACO control, Shanghai 896, request flight level 380 or 400.",
+   "avg_logprob": -1.1875,
+   "n_tokens": 20
+  },
+  "en": {
+   "text": "Tokyo Control, Shanghai Air 896, request flight level 380 or 400.",
+   "avg_logprob": -0.48,
+   "n_tokens": 17
+  },
+  "ja": {
+   "text": "TKCIA96、レイヤーレベルはA0、A4、A0",
+   "avg_logprob": -0.9544,
+   "n_tokens": 23
+  }
+ }
+}

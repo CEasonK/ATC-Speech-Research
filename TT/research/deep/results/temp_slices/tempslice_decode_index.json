@@ -1,0 +1,26 @@
+[
+ {
+  "id": "CYYT_ATIS_a_tempslice_atc",
+  "text": "THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAD RUNWAY TWO EIGHT INFORM"
+ },
+ {
+  "id": "CYYT_ATIS_b_tempslice_atc",
+  "text": "TWO FOUR THOUSAND FEET TARAN REPORT NINER ONE ALTITUDE THREE ZERO THREE THREE ARNAV NEW RUNWAY TWO EIGHT INFORM FIENDER CENTER ON FREQUENCY THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INITIAL CONTACT LANDING AND DEPARTING ONE EIGHT"
+ },
+ {
+  "id": "CYYT_ATIS_a_tempslice_v3",
+  "text": "Temperature 1. Report minus 1. Altimeter 3023. Approach. RNAD runway 28. Informed."
+ },
+ {
+  "id": "CYYT_ATIS_b_tempslice_v3",
+  "text": "Q4000Q, turn, report minus one, altimeter 3023. RNAV, new runway 28, inform Gander Center on frequency 3.15 of requested approach on initial contact, landing and departing runway 28."
+ },
+ {
+  "id": "CYYT_ATIS_a_tempslice_qwen",
+  "text": "Thousand two, temperature one, two point minus one, altimeter three zero two three, approach, Armad runway two eight, inform."
+ },
+ {
+  "id": "CYYT_ATIS_b_tempslice_qwen",
+  "text": "Two four thousand two ten two point minus one altimeter three zero three three. RNAV new runway two eight. Inform standard center on frequency three decimal one five for requested approach on initial contact. Landing and departing runway."
+ }
+]

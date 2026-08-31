@@ -1,0 +1,34 @@
+{
+ "system": "m2m100_418M-back",
+ "based_on": "template",
+ "back_en": [
+  "St. John's Airport broadcast information Foxtrot (F), weather observation time 0200 World Coordination time.",
+  "Wind to 240, wind speed 5 degrees.",
+  "Visibility 15, the cloud is 24,000 feet high.",
+  "The temperature is 1°C, the point of noise is 1°C.",
+  "Correction of sea pressure 3033 (30.33 inches).",
+  "approach RNAV Z, using runway 28.",
+  "When requested, contact the Gund Center at a frequency of 123.15.",
+  "Landing and departure using runway 28, for the first time contact the near-time report.",
+  "When contacting the Controller (ATC) you have received the transmission information Foxtrot (F).",
+  "approach RNAV Z, using runway 28.",
+  "Landing and departure using runway 28, for the first time contact the near-time report.",
+  "When contacting the Controller (ATC) you have received the transmission information Foxtrot (F)."
+ ],
+ "chrf_per_line": [
+  0.4659,
+  0.2125,
+  0.3491,
+  0.4554,
+  0.1179,
+  0.5815,
+  0.4161,
+  0.5022,
+  0.5523,
+  0.5815,
+  0.5022,
+  0.5523
+ ],
+ "chrf_mean": 0.4408,
+ "elapsed_sec": 13.2
+}

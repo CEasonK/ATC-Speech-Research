@@ -1,0 +1,5 @@
+文件名: CYYT_01_denoised
+音频路径: /siyuan/FunASR_extracted/FunASR-main/TT/Tequipmentdata/denoised/CYYT_cyyt1_atis_20260817160101_denoised.wav
+模型: whisper-large-v3-finetuned-for-ATC
+识别结果:
+RYANAIR SEVEN SEVEN

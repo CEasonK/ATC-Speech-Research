@@ -1,0 +1,21 @@
+{
+  "noise_db_orig": -83.64212280105299,
+  "noise_db_denoised": -99.85137983557519,
+  "overall_db_orig": -19.257271452972592,
+  "overall_db_denoised": -27.686554043618937,
+  "peak_db_orig": 0.0,
+  "peak_db_denoised": -4.005159055582791,
+  "snr_original_db": 64.3848513480804,
+  "snr_denoised_db": 72.16482579195625,
+  "audio": "RJTT_CONTROL",
+  "method": 1,
+  "method_name": "noisereduce",
+  "version": 1,
+  "input": "RJTT_CONTROL.wav",
+  "config": {
+    "method": 1,
+    "desc": "高通滤波(300Hz) + noisereduce 频谱门限降噪",
+    "high_pass_cutoff": 300,
+    "prop_decrease": 0.8
+  }
+}

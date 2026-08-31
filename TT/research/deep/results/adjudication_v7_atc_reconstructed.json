@@ -1,0 +1,50 @@
+{
+ "_provenance": "adjudication_v7.json 当年未落盘，atc 裁判数值仅存于日志；本文件由 JOURNAL.md『v7 骨架词终审（atc 裁判部分，log 提取）』节转录，仅含 log 记录到的汇总数值，非完整变体矩阵",
+ "judge": "atc",
+ "source": "JOURNAL.md v7 节 (log 提取)",
+ "opening": {
+  "winner": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "nll": {
+   "a": [
+    1.6,
+    2.24
+   ],
+   "b": [
+    1.48,
+    2.05
+   ]
+  },
+  "note": "[冠军NLL, 次名NLL]，双信道压倒性一致"
+ },
+ "alti_word": {
+  "winner": "ALTITUDE",
+  "runnerups": [
+   "ALTIMETER",
+   "QNH"
+  ],
+  "nll_a": [
+   1.25,
+   1.49
+  ],
+  "note": "双信道 ALTITUDE 胜；log 仅记 a 数值"
+ },
+ "closing": {
+  "winner_by_channel": {
+   "a": "AS REQUESTED",
+   "b": "WHEN REQUESTED"
+  },
+  "nll": {
+   "a": 0.85,
+   "b": 1.24
+  },
+  "note": "差距极小，由 v7b 三裁判复核定案"
+ },
+ "tail": {
+  "winner": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "nll_range": [
+   0.6,
+   0.72
+  ],
+  "note": "双信道压倒性；log 仅记区间"
+ }
+}

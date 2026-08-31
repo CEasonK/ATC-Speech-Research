@@ -1,0 +1,31 @@
+{
+ "n_sentences": 2,
+ "n_words_total": 270,
+ "split_threshold_sec": 0.8,
+ "asr_final_delay": {
+  "median": 2.86,
+  "p95": 51.94
+ },
+ "translate_latency_median": 0.39,
+ "translate_estimated": false,
+ "translate_sampled_n": 12,
+ "e2e_p50": 14.32,
+ "e2e_p95": 52.38,
+ "small_sample_warn": true,
+ "per_sentence": [
+  {
+   "sent_audio_start": 0.14,
+   "asr_final_delay": 2.86,
+   "translate_sec": 11.46,
+   "e2e": 14.32,
+   "pairing": "measured"
+  },
+  {
+   "sent_audio_start": 2.06,
+   "asr_final_delay": 51.94,
+   "translate_sec": 0.44,
+   "e2e": 52.38,
+   "pairing": "measured"
+  }
+ ]
+}

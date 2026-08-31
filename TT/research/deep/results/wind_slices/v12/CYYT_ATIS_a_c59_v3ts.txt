@@ -1,0 +1,1 @@
+Weather  at  0 200 ,  wind  240 ,  visibility  15 ,  T 4 000 Q ,  temperature  1 ,  viewpoint  minus ,  alt imeter  30 23 ,  approach ,  RNA V  0 100 .

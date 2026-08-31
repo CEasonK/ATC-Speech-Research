@@ -1,0 +1,743 @@
+{
+ "source": "results/stream_en_a.txt",
+ "system": "qwen2.5-7b-instruct",
+ "variant": "constrained",
+ "load_sec": 11.5,
+ "en": [
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO TWO THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO TWO THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO TWO THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO TWO THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO TWO THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ ],
+ "zh": [
+  "圣约翰斯 信息 F 天气 世界协调时零二零零",
+  "风向二四零，风速五节",
+  "能见度 15，云底高 24000 英尺",
+  "温度一，露点零下一",
+  "修正海压三零二三",
+  "进近 RNAV Z 跑道28",
+  "首次联系通知冈德中心，频率 123.15 按需",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "进近 RNAV Z 跑道28",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "圣约翰斯 信息 F 天气 世界协调时零二零零",
+  "风向二四零，风速五节",
+  "能见度 15，云底高 24000 英尺",
+  "温度一，露点零下一",
+  "修正海压三零二三",
+  "进近 RNAV Z 跑道28",
+  "首次联系通知冈德中心，频率 123.15 按需",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "进近 RNAV Z 跑道28",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "圣约翰斯 信息 F 天气 世界协调时零二零零",
+  "风向二四零，风速五节",
+  "能见度 15，云底高 24000 英尺",
+  "温度一，露点零下一",
+  "修正海压三零二三",
+  "进近 RNAV Z 跑道28",
+  "首次联系通知冈德中心，频率 123.15 按需",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "进近 RNAV Z 跑道28",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "圣约翰斯 信息 F 天气 世界协调时零二零零",
+  "风向二四零，风速五节",
+  "能见度 15，云底高 24000 英尺",
+  "温度一，露点零下一",
+  "修正海压三零二三",
+  "进近 RNAV Z 跑道28",
+  "首次联系通知冈德中心，频率 123.15 按需",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "进近 RNAV Z 跑道28",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "圣约翰斯 信息 F 天气 世界协调时零二零零",
+  "风向二四零，风速五节",
+  "能见度 15，云底高 24000 英尺",
+  "温度一，露点零下一",
+  "修正海压三零二三",
+  "进近 RNAV Z 跑道28",
+  "首次联系通知冈德中心，频率 123.15 按需",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot",
+  "进近 RNAV Z 跑道28",
+  "进近首次联系 落地和起飞跑道28",
+  "通知管制员您已收到通播信息 Foxtrot"
+ ],
+ "raw_output_preview": "1. 圣约翰斯通播信息 Foxtrot 世界协调时零二零零\n2. 风向二四零，风速五节\n3. 能见度 15，云底高 24000 英尺\n4. 温度一，露点零下一\n5. 修正海压三零二三\n6. 进近 RNAV Z 跑道28\n7. 首次联系通知冈德中心，频率一百二十三点一五 按需\n8. 进近首次联系 落地和起飞跑道28\n9. 通知管制员您已收到通播信息 Foxtrot\n10. 进近 RNAV Z 跑道28\n11. 进近首次联系 落地和起飞跑道28\n12. 通知管制员您已收到通播信息 Foxtrot\n13. 圣约翰斯通播信息 Foxtrot 世界协调时零二零零\n14. 风向二四零，风速五节\n15. 能见度 15，云底高 24000 英尺\n16. 温度一，露点零下一\n17. 修正海压三零二三\n18. 进近 RNAV Z 跑道28\n19. 首次联系通知冈德中心，频率一百二十三点一五 按需\n20. 进近首次联系 落地和起飞跑道28\n21. 通知管制员您已收到通播信息 Foxtrot\n22. 进近 RNAV Z 跑道28\n23. 进近首次联系 落地和起飞跑道28\n24. 通知管制员您已收到通播信息 Foxtrot\n25. 圣约翰斯通播信息 Foxtrot 世界协调时零二零零\n26. 风向二四零，风速五节\n27. 能见度 15，云底高 24000 英尺\n28. 温度一，露点零下一\n29. 修正海压三",
+ "unparsed_lines": 0,
+ "metrics": {
+  "numeric_fidelity": 1.0,
+  "term_hit_rate": 1.0
+ },
+ "numeric_detail": [
+  {
+   "line": 1,
+   "en": [
+    "0200"
+   ],
+   "zh": [
+    "0200"
+   ],
+   "ok": true
+  },
+  {
+   "line": 2,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 3,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 4,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 5,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 6,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 7,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 8,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 9,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 10,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 11,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 12,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 13,
+   "en": [
+    "0200"
+   ],
+   "zh": [
+    "0200"
+   ],
+   "ok": true
+  },
+  {
+   "line": 14,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 15,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 16,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 17,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 18,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 19,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 20,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 21,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 22,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 23,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 24,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 25,
+   "en": [
+    "0200"
+   ],
+   "zh": [
+    "0200"
+   ],
+   "ok": true
+  },
+  {
+   "line": 26,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 27,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 28,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 29,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 30,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 31,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 32,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 33,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 34,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 35,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 36,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 37,
+   "en": [
+    "0200"
+   ],
+   "zh": [
+    "0200"
+   ],
+   "ok": true
+  },
+  {
+   "line": 38,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 39,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 40,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 41,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 42,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 43,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 44,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 45,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 46,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 47,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 48,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 49,
+   "en": [
+    "0200"
+   ],
+   "zh": [
+    "0200"
+   ],
+   "ok": true
+  },
+  {
+   "line": 50,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 51,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 52,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 53,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 54,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 55,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 56,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 57,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 58,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 59,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 60,
+   "en": [],
+   "zh": [],
+   "ok": true
+  }
+ ],
+ "term_misses": [],
+ "retries": [
+  {
+   "bad": 10,
+   "fixed": 10
+  },
+  {
+   "bad": 10,
+   "fixed": 10
+  },
+  {
+   "bad": 10,
+   "fixed": 10
+  }
+ ]
+}

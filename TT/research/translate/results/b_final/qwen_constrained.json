@@ -1,0 +1,175 @@
+{
+ "source": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/b_final.txt",
+ "system": "qwen2.5-7b-instruct",
+ "variant": "constrained",
+ "gen_sec": 7.7,
+ "en": [
+  "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+  "TEMPERATURE ONE DEW POINT MINUS ONE",
+  "ALTIMETER THREE ZERO THREE THREE",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE WHEN REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+  "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT"
+ ],
+ "zh": [
+  "圣约翰斯 信息F 气象 世界协调时零二零零",
+  "风向二四零，风速五节",
+  "能见度 15，云底高 24000 英尺",
+  "温度一，露点零下一",
+  "修正海压 3033",
+  "进近 RNAV Z 跑道28",
+  "当被要求时首次联系冈德中心，频率 123.15",
+  "首次联系进近，落地和起飞跑道28",
+  "通知空中交通管制，您已收到通播信息 Foxtrot",
+  "进近 RNAV Z 跑道28",
+  "首次联系进近，落地和起飞跑道28",
+  "通知空中交通管制，您已收到通播信息 Foxtrot"
+ ],
+ "raw_output_preview": "1. N. 圣约翰斯通播信息 Foxtrot 世界协调时零二零零\n2. N. 风向二四零，风速五节\n3. N. 能见度 15，云底高 24000 英尺\n4. N. 温度一，露点零下一\n5. N. 修正海压 3033\n6. N. 进近 RNAV Z 跑道28\n7. N. 当被要求时首次联系冈德中心，频率 123.15\n8. N. 首次联系进近，落地和起飞跑道28\n9. N. 通知空中交通管制，您已收到通播信息 Foxtrot\n10. N. 进近 RNAV Z 跑道28\n11. N. 首次联系进近，落地和起飞跑道28\n12. N. 通知空中交通管制，您已收到通播信息 Foxtrot",
+ "unparsed_lines": 0,
+ "metrics": {
+  "numeric_fidelity": 1.0,
+  "term_hit_rate": 1.0
+ },
+ "numeric_detail": [
+  {
+   "line": 1,
+   "en": [
+    "0200"
+   ],
+   "zh": [
+    "0200"
+   ],
+   "ok": true
+  },
+  {
+   "line": 2,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 3,
+   "en": [
+    "15",
+    "24000"
+   ],
+   "zh": [
+    "15",
+    "24000"
+   ],
+   "ok": true
+  },
+  {
+   "line": 4,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  {
+   "line": 5,
+   "en": [
+    "3033"
+   ],
+   "zh": [
+    "3033"
+   ],
+   "ok": true
+  },
+  {
+   "line": 6,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 7,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 8,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 9,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 10,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 11,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 12,
+   "en": [],
+   "zh": [],
+   "ok": true
+  }
+ ],
+ "term_misses": [],
+ "retries": [
+  {
+   "bad": 1,
+   "fixed": 1
+  },
+  {
+   "bad": 1,
+   "fixed": 1
+  },
+  {
+   "bad": 1,
+   "fixed": 1
+  }
+ ]
+}

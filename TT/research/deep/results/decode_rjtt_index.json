@@ -1,0 +1,218 @@
+[
+ {
+  "id": "atc_beam5_seg00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg00.txt",
+  "text": "GOLF ZERO JULIETT TOWER ONE ZERO YANKEE AEROFLOT PASSING ONE EIGHT NINER FOUR FLIGHT LEVEL TWO FOUR ZERO JULIETT TOWER ONE ZERO YANKEE AEROFLOT THANK YOU GOLF ZERO CLIMB MAINTAIN FLIGHT LEVEL THREE TWO ZERO CLIMB MAINTAIN FLIGHT LEVEL THREE TWO ZERO JULIETT TOWER ONE ZERO YANKEE AEROFLOT"
+ },
+ {
+  "id": "atc_beam5_seg01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg01.txt",
+  "text": "PAPA KILO KILO GOOD AFTERNOON SHAMROCK EIGHT NINER SIX CLIMBING FLIGHT LEVEL TWO HUNDRED SHAMROCK EIGHT NINER SIX TOUCH AND CONTROL CLIMB MAINTAIN FLIGHT LEVEL THREE ZERO ZERO REQUEST DIRECT TO MAIDA CLIMBING FLIGHT LEVEL THREE ZERO ZERO DIRECT TO MAIDA SHAMROCK EIGHT NINER SIX"
+ },
+ {
+  "id": "atc_beam5_seg02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg02.txt",
+  "text": "THAI NINER THREE THREE KILO LIMA DE ZULU AT FLIGHT LEVEL THREE TWO ZERO"
+ },
+ {
+  "id": "atc_beam5_seg03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg03.txt",
+  "text": "JETSTAR NINER TWO SIX MADIGU AT TO FLIGHT LEVEL THREE TWO ZERO"
+ },
+ {
+  "id": "atc_beam5_seg04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg04.txt",
+  "text": "ORANGE NINER ONE EIGHT THREE QUEBEC ONE THREE"
+ },
+ {
+  "id": "atc_beam5_seg05",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg05.txt",
+  "text": "DECIMAL TWO RYANAIR ONE EIGHT"
+ },
+ {
+  "id": "atc_beam5_seg06",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg06.txt",
+  "text": "TOKYO CONTROL FEDEX ONE FIVE HEAVY JOHNSON LEVEL ONE EIGHT ZERO CLIMBING TWO FOUR ZERO FEDEX ONE FIVE TOKYO CONTROL CLIMBING LEVEL THREE TWO ZERO INITIALLY CLIMB THREE TWO ZERO FEDEX ONE FIVE"
+ },
+ {
+  "id": "atc_beam5_seg07",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg07.txt",
+  "text": "TAKEOFF CONTROL JAPANAIR TWO THREE NINER LEAVING FLIGHT LEVEL ONE SEVEN FIVE CLIMBING FLIGHT LEVEL TWO ZERO ZERO JAPAN TWO THREE NINER TAKEOFF CONTROL VICTOR DIRECT TO OSCAR IGOTO CLIMB MAINTAIN FLIGHT LEVEL THREE ZERO ZERO DIRECT TO IGOTO CLIMB FLIGHT LEVEL THREE ZERO ZERO JAPANAIR TWO THREE NINER"
+ },
+ {
+  "id": "atc_beam5_seg08",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/atc_beam5_seg08.txt",
+  "text": "TOKYO CAN YOU SHAMROCK NINER SIX REQUEST FLIGHT LEVEL THREE EIGHT ZERO OR FOUR ZERO ZERO"
+ },
+ {
+  "id": "qwen_seg00",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg00.txt",
+  "text": "Control jet alpha one zero. I'm clear. Alpha passing one eight nine four five two zero. Jet alpha one zero. I'm clear. Alpha channel control. I'm intensity zero. I'm intensity zero. Three two zero. Jet alpha one zero. I'm clear."
+ },
+ {
+  "id": "qwen_seg01",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg01.txt",
+  "text": "Tokyo Control, good afternoon, Shanghai A96 climbing FL200. Shanghai A96, Tokyo Control, climbing FL200. 300. Direct to Maida. Climbing FL300, direct to Maida. Shanghai A96."
+ },
+ {
+  "id": "qwen_seg02",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg02.txt",
+  "text": "37360 Madge Asrarbo 320."
+ },
+ {
+  "id": "qwen_seg03",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg03.txt",
+  "text": "Japan Air 720 equals Spadig at two hundred and thirty-two zero."
+ },
+ {
+  "id": "qwen_seg04",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg04.txt",
+  "text": "Orange Line One Eight, bigger than Duffy."
+ },
+ {
+  "id": "qwen_seg05",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg05.txt",
+  "text": "That's possible, anyway."
+ },
+ {
+  "id": "qwen_seg06",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg06.txt",
+  "text": "Tokyo Control, FedEx One Five Heavy Junk Jet of One Eight Zero, coming Two Four Zero. FedEx One Five, Tokyo Control, coming to maintain. Coming to Three Two Zero initially. I'm Three Two Zero, FedEx One Five."
+ },
+ {
+  "id": "qwen_seg07",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg07.txt",
+  "text": "Tokyo Control, Japania T three nine, leaving flight level one seven five, climbing flight level two zero zero. Japania T three nine, Tokyo Control, direct to Igo to climb to flight level three zero zero. Direct to Igo to climb to flight level three zero zero, Japania T three nine."
+ },
+ {
+  "id": "qwen_seg08",
+  "file": "/siyuan/FunASR_extracted/FunASR-main/TT/research/deep/results/decode_rjtt/qwen_seg08.txt",
+  "text": "Tokyo Central Changi Airline Six requests level three A zero or four zero zero."
+ },
+ {
+  "id": "turbo_seg00",
+  "text": "german control juliett airfr one zero Yankee Alpha passing one eight nine four flight level two four zero juliett airfr one zero yankee Alpha st prex control climb in ten flight level three two zero juliett airfr one zero Yankee Alpha"
+ },
+ {
+  "id": "turbo_seg01",
+  "text": "tunkey control good afternoon sierra eight nine six climb in flight level two hundred sierra eight nine six departure control climb in flight level three zero zero you can direct to maida climb in flight level three zero zero direct to maida sierra eight nine six"
+ },
+ {
+  "id": "turbo_seg02",
+  "text": "nine seven two three cross to madrigue ah flight level three two zero"
+ },
+ {
+  "id": "turbo_seg03",
+  "text": "japanair nine two three cross now digu at flight level three two zero"
+ },
+ {
+  "id": "turbo_seg04",
+  "text": "air inter eight one eight  sabena  sabena"
+ },
+ {
+  "id": "turbo_seg05",
+  "text": "taxi possibly one two nine one eight"
+ },
+ {
+  "id": "turbo_seg06",
+  "text": "tokyo control Fedex one five heavy jet of one eight zero climbing two four zero Fedex one five Tokyo control climb maintain level three two zero initially climb three two zero Fedex one five"
+ },
+ {
+  "id": "turbo_seg07",
+  "text": "Turkio Control Japan Air Two Three Niner leaving flight level one seven five climbing flight level two zero zero Japan Two Three Niner Tokyo Control cleared to リゴート climb flight level three zero zero ダイレクト リゴート climb flight level three zero zero Japan Air Two Three Niner"
+ },
+ {
+  "id": "turbo_seg08",
+  "text": "tokyo control sierra eight nine six request flight level three eight zero or four zero zero"
+ },
+ {
+  "id": "v3b_seg00",
+  "file": "<generated:v3b_seg00>",
+  "text": "GEC10Y, passing 18945, 240. GEC10Y, Alpha, attention, GEC10Y, 320. GEC10Y, 320, GEC10Y."
+ },
+ {
+  "id": "v3p_seg00",
+  "file": "<generated:v3p_seg00>",
+  "text": "Climb maintain flight level, cleared direct, Japan Air, FedEx, Shanghai Air, Aeroflot."
+ },
+ {
+  "id": "v3b_seg01",
+  "file": "<generated:v3b_seg01>",
+  "text": "Tokyo Control, good afternoon, Shanghai Air 8-9-6, climb in for level 200. Shanghai 8-9-6, Tokyo Control, climb in for level 300, direct to Maida. Climb in for level 300, direct to Maida, Shanghai Air 8-9-6."
+ },
+ {
+  "id": "v3p_seg01",
+  "file": "<generated:v3p_seg01>",
+  "text": "Shanghai Air, FedEx, Tokyo Control, climb maintain flight level 300, cleared direct to Maida. Climb maintain flight level 300, cleared direct to Maida, Shanghai Air, FedEx."
+ },
+ {
+  "id": "v3b_seg02",
+  "file": "<generated:v3b_seg02>",
+  "text": "1773, close to Madagascar, A330."
+ },
+ {
+  "id": "v3p_seg02",
+  "file": "<generated:v3p_seg02>",
+  "text": "Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight"
+ },
+ {
+  "id": "v3b_seg03",
+  "file": "<generated:v3b_seg03>",
+  "text": "Japan Air 723, close to Mardi Gras at Flaherbo, 320."
+ },
+ {
+  "id": "v3p_seg03",
+  "file": "<generated:v3p_seg03>",
+  "text": "Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Japan Air, FedEx, Shanghai Air, FedEx, Shanghai Air, Aeroflot"
+ },
+ {
+  "id": "v3b_seg04",
+  "file": "<generated:v3b_seg04>",
+  "text": "Orange Liner 1-8, be careful of the sea."
+ },
+ {
+  "id": "v3p_seg04",
+  "file": "<generated:v3p_seg04>",
+  "text": "Aeroflot, cleared."
+ },
+ {
+  "id": "v3b_seg05",
+  "file": "<generated:v3b_seg05>",
+  "text": "Thank you for watching."
+ },
+ {
+  "id": "v3p_seg05",
+  "file": "<generated:v3p_seg05>",
+  "text": "Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight level, cleared direct, crossing restriction. Aeroflot, climb maintain flight"
+ },
+ {
+  "id": "v3b_seg06",
+  "file": "<generated:v3b_seg06>",
+  "text": "Tokyo Control, FedEx 150, we join you out of 180, climbing 240. FedEx 150, Tokyo Control, climb and maintain. Cleared for 320, you see. Climb 320, FedEx 150."
+ },
+ {
+  "id": "v3p_seg06",
+  "file": "<generated:v3p_seg06>",
+  "text": "climb 320, Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, 320. climb 320, Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, 320. climb 320, Japan Air, FedEx, Shanghai Air, Aeroflot, climb maintain flight level, 320. climb 320, Japan Air, FedEx, Shanghai Air, Aeroflot, climb 320. climb 320, Japan Air, FedEx, Shanghai Air, Aeroflot, climb 320. climb 320, Japan Air, FedEx, Shanghai Air, Aeroflot, climb 320. climb 320, Japan Air, FedEx, Shanghai Air, FedEx, Shanghai Air, Aeroflot, climb 320. climb 320, Japan Air, FedEx, Shanghai Air, FedEx, Shanghai Air, FedEx, Shanghai Air, FedEx,"
+ },
+ {
+  "id": "v3b_seg07",
+  "file": "<generated:v3b_seg07>",
+  "text": "Tokyo Control, Japan Air 239, leaving flight level 175, climbing flight level 200. Japan 237, Tokyo Control, request direct EGOT, climb and maintain flight level 300. Direct EGOT, climb flight level 300, Japan Air 239."
+ },
+ {
+  "id": "v3p_seg07",
+  "file": "<generated:v3p_seg07>",
+  "text": "Japan Air, FedEx, Shanghai Air, Aeroflot, climb flight level 300, Japan Air, FedEx, Shanghai Air."
+ },
+ {
+  "id": "v3b_seg08",
+  "file": "<generated:v3b_seg08>",
+  "text": "Tokyo Control, Shanghai Air 896, request flight level 380 or 400."
+ },
+ {
+  "id": "v3p_seg08",
+  "file": "<generated:v3p_seg08>",
+  "text": "Request flight level A0, or 4-0-0."
+ }
+]

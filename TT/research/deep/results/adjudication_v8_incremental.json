@@ -1,0 +1,446 @@
+{
+ "CYYT_ATIS_a": {
+  "atc": {
+   "H_atc": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 3.5017857551574707,
+     "median_score": 4.438228607177734,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DECIMAL",
+     "score": 2.833402156829834,
+     "median_score": 3.235948085784912,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DECIMAL NINER",
+     "score": 2.206341505050659,
+     "median_score": 2.5799615383148193,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE",
+     "score": 2.179677963256836,
+     "median_score": 2.1992902755737305,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+     "score": 1.7280552387237549,
+     "median_score": 1.9126243591308594,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE",
+     "score": 1.7995669841766357,
+     "median_score": 2.025686025619507,
+     "t_start": 110.0,
+     "n_windows": 3
+    }
+   ],
+   "H_v3": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 3.5017857551574707,
+     "median_score": 4.438228607177734,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DEW",
+     "score": 4.8870368003845215,
+     "median_score": 5.465803623199463,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DEW POINT",
+     "score": 4.462789535522461,
+     "median_score": 4.857677459716797,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DEW POINT MINUS",
+     "score": 4.483064651489258,
+     "median_score": 4.778750896453857,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "score": 4.1647233963012695,
+     "median_score": 4.171632289886475,
+     "t_start": 115.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+     "score": 3.0887839794158936,
+     "median_score": 3.2302305698394775,
+     "t_start": 110.0,
+     "n_windows": 3
+    },
+    {
+     "k": 8,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE",
+     "score": 3.0152273178100586,
+     "median_score": 3.187333583831787,
+     "t_start": 110.0,
+     "n_windows": 3
+    }
+   ]
+  },
+  "v3": {
+   "H_atc": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 2.9551591873168945,
+     "median_score": 2.9729325771331787,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DECIMAL",
+     "score": 3.180723190307617,
+     "median_score": 3.3615806102752686,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DECIMAL NINER",
+     "score": 3.471646785736084,
+     "median_score": 3.525963544845581,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE",
+     "score": 3.3546438217163086,
+     "median_score": 3.4304749965667725,
+     "t_start": 70.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+     "score": 3.1511008739471436,
+     "median_score": 3.1742236614227295,
+     "t_start": 70.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE",
+     "score": 2.958787441253662,
+     "median_score": 3.000352144241333,
+     "t_start": 65.0,
+     "n_windows": 3
+    }
+   ],
+   "H_v3": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 2.9551591873168945,
+     "median_score": 2.9729325771331787,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DEW",
+     "score": 3.4062821865081787,
+     "median_score": 3.6668777465820312,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DEW POINT",
+     "score": 2.7466518878936768,
+     "median_score": 2.884626626968384,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DEW POINT MINUS",
+     "score": 2.286336898803711,
+     "median_score": 2.448256015777588,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "score": 1.9388675689697266,
+     "median_score": 2.0421979427337646,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+     "score": 2.0809457302093506,
+     "median_score": 2.146313428878784,
+     "t_start": 65.0,
+     "n_windows": 3
+    },
+    {
+     "k": 8,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE",
+     "score": 2.047506093978882,
+     "median_score": 2.1306095123291016,
+     "t_start": 65.0,
+     "n_windows": 3
+    }
+   ]
+  }
+ },
+ "CYYT_ATIS_b": {
+  "atc": {
+   "H_atc": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 3.994058132171631,
+     "median_score": 4.638662338256836,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DECIMAL",
+     "score": 3.1918814182281494,
+     "median_score": 3.622370481491089,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DECIMAL NINER",
+     "score": 2.702467441558838,
+     "median_score": 3.01042103767395,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE",
+     "score": 2.849925994873047,
+     "median_score": 3.198733329772949,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+     "score": 2.4287822246551514,
+     "median_score": 2.6122310161590576,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE",
+     "score": 2.6565968990325928,
+     "median_score": 2.902561902999878,
+     "t_start": 230.0,
+     "n_windows": 3
+    }
+   ],
+   "H_v3": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 3.994058132171631,
+     "median_score": 4.638662338256836,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DEW",
+     "score": 5.17651891708374,
+     "median_score": 5.455973148345947,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DEW POINT",
+     "score": 5.325520992279053,
+     "median_score": 5.467487335205078,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DEW POINT MINUS",
+     "score": 5.30333137512207,
+     "median_score": 5.496593475341797,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "score": 4.659915924072266,
+     "median_score": 4.762381553649902,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+     "score": 3.7317144870758057,
+     "median_score": 3.7509231567382812,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 8,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE",
+     "score": 3.591627597808838,
+     "median_score": 3.6473281383514404,
+     "t_start": 230.0,
+     "n_windows": 3
+    }
+   ]
+  },
+  "v3": {
+   "H_atc": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 4.67945671081543,
+     "median_score": 5.033932685852051,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DECIMAL",
+     "score": 3.6994130611419678,
+     "median_score": 4.034367561340332,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DECIMAL NINER",
+     "score": 3.7772414684295654,
+     "median_score": 3.942662000656128,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE",
+     "score": 3.8320069313049316,
+     "median_score": 3.935792922973633,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE",
+     "score": 3.452326536178589,
+     "median_score": 3.650214433670044,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DECIMAL NINER ONE ALTITUDE THREE",
+     "score": 3.3091037273406982,
+     "median_score": 3.4708526134490967,
+     "t_start": 230.0,
+     "n_windows": 3
+    }
+   ],
+   "H_v3": [
+    {
+     "k": 2,
+     "text": "TEMPERATURE ONE",
+     "score": 4.67945671081543,
+     "median_score": 5.033932685852051,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 3,
+     "text": "TEMPERATURE ONE DEW",
+     "score": 5.1947479248046875,
+     "median_score": 5.305121898651123,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 4,
+     "text": "TEMPERATURE ONE DEW POINT",
+     "score": 4.9980645179748535,
+     "median_score": 5.08125114440918,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 5,
+     "text": "TEMPERATURE ONE DEW POINT MINUS",
+     "score": 4.401223182678223,
+     "median_score": 4.493093490600586,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 6,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "score": 3.932706832885742,
+     "median_score": 4.06702184677124,
+     "t_start": 230.0,
+     "n_windows": 3
+    },
+    {
+     "k": 7,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE",
+     "score": 3.531846761703491,
+     "median_score": 3.5392720699310303,
+     "t_start": 235.0,
+     "n_windows": 3
+    },
+    {
+     "k": 8,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE ALTITUDE THREE",
+     "score": 3.3513882160186768,
+     "median_score": 3.3543338775634766,
+     "t_start": 230.0,
+     "n_windows": 3
+    }
+   ]
+  }
+ }
+}

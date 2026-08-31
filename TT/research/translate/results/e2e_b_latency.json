@@ -1,0 +1,38 @@
+{
+ "n_sentences": 3,
+ "n_words_total": 231,
+ "split_threshold_sec": 0.8,
+ "asr_final_delay": {
+  "median": 13.2,
+  "p95": 55.28
+ },
+ "translate_latency_median": 0.4,
+ "translate_estimated": false,
+ "translate_sampled_n": 12,
+ "e2e_p50": 13.69,
+ "e2e_p95": 55.64,
+ "small_sample_warn": true,
+ "per_sentence": [
+  {
+   "sent_audio_start": 0.0,
+   "asr_final_delay": 3.0,
+   "translate_sec": 5.51,
+   "e2e": 8.51,
+   "pairing": "measured"
+  },
+  {
+   "sent_audio_start": 1.8,
+   "asr_final_delay": 13.2,
+   "translate_sec": 0.49,
+   "e2e": 13.69,
+   "pairing": "measured"
+  },
+  {
+   "sent_audio_start": 13.72,
+   "asr_final_delay": 55.28,
+   "translate_sec": 0.36,
+   "e2e": 55.64,
+   "pairing": "measured"
+  }
+ ]
+}

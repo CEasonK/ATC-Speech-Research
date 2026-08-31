@@ -1,0 +1,146 @@
+[
+ {
+  "contest": "visibility",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "score": 1.2738300561904907,
+     "t_start": 55.0
+    },
+    {
+     "variant": "WIND TWO FOUR ZERO AT FIVE DISABILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "score": 1.3994221687316895,
+     "t_start": 55.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "score": 1.1085695028305054,
+     "t_start": 230.0
+    },
+    {
+     "variant": "WIND TWO FOUR ZERO AT FIVE DISABILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "score": 1.174782633781433,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "WIND TWO FOUR ZERO AT FIVE VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET"
+ },
+ {
+  "contest": "frequency",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+     "score": 1.3696917295455933,
+     "t_start": 70.0
+    },
+    {
+     "variant": "CENTER ON FREQUENCY ONE TWO TWO ONE FIVE AS REQUESTED",
+     "score": 1.5676653385162354,
+     "t_start": 75.0
+    },
+    {
+     "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE SIX AS REQUESTED",
+     "score": 1.8235313892364502,
+     "t_start": 70.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+     "score": 2.734656572341919,
+     "t_start": 230.0
+    },
+    {
+     "variant": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE SIX AS REQUESTED",
+     "score": 3.0789639949798584,
+     "t_start": 230.0
+    },
+    {
+     "variant": "CENTER ON FREQUENCY ONE TWO TWO ONE FIVE AS REQUESTED",
+     "score": 3.2497458457946777,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED"
+ },
+ {
+  "contest": "time_zulu",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+     "score": 1.4184811115264893,
+     "t_start": 25.0
+    },
+    {
+     "variant": "WEATHER AT ZERO TWO ZERO ZERO JULIETT WIND TWO FOUR",
+     "score": 1.582208514213562,
+     "t_start": 30.0
+    },
+    {
+     "variant": "WEATHER AT ZERO TWO ZERO ZERO JULIET WIND TWO FOUR",
+     "score": 2.6851141452789307,
+     "t_start": 25.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+     "score": 1.0176811218261719,
+     "t_start": 235.0
+    },
+    {
+     "variant": "WEATHER AT ZERO TWO ZERO ZERO JULIETT WIND TWO FOUR",
+     "score": 1.1956933736801147,
+     "t_start": 235.0
+    },
+    {
+     "variant": "WEATHER AT ZERO TWO ZERO ZERO JULIET WIND TWO FOUR",
+     "score": 2.4178216457366943,
+     "t_start": 235.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR"
+ },
+ {
+  "contest": "runway_long",
+  "channels": {
+   "CYYT_ATIS_a": [
+    {
+     "variant": "APPROACH RNAV ZULU RUNWAY TWO EIGHT INFORM GANDER",
+     "score": 1.0326882600784302,
+     "t_start": 70.0
+    },
+    {
+     "variant": "APPROACH RNAV ZULU RUNWAY TWO NINE INFORM GANDER",
+     "score": 2.6390998363494873,
+     "t_start": 25.0
+    }
+   ],
+   "CYYT_ATIS_b": [
+    {
+     "variant": "APPROACH RNAV ZULU RUNWAY TWO EIGHT INFORM GANDER",
+     "score": 1.9364131689071655,
+     "t_start": 230.0
+    },
+    {
+     "variant": "APPROACH RNAV ZULU RUNWAY TWO NINE INFORM GANDER",
+     "score": 3.5555930137634277,
+     "t_start": 230.0
+    }
+   ]
+  },
+  "dual_witness_agree": true,
+  "winner": "APPROACH RNAV ZULU RUNWAY TWO EIGHT INFORM GANDER"
+ }
+]

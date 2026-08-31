@@ -1,0 +1,635 @@
+{
+ "source": "results/zeroprior_en_a.txt",
+ "system": "qwen2.5-7b-instruct",
+ "variant": "constrained",
+ "load_sec": 165.8,
+ "en": [
+  "LANDING TWO FOUR ZERO AT REQUESTING LEVEL ONE FIVE TWO FOUR",
+  "THOUSAND FEET TEMPERATURE ONE REPORT NINER",
+  "ONE ALCIMBER THREE THREE APPROACH ARNAB NEW RUNWAY TWO",
+  "EIGHT INFORM FANDAS CENTER ON FREQUENCY ONE DECIMAL ONE",
+  "FIVE AS REQUESTED APPROACH ON",
+  "INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "AND EIGHT TWO TWO THAT YOU HAVE INFORMATION FOXTROT time. SIX SEVEN INFORMATION",
+  "WEATHER AT ZERO TWO ZERO ZERO ZULU WIND TWO FOUR",
+  "ZERO AT FIVE DECIMALITY ONE TWO FOUR",
+  "THOUSAND FEET TEMPERATURE ONE REPORT NINER ONE ALTITUDE TWO",
+  "TWO THREE APPROACH ARNAV NEW RUNWAY TWO EIGHT",
+  "INFORM",
+  "THE ANDERSTANDING ONE TWO THREE DECIMAL ONE FIVE OF REQUESTED APPROACH",
+  "ON INITIAL CONTACT LANDING AND DEPARTING TWO",
+  "EIGHT INFORM ATC THAT YOU HAVE INFORMATION",
+  "FOXTROT I'LL START SIX SEVEN AND",
+  "FOXTROT WEATHER AT ZERO TWO",
+  "ZERO ZERO ZULU WIND TWO",
+  "FOUR ZERO FIVE VISABILITY ONE FIVE TWO FOUR THOUSAND FEET TEMPERATURE ONE REPORT",
+  "NINER ALTITUDE THREE ZERO TWO THREE APPROACH ARNAV ZULU RUNWAY",
+  "INFORM",
+  "DEANDER CENTER ON FREQUENCY ONE TWO",
+  "THREE DECIMAL ONE FIVE OF REQUESTED APPROACH ON INDIA LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "INFORM ATC THAT YOU HAVE INFORMATION",
+  "ON NINER EIGHT JOHNS INFORMATION FOXTROT WEATHER IS ZERO TWO ZERO ZERO",
+  "WIND TWO FOUR ZERO AT FIVE",
+  "DECIMALITY ONE FIVE TWO FOUR",
+  "TEMPERATURE ONE REPORT NINER ONE",
+  "ALTITUDE THREE ZERO TWO THREE",
+  "APPROACH ARNAV ZULU RUNWAY TWO EIGHT",
+  "INFORM FANDAS CENTER ON FREQUENCY ONE TWO TWO ONE FIVE AS REQUESTED",
+  "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+  "EIGHT TWO TWO THAT YOU HAVE INFORMATION FOXTROT",
+  "time. SIX JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO",
+  "ZERO ZERO ZULU WIND TWO FOUR ZERO AT FIVE VISABILITY",
+  "ONE TWO FOUR THOUSAND FEET TEMPERATURE ONE",
+  "REPORT LINE UP ONE ALTITUDE THREE ZERO TWO THREE APPROACH ARNAD",
+  "RUNWAY TWO",
+  "EIGHT INFORM"
+ ],
+ "zh": [
+  "240着陆，按需高度1524英尺。",
+  "能见度1500英尺，温度1报告9℃。",
+  "进近33号，接近阿纳布新跑道28。",
+  "信息福克斯中心，频率1.15。",
+  "进近5。",
+  "首次联系，落地和起飞跑道28。",
+  "822，您已收到信息F，时间67。",
+  "零两零零世界协调时，风向240，风速5节，天气不明。",
+  "高度500英尺，温度1报告9℃，接近阿纳布新跑道28。",
+  "能见度1000英尺，温度1报告9℃。",
+  "进近23000英尺，温度1报告9℃，接近阿纳布新跑道28。",
+  "",
+  "理解123.15，按需进近。",
+  "首次联系，落地和起飞跑道28。",
+  "通知ATC，您已收到信息F。",
+  "信息F，我开始67。",
+  "零两世界协调时，天气不明。",
+  "世界协调时零两零零，风向2，风速未知。",
+  "能见度1524000英尺，温度1报告9℃。",
+  "高度3023英尺，温度1报告9℃，接近阿纳布Zulu跑道28。",
+  "",
+  "通知冈德中心，频率123.15，按需进近，落地和起飞跑道28。",
+  "通知ATC，您已收到信息F，进近28。",
+  "通知ATC，您已收到信息F。",
+  "世界协调时零两零零，风向240，风速5节，天气不明。",
+  "风向240，风速5节。",
+  "1524频率，信息F，世界协调时零两零零，风向240，风速5节，能见度12400英尺，温度1报告9℃。",
+  "温度1报告9℃。",
+  "高度3023英尺，接近阿纳布Z",
+  "122.15频率，按需接近，落地和起飞跑道28。",
+  "通知冈德中心，频率122.15，按需接近。",
+  "首次联系，落地和起飞跑道28。",
+  "122，您已收到信息F。",
+  "信息F，世界协调时零两零零，风向240，风速5，能见度12400英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。",
+  "122.15频率，信息F，世界协调时零两零零，风向240，风速5，能见度12400英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。",
+  "122.15频率，信息F，世界协调时零两零零，风向240，风速5，能见度12400英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。",
+  "对正1，高度3023，接近阿纳布跑道28。",
+  "122.15频率，信息F，世界协调时零两零零，风向240，风速5，能见度12400英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。",
+  "通知"
+ ],
+ "raw_output_preview": "1. 240着陆，请求高度15240英尺。\n2. 温度1报告9。\n3. 33号气压计，接近阿纳布新跑道28。\n4. 信息福克斯中心频率1.15。\n5. 按需，接近跑道28。\n6. 首次联系，落地和起飞跑道28。\n7. 122，您已收到信息F，时间67。\n8. 零两零零世界协调时，风向240，风速5，温度1报告9。\n9. 高度23000英尺，温度1报告9，接近阿纳布新跑道28。\n10. \n11. 23000英尺，温度1报告9，接近阿纳布新跑道28。\n12. \n13. 理解123.15，按需接近。\n14. 首次联系，落地和起飞跑道28。\n15. 通知ATC，您已收到信息F。\n16. 信息F，我开始67。\n17. 世界协调时零两零零，风向240，风速5，露点124。\n18. 23000英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。\n19. \n20. 123.15频率，信息F，世界协调时零两零零，风向240，风速5，能见度15240英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。\n21. \n22. 通知冈德中心，频率123.15，按需接近，落地和起飞跑道28。\n23. 通知ATC，您已收到信息F。\n24. 信息F，世界协调时零两零零，风向240，风速5，露点124，高度3023，接近阿纳布Zulu跑道28。\n25. 信息F，世界协调时零两零零，风向240，风速",
+ "unparsed_lines": 4,
+ "metrics": {
+  "numeric_fidelity": 0.359,
+  "term_hit_rate": 0.8333
+ },
+ "numeric_detail": [
+  {
+   "line": 1,
+   "en": [
+    "240",
+    "1524"
+   ],
+   "zh": [
+    "240",
+    "1524"
+   ],
+   "ok": true
+  },
+  {
+   "line": 2,
+   "en": [
+    "1"
+   ],
+   "zh": [
+    "1500",
+    "1",
+    "9"
+   ],
+   "ok": false
+  },
+  {
+   "line": 3,
+   "en": [
+    "1",
+    "33",
+    "2"
+   ],
+   "zh": [
+    "33",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 4,
+   "en": [
+    "8",
+    "11"
+   ],
+   "zh": [
+    "115"
+   ],
+   "ok": false
+  },
+  {
+   "line": 5,
+   "en": [
+    "5"
+   ],
+   "zh": [
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 6,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 7,
+   "en": [
+    "822",
+    "67"
+   ],
+   "zh": [
+    "822",
+    "67"
+   ],
+   "ok": true
+  },
+  {
+   "line": 8,
+   "en": [
+    "0200",
+    "24"
+   ],
+   "zh": [
+    "0200",
+    "240",
+    "5"
+   ],
+   "ok": false
+  },
+  {
+   "line": 9,
+   "en": [
+    "0",
+    "5",
+    "124"
+   ],
+   "zh": [
+    "500",
+    "1",
+    "9",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 10,
+   "en": [
+    "1",
+    "1",
+    "2"
+   ],
+   "zh": [
+    "1000",
+    "1",
+    "9"
+   ],
+   "ok": false
+  },
+  {
+   "line": 11,
+   "en": [
+    "23",
+    "28"
+   ],
+   "zh": [
+    "23000",
+    "1",
+    "9",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 12,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 13,
+   "en": [
+    "12315"
+   ],
+   "zh": [
+    "12315"
+   ],
+   "ok": true
+  },
+  {
+   "line": 14,
+   "en": [
+    "2"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 15,
+   "en": [
+    "8"
+   ],
+   "zh": [],
+   "ok": false
+  },
+  {
+   "line": 16,
+   "en": [
+    "67"
+   ],
+   "zh": [
+    "67"
+   ],
+   "ok": true
+  },
+  {
+   "line": 17,
+   "en": [
+    "02"
+   ],
+   "zh": [
+    "02"
+   ],
+   "ok": true
+  },
+  {
+   "line": 18,
+   "en": [
+    "00",
+    "2"
+   ],
+   "zh": [
+    "0200",
+    "2"
+   ],
+   "ok": false
+  },
+  {
+   "line": 19,
+   "en": [
+    "405",
+    "1524000",
+    "1"
+   ],
+   "zh": [
+    "1524000",
+    "1",
+    "9"
+   ],
+   "ok": false
+  },
+  {
+   "line": 20,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023",
+    "1",
+    "9",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 21,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 22,
+   "en": [
+    "12"
+   ],
+   "zh": [
+    "12315",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 23,
+   "en": [
+    "315",
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 24,
+   "en": [],
+   "zh": [],
+   "ok": true
+  },
+  {
+   "line": 25,
+   "en": [
+    "8",
+    "0200"
+   ],
+   "zh": [
+    "0200",
+    "240",
+    "5"
+   ],
+   "ok": false
+  },
+  {
+   "line": 26,
+   "en": [
+    "240",
+    "5"
+   ],
+   "zh": [
+    "240",
+    "5"
+   ],
+   "ok": true
+  },
+  {
+   "line": 27,
+   "en": [
+    "1524"
+   ],
+   "zh": [
+    "1524",
+    "0200",
+    "240",
+    "5",
+    "12400",
+    "1",
+    "9"
+   ],
+   "ok": false
+  },
+  {
+   "line": 28,
+   "en": [
+    "1",
+    "1"
+   ],
+   "zh": [
+    "1",
+    "9"
+   ],
+   "ok": false
+  },
+  {
+   "line": 29,
+   "en": [
+    "3023"
+   ],
+   "zh": [
+    "3023"
+   ],
+   "ok": true
+  },
+  {
+   "line": 30,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "12215",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 31,
+   "en": [
+    "12215"
+   ],
+   "zh": [
+    "12215"
+   ],
+   "ok": true
+  },
+  {
+   "line": 32,
+   "en": [
+    "28"
+   ],
+   "zh": [
+    "28"
+   ],
+   "ok": true
+  },
+  {
+   "line": 33,
+   "en": [
+    "822"
+   ],
+   "zh": [
+    "122"
+   ],
+   "ok": false
+  },
+  {
+   "line": 34,
+   "en": [
+    "6",
+    "02"
+   ],
+   "zh": [
+    "0200",
+    "240",
+    "5",
+    "12400",
+    "1",
+    "9",
+    "3023",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 35,
+   "en": [
+    "00",
+    "240",
+    "5"
+   ],
+   "zh": [
+    "12215",
+    "0200",
+    "240",
+    "5",
+    "12400",
+    "1",
+    "9",
+    "3023",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 36,
+   "en": [
+    "124000",
+    "1"
+   ],
+   "zh": [
+    "12215",
+    "0200",
+    "240",
+    "5",
+    "12400",
+    "1",
+    "9",
+    "3023",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 37,
+   "en": [
+    "1",
+    "3023"
+   ],
+   "zh": [
+    "1",
+    "3023",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 38,
+   "en": [
+    "2"
+   ],
+   "zh": [
+    "12215",
+    "0200",
+    "240",
+    "5",
+    "12400",
+    "1",
+    "9",
+    "3023",
+    "28"
+   ],
+   "ok": false
+  },
+  {
+   "line": 39,
+   "en": [
+    "8"
+   ],
+   "zh": [],
+   "ok": false
+  }
+ ],
+ "term_misses": [
+  {
+   "line": 5,
+   "term": "\\bAS REQUESTED\\b|\\bWHEN REQUESTED\\b",
+   "expected": "按需|如需|需要时|要求时|按请求|按管制要求|当被要求",
+   "zh": "进近5。"
+  },
+  {
+   "line": 20,
+   "term": "\\bAPPROACH\\b(?! RNAV)",
+   "expected": "进近",
+   "zh": "高度3023英尺，温度1报告9℃，接近阿纳布Zulu跑道28。"
+  },
+  {
+   "line": 23,
+   "term": "\\bRUNWAY\\b",
+   "expected": "跑道",
+   "zh": "通知ATC，您已收到信息F，进近28。"
+  },
+  {
+   "line": 23,
+   "term": "\\bLANDING\\b",
+   "expected": "落地|着陆|降落",
+   "zh": "通知ATC，您已收到信息F，进近28。"
+  },
+  {
+   "line": 23,
+   "term": "\\bDEPARTING\\b",
+   "expected": "起飞|离场|出发",
+   "zh": "通知ATC，您已收到信息F，进近28。"
+  },
+  {
+   "line": 25,
+   "term": "\\bINFORMATION FOXTROT\\b|\\bINFORMATION [A-Z]\\b",
+   "expected": "信息|通播|情报",
+   "zh": "世界协调时零两零零，风向240，风速5节，天气不明。"
+  },
+  {
+   "line": 30,
+   "term": "\\bAPPROACH\\b(?! RNAV)",
+   "expected": "进近",
+   "zh": "122.15频率，按需接近，落地和起飞跑道28。"
+  },
+  {
+   "line": 32,
+   "term": "\\bAPPROACH\\b(?! RNAV)",
+   "expected": "进近",
+   "zh": "首次联系，落地和起飞跑道28。"
+  },
+  {
+   "line": 34,
+   "term": "\\bWEATHER\\b",
+   "expected": "天气|气象",
+   "zh": "信息F，世界协调时零两零零，风向240，风速5，能见度12400英尺，温度1报告9，高度3023，接近阿纳布Zulu跑道28。"
+  },
+  {
+   "line": 37,
+   "term": "\\bAPPROACH\\b(?! RNAV)",
+   "expected": "进近",
+   "zh": "对正1，高度3023，接近阿纳布跑道28。"
+  }
+ ],
+ "retries": [
+  {
+   "bad": 34,
+   "fixed": 25
+  },
+  {
+   "bad": 34,
+   "fixed": 25
+  },
+  {
+   "bad": 34,
+   "fixed": 25
+  }
+ ]
+}

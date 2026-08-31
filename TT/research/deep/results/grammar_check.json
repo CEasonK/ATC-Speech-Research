@@ -1,0 +1,399 @@
+{
+ "atis": [
+  {
+   "file": "a_final.txt",
+   "channel": "CYYT_ATIS_a",
+   "lines": [
+    {
+     "n": 1,
+     "text": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+     "checks": [
+      {
+       "slot": "info_letter",
+       "verdict": "PASS",
+       "detail": "代号 F"
+      },
+      {
+       "slot": "obs_time",
+       "verdict": "PASS",
+       "detail": "0200Z"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "text": "WIND TWO FOUR ZERO AT FIVE",
+     "checks": [
+      {
+       "slot": "wind",
+       "verdict": "PASS",
+       "detail": "方向 240° 风速 5kt"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "text": "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "checks": [
+      {
+       "slot": "visibility",
+       "verdict": "PASS",
+       "detail": "FEET 候选值 [2400, 24000]（RVR 逐位读法 在域）"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "checks": [
+      {
+       "slot": "temp_dew",
+       "verdict": "PASS",
+       "detail": "温度 +1℃; 露点 -1℃"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "text": "ALTIMETER THREE ZERO TWO THREE",
+     "checks": [
+      {
+       "slot": "qnh",
+       "verdict": "PASS",
+       "detail": "30.23 inHg 合法"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "text": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "text": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE AS REQUESTED",
+     "checks": [
+      {
+       "slot": "freq",
+       "verdict": "PASS",
+       "detail": "123.15 MHz 合法"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "text": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "text": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "checks": [
+      {
+       "slot": "info_letter",
+       "verdict": "PASS",
+       "detail": "代号 F"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "text": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "text": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "text": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "checks": [
+      {
+       "slot": "info_letter",
+       "verdict": "PASS",
+       "detail": "代号 F"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "file": "b_final.txt",
+   "channel": "CYYT_ATIS_b",
+   "lines": [
+    {
+     "n": 1,
+     "text": "SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU",
+     "checks": [
+      {
+       "slot": "info_letter",
+       "verdict": "PASS",
+       "detail": "代号 F"
+      },
+      {
+       "slot": "obs_time",
+       "verdict": "PASS",
+       "detail": "0200Z"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "text": "WIND TWO FOUR ZERO AT FIVE",
+     "checks": [
+      {
+       "slot": "wind",
+       "verdict": "PASS",
+       "detail": "方向 240° 风速 5kt"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "text": "VISIBILITY ONE FIVE TWO FOUR THOUSAND FEET",
+     "checks": [
+      {
+       "slot": "visibility",
+       "verdict": "PASS",
+       "detail": "FEET 候选值 [2400, 24000]（RVR 逐位读法 在域）"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "text": "TEMPERATURE ONE DEW POINT MINUS ONE",
+     "checks": [
+      {
+       "slot": "temp_dew",
+       "verdict": "PASS",
+       "detail": "温度 +1℃; 露点 -1℃"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "text": "ALTIMETER THREE ZERO THREE THREE",
+     "checks": [
+      {
+       "slot": "qnh",
+       "verdict": "PASS",
+       "detail": "30.33 inHg 合法"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "text": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "text": "INFORM GANDER CENTER ON FREQUENCY ONE TWO THREE DECIMAL ONE FIVE WHEN REQUESTED",
+     "checks": [
+      {
+       "slot": "freq",
+       "verdict": "PASS",
+       "detail": "123.15 MHz 合法"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "text": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "text": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "checks": [
+      {
+       "slot": "info_letter",
+       "verdict": "PASS",
+       "detail": "代号 F"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "text": "APPROACH RNAV ZULU RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "text": "APPROACH ON INITIAL CONTACT LANDING AND DEPARTING RUNWAY TWO EIGHT",
+     "checks": [
+      {
+       "slot": "runway",
+       "verdict": "PASS",
+       "detail": "跑道 28"
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "text": "INFORM ATC THAT YOU HAVE INFORMATION FOXTROT",
+     "checks": [
+      {
+       "slot": "info_letter",
+       "verdict": "PASS",
+       "detail": "代号 F"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rjtt_light": [
+  {
+   "seg": "seg00",
+   "checks": [
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL240 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL320 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL320 合法"
+    }
+   ]
+  },
+  {
+   "seg": "seg01",
+   "checks": [
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL200 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL300 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL300 合法"
+    }
+   ]
+  },
+  {
+   "seg": "seg02",
+   "checks": [
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL320 合法"
+    }
+   ]
+  },
+  {
+   "seg": "seg03",
+   "checks": [
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL320 合法"
+    }
+   ]
+  },
+  {
+   "seg": "seg04",
+   "checks": []
+  },
+  {
+   "seg": "seg05",
+   "checks": []
+  },
+  {
+   "seg": "seg06",
+   "checks": []
+  },
+  {
+   "seg": "seg07",
+   "checks": [
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL175 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL200 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL300 合法"
+    },
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL300 合法"
+    }
+   ]
+  },
+  {
+   "seg": "seg08",
+   "checks": [
+    {
+     "slot": "flight_level",
+     "verdict": "PASS",
+     "detail": "FL380 合法"
+    }
+   ]
+  }
+ ]
+}

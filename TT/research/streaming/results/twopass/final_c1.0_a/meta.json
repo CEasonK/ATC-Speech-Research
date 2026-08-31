@@ -1,0 +1,16 @@
+{
+ "engine": "twopass",
+ "chunk": 1.0,
+ "frame_threshold": 25,
+ "half": false,
+ "sil": 0.75,
+ "ct2": "/siyuan/FunASR_extracted/FunASR-main/TT/research/streaming/downloads/_ct2_v3",
+ "stream_model": "../downloads/whisper-atc-openai.pt",
+ "vad_gate": "RMS>8 & CV600>0.2",
+ "max_utt": 30.0,
+ "wall_sec": 104.65,
+ "dur": 112.6,
+ "rtf": 0.9294,
+ "track": "refined",
+ "n_sent": 4
+}
