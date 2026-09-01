@@ -37,9 +37,9 @@ WIND TWO FOUR ZERO AT FIVE
 风向二四零，风速五节
 ```
 
-In streaming mode the same pipeline emits incremental drafts at ~1.7 s median word
-delay with automatic end-of-utterance refinement: L2 WER 0.0 / L1 0.0845
-(protocol and caveats in §4, §7).
+The real-time pipeline (streaming, **still under active work**) reuses the same models and evaluation,
+emitting incremental drafts at ~1.4–1.7 s median word delay with automatic end-of-utterance refinement:
+L2 WER 0.0 / L1 0.0845 (protocol and caveats in §4, §7).
 
 ## 1. Research corpus (`TT/audio/`, read-only — no experiment may modify it)
 
@@ -226,8 +226,11 @@ streaming / translate research. Full evidence chain in `research/deep/FINAL_REPO
   |---|---|---|---|
   | L2 template fusion | 0.0 | 0.0 | word-for-word match with deep finals; caveat: template prior included, 35–39 % of output tokens tagged `src=tpl` |
   | L1 text prompt | 0.0845 | 0.1162 | template used as a text prompt (not zero-prior) |
-  | L0 3-engine ROVER | ⚠ 0.1303 / 0.2711 → **retired, pending re-run** | | see the P4 erratum in §9 |
-  - Latency: draft-track median word delay ~1.7–1.9 s (RTF ~0.5, meets the real-time constraint); final track ~14.5 s.
+  | L0 3-engine ROVER | ⚠ 0.1303 / 0.2711 → **retired, pending re-run** | | see the P4 erratum in §10 |
+  - Latency (JOURNAL protocol): draft-track median word delay a 1.72 s / b 1.35 s at RTF 0.85/0.88
+    (J4 two-pass baseline, real-time-capable); the final track emits whole refined sentences at once —
+    sentence-level delay, and for the J14 template-fused final (the 0.0 row above) the median is
+    a 14.7 s / b 14.5 s at RTF 1.06/1.15, i.e. slower than real time.
 - **Negative results archived** (equally conclusions): a single side-witness — especially the same-family whisper-v3 —
   can drag the primary engine down; the m1 denoiser front-end worsens WER; the cross-period-consensus route does not hold;
   Qwen warm-up must happen at worker startup (first call costs 32 s).
