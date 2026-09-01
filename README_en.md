@@ -11,9 +11,27 @@
 >
 > **Status: in progress.** The deep and translate phases have shipped authoritative final results;
 > the streaming phase has completed the P4 audit and frozen the L2/L1 tiers.
-> **A clean re-run of L0 with the sanitized lexicon is underway** (see §9).
+> **A clean re-run of L0 with the sanitized lexicon is underway** (see §10).
 
 ---
+
+## 0. Results at a glance (real end-to-end output, not a mock-up)
+
+```
+🎧 CYYT_ATIS_a.wav (weak-channel ATIS broadcast, ~5 looped passes)
+        │  deep phase: frozen by four-fold objective evidence
+        ▼
+SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU
+WIND TWO FOUR ZERO AT FIVE
+        │  translate phase: term-constrained translation + audit loop (numeric fidelity 1.0 / term hit 1.0)
+        ▼
+圣约翰斯 信息F 天气世界协调时零二零零
+风向二四零，风速五节
+```
+
+In streaming mode the same pipeline emits incremental drafts at ~1.7 s median word
+delay with automatic end-of-utterance refinement: L2 WER 0.0 / L1 0.0845
+(protocol and caveats in §4, §7).
 
 ## 1. Research corpus (`TT/audio/`, read-only — no experiment may modify it)
 
@@ -46,7 +64,7 @@ FunASR-main/
     │   └── legacy/       #   quarantined legacy artifacts
     ├── results/          # production-pipeline ASR results (best_pipeline / ATC_Whisper / Qwen3ASR / FunASR)
     ├── scripts/          # production scripts (line-by-line docs in TT/scripts/README.md, zh)
-    ├── models/           # model weights location (weights not in git, see §7)
+    ├── models/           # model weights location (weights not in git, see §8)
     ├── REVIEW_LOG.md     # incremental code-review log
     └── research/
         ├── deep/         #   Phase 1: offline authoritative transcription
@@ -107,7 +125,7 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
 - Qwen3-ASR must be given an explicit `--lang English`: auto-detection returns empty on the weak-signal recording
   (measured lesson, 2026-08-21).
 
-## 6. The three research phases
+## 7. The three research phases
 
 ### Phase 1 · deep — authoritative transcription without ground truth (done)
 - **Deliverables**: `results/a_final.txt`, `b_final.txt`, `rjtt_final.txt` — authoritative final drafts
@@ -145,7 +163,7 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
 - **Known boundary**: feeding zero-prior ASR output end-to-end drops metrics sharply
   (a: numeric 0.359 / terms 0.833; b worse) — end-to-end quality depends on the prior tier.
 
-## 7. Model dependencies (weights are not in git; fetch them into `TT/models/` or the HF cache)
+## 8. Model dependencies (weights are not in git; fetch them into `TT/models/` or the HF cache)
 
 | Model | Role | Source |
 |---|---|---|
@@ -156,9 +174,9 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
 | facebook/m2m100_418M | back-translation baseline | HF |
 | SimulStreaming (AlignAtt) | streaming decoding engine | bundled: `TT/research/refs/SimulStreaming-main` |
 
-## 8. Reproduction guide
+## 9. Reproduction guide
 
-1. **Production pipeline**: commands in §5 run out of the box (after fetching the weights in §7).
+1. **Production pipeline**: commands in §6 run out of the box (after fetching the weights in §8).
 2. **deep finals**: follow the protocol in `research/deep/PLAN.md`, running `src/` scripts in order;
    diff every step's output against `results/*_final.txt` verbatim.
 3. **streaming, all tiers**: `research/streaming/src/run_2pass.py <wav> <out> --chunk 1.0 --half --rover --no_prompt`
@@ -183,6 +201,6 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
 - ⬜ Weak-channel robustness: residual errors on track b (period-seam misalignment, degraded-segment numeric collapse)
   remain open — an acoustic frontiers problem
 
-## 10. License
+## 11. License
 
 Upstream FunASR remains under its original MIT License; the research content under `TT/` is owned by the repository author.

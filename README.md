@@ -9,9 +9,26 @@
 > 全程不自设主观评分当裁判。
 >
 > **项目状态：进行中。** deep / translate 阶段已出权威终稿；streaming 阶段已完成
-> P4 审计并定版 L2/L1 档，**清洗词表后的干净 L0 复跑与重报正在进行**（见 §9）。
+> P4 审计并定版 L2/L1 档，**清洗词表后的干净 L0 复跑与重报正在进行**（见 §10）。
 
 ---
+
+## 0. 结果速览（真实端到端产物，非示意）
+
+```
+🎧 CYYT_ATIS_a.wav（弱信道 ATIS 广播，循环 ~5 遍）
+        │  deep 阶段：四重客观证据定稿
+        ▼
+SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU
+WIND TWO FOUR ZERO AT FIVE
+        │  translate 阶段：术语约束翻译 + 审计闭环（数字保真 1.0 / 术语命中 1.0）
+        ▼
+圣约翰斯 信息F 天气世界协调时零二零零
+风向二四零，风速五节
+```
+
+流式档（streaming）同一管线以 ~1.7s 中位词延迟增量出草稿、句末自动精修，
+L2 档 WER 0.0 / L1 档 0.0845（口径与成色见 §4、§7）。
 
 ## 1. 研究语料（`TT/audio/`，只读，任何实验不得改动）
 
@@ -69,7 +86,27 @@ FunASR-main/
 - **受控评测口径 K4**：对修正后的参考文本（284 token 口径，J12 参考修正）计算 token-WER，
   历史口径（幻影复诵参考）已作废并在 JOURNAL 留痕。
 
-## 5. 日常工作流（正式管线，两步）
+## 5. 快速开始与新机器部署
+
+```bash
+# ① 克隆
+git clone git@github.com:CEasonK/ATC-Speech-Research.git && cd ATC-Speech-Research
+
+# ② 环境（版本参考 §2；funasr 直接装仓库本地这份，保证与研究环境一致）
+conda create -n atc python=3.10 -y && conda activate atc
+pip install -e .
+pip install torch transformers modelscope funasr noisereduce soundfile  # 按需补齐
+
+# ③ 权重：按 §8 表格下载到 TT/models/（HF 直连不通先 export HF_ENDPOINT=https://hf-mirror.com）
+
+# ④ 跑通第一条识别
+cd TT && python scripts/run_best_asr.py audio/CYYT_ATIS_a.wav
+# 结果在 results/best_pipeline/CYYT_ATIS_a/result.txt
+```
+
+研究复现（deep / streaming / translate）不需要额外部署，按 §9 用对应 conda 环境跑即可。
+
+## 6. 日常工作流（正式管线，两步）
 
 ```bash
 cd TT
@@ -100,7 +137,7 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
 - 幻觉过滤用 whisper 内置 no_speech VAD（能量 VAD 对满能量噪声段无效）。
 - Qwen3-ASR 必须显式 `--lang English`：弱信号下自动检测返回空（2026-08-21 实测教训）。
 
-## 6. 三阶段研究详情
+## 7. 三阶段研究详情
 
 ### 阶段一 · deep —— 无真值条件下的权威转写（已完成）
 - **产出**：`results/a_final.txt`、`b_final.txt`、`rjtt_final.txt`（三条音频权威终稿），
@@ -134,7 +171,7 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
 - **已知边界**：以零先验识别输出为输入时端到端指标大幅下降（a 数字 0.359/术语 0.833，
   b 更差）——端到端达标依赖先验档。
 
-## 7. 模型依赖（权重不入库，按此表自行获取到 `TT/models/` 或 HF 缓存）
+## 8. 模型依赖（权重不入库，按此表自行获取到 `TT/models/` 或 HF 缓存）
 
 | 模型 | 用途 | 获取 |
 |---|---|---|
@@ -145,9 +182,9 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
 | facebook/m2m100_418M | 回译对照 | HF |
 | SimulStreaming (AlignAtt) | 流式解码引擎 | 已随仓库：`TT/research/refs/SimulStreaming-main` |
 
-## 8. 复现指南
+## 9. 复现指南
 
-1. **日常管线**：§5 命令直接可跑（需先备齐 §7 权重）。
+1. **日常管线**：§6 命令直接可跑（需先备齐 §8 权重）。
 2. **deep 终稿**：按 `research/deep/PLAN.md` 协议依次跑 `src/` 内脚本；每步产物与
    `results/*_final.txt` 逐字对比。
 3. **streaming 全档**：`research/streaming/src/run_2pass.py <wav> <out> --chunk 1.0 --half
@@ -169,6 +206,6 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
 - ⬜ 计划中未落地：Kyutai STT、NeMo FastConformer 流式对照（streaming PLAN 中 E3/E4 路线）
 - ⬜ 弱信道鲁棒性：b 轨残错（周期接缝错位、降质段数值崩塌）待解，属声学底层能力问题
 
-## 10. 许可
+## 11. 许可
 
 上游 FunASR 遵循其原 License（MIT）；`TT/` 研究内容为本仓库作者所有。
