@@ -2,7 +2,16 @@
 
 [简体中文](./README.md) | [English](./README_en.md)
 
-> 基于 FunASR 框架的空管（Air Traffic Control）语音研究工作区。
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![last commit](https://img.shields.io/github/last-commit/CEasonK/ATC-Speech-Research)
+
+一个基于 [FunASR](https://github.com/modelscope/FunASR) 的**空管（Air Traffic Control）语音识别**研究仓库，
+在**无真实对照文本、仅 3 条录音**的极端约束下，用一套**全客观可复现的评测体系**
+（声学似然 / ICAO·METAR·ATIS 语法硬约束 / 多系统交叉验证），完成
+**权威转写 → 真流式识别 → 专业中文翻译**的全链路。
+
 > 核心命题：**在无真实对照文本、仅 3 条录音的极端约束下**，完成
 > 权威转写 → 真流式识别 → 专业中文翻译 的全链路，并建立一套
 > **客观可复现的评测体系**（声学似然 / ICAO·METAR·ATIS 语法硬约束 / 多系统交叉验证），
@@ -61,7 +70,7 @@ FunASR-main/
     │   └── legacy/       #   旧脚本产物隔离区
     ├── results/          # 正式管线识别结果（best_pipeline / ATC_Whisper / Qwen3ASR / FunASR）
     ├── scripts/          # 正式脚本（逐行讲解见 TT/scripts/README.md）
-    ├── models/           # 模型权重存放处（权重不入库，见 §7）
+    ├── models/           # 模型权重存放处（权重不入库，安装见 §5）
     ├── REVIEW_LOG.md     # 代码审查日志（增量）
     └── research/         # 深度研究区
         ├── deep/         #   阶段一：离线权威转写
@@ -69,9 +78,8 @@ FunASR-main/
         ├── translate/    #   阶段三：EN→ZH 专业翻译
         └── refs/         #   第三方参考实现（SimulStreaming 等）
 ```
-
-每个研究子项目固定三件套：`PLAN.md`（协议与红线）→ `JOURNAL.md`（逐轮实验日志，含
-负结果与勘误）→ `FINAL_REPORT.md`（终稿结论 + 证据文件清单）。
+每个研究子项目固定三件套：`PLAN.md`（协议与红线）→ `JOURNAL.md`（逐轮实验日志，
+含负结果与勘误）→ `FINAL_REPORT.md`（终稿结论 + 证据文件清单）。具体方法在 §7。
 
 ## 4. 评测体系（本项目的方法论核心）
 
@@ -200,7 +208,7 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
   |---|---|---|---|
   | L2 模板融合 | 0.0 | 0.0 | 与 deep 终稿逐字一致；成色：含模板先验，35-39% 输出词 src=tpl |
   | L1 文本提示 | 0.0845 | 0.1162 | 模板作文本提示（非零先验） |
-  | L0 三引擎 ROVER | ⚠ 0.1303 / 0.2711 → **作废待重跑** | | 见 §9 P4 勘误 |
+  | L0 三引擎 ROVER | ⚠ 0.1303 / 0.2711 → **作废待重跑** | | 见 §10 P4 勘误 |
   - 延迟：草稿轨词延迟中位 ~1.7-1.9s（RTF ~0.5 满足实时约束）；final 轨 ~14.5s。
 - **负结果存档**（同样是结论）：单旁证尤其同源 v3 反噬主引擎；m1 降噪前端使 WER 恶化；
   跨周期共识路线不成立；qwen 预热必须放 worker 启动期（首调用 32s）。
@@ -248,4 +256,21 @@ Qwen3-ASR（旁证）· Qwen2.5-7B（翻译）· m2m100（回译对照）· Simu
 
 ## 11. 许可
 
-上游 FunASR 遵循其原 License（MIT）；`TT/` 研究内容为本仓库作者所有。
+本项目采用 **MIT License**（见根目录 [LICENSE_ATC.md](./LICENSE_ATC.md)，可由任何用途自由使用、修改、再分发）。
+
+> 注：仓库根目录另有一份 `LICENSE` 为上游 FunASR 的原始许可（MIT，© 2025 FunASR，
+> 仅约束其框架代码）。本仓库的 ATC 研究内容（`TT/` 及 Chinese README）以
+> 上面的项目 MIT License 为准。
+
+## 12. 引用（Citation）
+
+如果你在论文或报告里用到了本项目，请按此引用：
+
+```bibtex
+@misc{atc_speech_research,
+  author = {CEasonK},
+  title  = {ATC-Speech-Research: Air Traffic Control Speech Recognition via Fully Objective Evaluation},
+  year   = {2026},
+  url    = {https://github.com/CEasonK/ATC-Speech-Research}
+}
+```

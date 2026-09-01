@@ -2,7 +2,17 @@
 
 [简体中文](./README.md) | [English](./README_en.md)
 
-> An air-traffic-control (ATC) speech research workspace built on top of the FunASR framework.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![last commit](https://img.shields.io/github/last-commit/CEasonK/ATC-Speech-Research)
+
+An air-traffic-control (ATC) speech research repository built on [FunASR](https://github.com/modelscope/FunASR).
+Under the extreme constraint of **no ground-truth transcripts and only three recordings**, it delivers
+the full pipeline of **authoritative transcription → true streaming recognition → domain-grade Chinese
+translation**, backed by a **fully objective, reproducible evaluation system**
+(acoustic likelihood / hard ICAO·METAR·ATIS grammar constraints / cross-system verification).
+
 > Core question: under the extreme constraint of **no ground-truth transcripts and only three recordings**,
 > can we deliver the full pipeline of **authoritative transcription → true streaming recognition →
 > domain-grade Chinese translation**, backed by a **fully objective, reproducible evaluation system**
@@ -64,7 +74,7 @@ FunASR-main/
     │   └── legacy/       #   quarantined legacy artifacts
     ├── results/          # production-pipeline ASR results (best_pipeline / ATC_Whisper / Qwen3ASR / FunASR)
     ├── scripts/          # production scripts (line-by-line docs in TT/scripts/README.md, zh)
-    ├── models/           # model weights location (weights not in git, see §8)
+    ├── models/           # model weights location (weights not in git, see §5)
     ├── REVIEW_LOG.md     # incremental code-review log
     └── research/
         ├── deep/         #   Phase 1: offline authoritative transcription
@@ -75,7 +85,7 @@ FunASR-main/
 
 Every sub-project follows the same triad: `PLAN.md` (protocol & red lines) →
 `JOURNAL.md` (per-round experiment log incl. negative results and errata) →
-`FINAL_REPORT.md` (conclusions + evidence file manifest).
+`FINAL_REPORT.md` (conclusions + evidence file manifest). Method details in §7.
 
 ## 4. Evaluation system (the methodological core)
 
@@ -235,7 +245,7 @@ streaming / translate research. Full evidence chain in `research/deep/FINAL_REPO
 - **Known boundary**: feeding zero-prior ASR output end-to-end drops metrics sharply
   (a: numeric 0.359 / terms 0.833; b worse) — end-to-end quality depends on the prior tier.
 
-## 8. Model dependency overview
+## 8. Models overview
 
 Download commands, exact locations and environment variables for all 6 model artifacts
 are in the §5 installation table (weights are not in git).
@@ -272,4 +282,22 @@ SimulStreaming (streaming engine — code bundled in this repo).
 
 ## 11. License
 
-Upstream FunASR remains under its original MIT License; the research content under `TT/` is owned by the repository author.
+This project is released under the **MIT License** (see [LICENSE_ATC.md](./LICENSE_ATC.md) in the repo root;
+free to use, modify and redistribute for any purpose).
+
+> Note: another `LICENSE` at the repo root is FunASR's original license
+> (MIT, © 2025 FunASR) and applies only to its framework code. The ATC research
+> content of this repo (`TT/` and this README) follows the project MIT License above.
+
+## 12. Citation
+
+If you use this project in a paper or report, please cite:
+
+```bibtex
+@misc{atc_speech_research,
+  author = {CEasonK},
+  title  = {ATC-Speech-Research: Air Traffic Control Speech Recognition via Fully Objective Evaluation},
+  year   = {2026},
+  url    = {https://github.com/CEasonK/ATC-Speech-Research}
+}
+```
