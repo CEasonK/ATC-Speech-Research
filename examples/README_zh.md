@@ -1,1 +1,0 @@
-../docs/tutorial/README_zh.md
