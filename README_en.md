@@ -13,11 +13,7 @@ the full pipeline of **authoritative transcription → true streaming recognitio
 translation**, backed by a **fully objective, reproducible evaluation system**
 (acoustic likelihood / hard ICAO·METAR·ATIS grammar constraints / cross-system verification).
 
-> Core question: under the extreme constraint of **no ground-truth transcripts and only three recordings**,
-> can we deliver the full pipeline of **authoritative transcription → true streaming recognition →
-> domain-grade Chinese translation**, backed by a **fully objective, reproducible evaluation system**
-> (acoustic likelihood / hard ICAO·METAR·ATIS grammar constraints / cross-system verification)?
-> No subjective scoring is ever used as the judge.
+> Methodological bottom line: only objective judges are trusted — **no subjective scoring, ever**.
 >
 > **Status: in progress.** The deep and translate phases have shipped authoritative final results;
 > the streaming phase has completed the P4 audit and frozen the L2/L1 tiers.
