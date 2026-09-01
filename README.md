@@ -86,25 +86,44 @@ FunASR-main/
 - **受控评测口径 K4**：对修正后的参考文本（284 token 口径，J12 参考修正）计算 token-WER，
   历史口径（幻影复诵参考）已作废并在 JOURNAL 留痕。
 
-## 5. 快速开始与新机器部署
+## 5. 快速开始：模型安装与跑通
+
+模型权重一律不入库，且**各脚本按固定路径读取模型**——下表的路径一列必须严格照做，
+不是"下载到哪都行"。
+
+**前置**（版本参考 §2）：
 
 ```bash
-# ① 克隆
-git clone git@github.com:CEasonK/ATC-Speech-Research.git && cd ATC-Speech-Research
-
-# ② 环境（版本参考 §2；funasr 直接装仓库本地这份，保证与研究环境一致）
 conda create -n atc python=3.10 -y && conda activate atc
-pip install -e .
-pip install torch transformers modelscope funasr noisereduce soundfile  # 按需补齐
-
-# ③ 权重：按 §8 表格下载到 TT/models/（HF 直连不通先 export HF_ENDPOINT=https://hf-mirror.com）
-
-# ④ 跑通第一条识别
-cd TT && python scripts/run_best_asr.py audio/CYYT_ATIS_a.wav
-# 结果在 results/best_pipeline/CYYT_ATIS_a/result.txt
+pip install -e .                # 装仓库本地这份 funasr，保证与研究环境一致
+pip install -U huggingface_hub modelscope   # 下载工具
+export HF_ENDPOINT=https://hf-mirror.com    # 国内机器必设；HF 直连可通则跳过
 ```
 
-研究复现（deep / streaming / translate）不需要额外部署，按 §9 用对应 conda 环境跑即可。
+**模型安装表**（路径 = 脚本默认读取位置，写错目录脚本会直接报错）：
+
+| # | 模型 | 下载命令 | 落盘位置（相对仓库根） | 谁在用 |
+|---|---|---|---|---|
+| 1 | whisper-large-v3-finetuned-for-ATC | `hf download jacktol/whisper-large-v3-finetuned-for-ATC --local-dir TT/models/whisper-large-v3-finetuned-for-ATC` | `TT/models/whisper-large-v3-finetuned-for-ATC/` | `run_best_asr` / `run_atc_whisper` / streaming 主引擎 |
+| 2 | Qwen3-ASR-1.7B | `modelscope download --model Qwen/Qwen3-ASR-1.7B --local_dir TT/models/Qwen3-ASR-1.7B` | `TT/models/Qwen3-ASR-1.7B/` + **必须** `export QWEN_ASR_MODEL=$PWD/TT/models/Qwen3-ASR-1.7B` | `run_qwen` / streaming 旁证 worker（`run_2pass.py --qwen_model` 亦可显式指定） |
+| 3 | Qwen2.5-7B-Instruct | `hf download Qwen/Qwen2.5-7B-Instruct --local-dir TT/research/translate/models/qwen2.5-7b-instruct` | `TT/research/translate/models/qwen2.5-7b-instruct/` | translate 主力生成 |
+| 4 | m2m100_418M | `hf download facebook/m2m100_418M --local-dir TT/research/translate/models/m2m100_418M` | `TT/research/translate/models/m2m100_418M/` | translate 对照 / 回译 |
+| 5 | whisper-large-v3（原版） | 免手动：`from_pretrained("openai/whisper-large-v3")` 自动走镜像进 HF 缓存 | `~/.cache/huggingface/` | 交叉验证 / streaming 第二精修 |
+| 6 | faster-whisper(CT2) 转换版 | 由 #1/#5 用 `TT/research/streaming/src/convert_hf_to_openai.py` 本地转换生成 | `TT/research/streaming/downloads/_ct2_atc/`、`_ct2_v3/` | 仅 streaming 阶段 |
+
+**环境变量与路径依赖汇总**：
+
+- `QWEN_ASR_MODEL`：覆盖 #2 的旧机器默认路径（不设则指向不存在的 `/siyuan/Qwen3_ASR/...`，直接报错）。
+- `HF_ENDPOINT=https://hf-mirror.com`：所有走 HF 的脚本（#5 及 deep 复现）都需要。
+- `TT/research/streaming/src/common.py` 中 `TT_ROOT` 硬编码了研究机路径——换机器部署
+  streaming 复现时改这一处，或按相同路径部署。
+
+**跑通验证**（装完 #1 即可验证日常管线）：
+
+```bash
+cd TT && python scripts/run_best_asr.py audio/CYYT_ATIS_a.wav
+# 预期结果可与已入库的 results/best_pipeline/CYYT_ATIS_a/result.txt 逐字对比
+```
 
 ## 6. 日常工作流（正式管线，两步）
 
@@ -140,11 +159,37 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
 ## 7. 三阶段研究详情
 
 ### 阶段一 · deep —— 无真值条件下的权威转写（已完成）
-- **产出**：`results/a_final.txt`、`b_final.txt`、`rjtt_final.txt`（三条音频权威终稿），
-  成为后续所有研究的对照基准。
-- **代表结论**：a/b 为不同日期播报（仅修压 3023 vs 3033、AS vs WHEN REQUESTED 两处
-  信道级差异）；a 末尾三行是真实复诵（人工听音 + 锚窗探针独立佐证），非模型幻觉。
-- 复现：`research/deep/`（PLAN 定义四重证据协议，src/ 内含复现脚本，附录 A 证据清单）。
+
+**任务**：没有任何对照文本，只有 3 条录音，要让转写尽可能接近真值——且每个字都拿得出证据。
+
+**方法论核心：三裁判 × 五类客观工具**（全程禁止"我觉得像"当裁判）：
+
+1. **三裁判制**：whisper-atc（域先验强但自我偏置）/ whisper-large-v3 原版（中立）/
+   turbo-atcosim（第三独立引擎）。铁律：**任何字段定案需 ≥2 个独立证据源同向，单一裁判永不定案**。
+2. **同窗对立计分**：竞争假设放进**同一锚定窗口**做 forced-NLL 对比，消除窗口漂移假象
+   （早期踩坑：把文本放到静音段计分 NLL 会假性极低——"静音窗口假象"）。
+3. **LM 先验污染标定**：量化出单词插入级 ΔNLL 可达 1.2–1.4 nat 而纯来自 decoder 语言先验
+   ——ΔNLL 落在该区间时**禁止单独定案**，必须另找裁判（v11 WIND 案 Δ1.27 即触发此规则）。
+4. **切片自由解码**：切 14–16s 无上下文片段让多引擎独立听写，破除长音频上下文锚定。
+   关键发现：**全票缺席 ≠ 声学不存在**——劣化音频上弱读词 /ət/、鼻音 /wɪnd/ 被 11/11 全票
+   漏掉但物理上存在 → 自由解码只能作"存在"的正证据，不能作"不存在"的证据。
+5. **能量包络物理探测（破局者）**：NLL 与解码对峙时，用无语言先验的 10ms RMS 包络 +
+   burst 检测终审。两个疑难定案均由它裁决——a 的弱化 AT（57.88s 连续浊音 RMS 0.06–0.14
+   vs 真词间空隙 0.025–0.04）；b 的 WIND（鼻音平台特征 + 7 个 burst 逐一归属后续词串）。
+6. **语法层否决声学层**：METAR/ATIS 硬约束（温度必整数、VHF 频率 118–137、修压 28.xx
+   格式合法域）——语法非法的"听感最优解"直接否决。
+
+**代表性战果**（每个都有 `exp/adjudicate_v*.py` 复现脚本）：
+- **v4 翻案**：呼号 SIERRA→SHANGHAI AIR（v3 自由解码双段独立命中 + qwen 同窗配对同向 +
+  域先验三重证据，turbo 的 SIERRA 记为竞争假设存档）；ORANGE NINER→ORANGE LINER（日语
+  轨 オレンジライナー + qwen 双源）。
+- **a/b 关系论证**：非重录而是**不同日期**播报——全文仅修压（3023 vs 3033）与
+  AS/WHEN REQUESTED 两处差异，且均为信道级/播报级。
+- **末三行复诵真伪**：人工听音 + 锚窗探针物理佐证，确认是真实复诵而非模型幻觉。
+
+**产出**：`results/a_final.txt`、`b_final.txt`、`rjtt_final.txt`（RJTT 为 9 段共识合成，
+每段带置信度分层），成为后续 streaming / translate 全部研究的对照基准。
+完整证据链见 `research/deep/FINAL_REPORT.md` 与附录 A 清单。
 
 ### 阶段二 · streaming —— 真流式识别（进行中）
 - **架构**：SimulStreaming(AlignAtt) 流式引擎 + ATC 微调 whisper-large-v3 主干，
@@ -171,16 +216,11 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
 - **已知边界**：以零先验识别输出为输入时端到端指标大幅下降（a 数字 0.359/术语 0.833，
   b 更差）——端到端达标依赖先验档。
 
-## 8. 模型依赖（权重不入库，按此表自行获取到 `TT/models/` 或 HF 缓存）
+## 8. 模型依赖总览
 
-| 模型 | 用途 | 获取 |
-|---|---|---|
-| [whisper-large-v3-finetuned-for-ATC](https://huggingface.co/jacktol/whisper-large-v3-finetuned-for-ATC) | ATC 主识别引擎 | HF → `TT/models/` |
-| openai/whisper-large-v3 | 交叉验证 / ROVER 旁证 | `from_pretrained`（走 hf-mirror） |
-| Qwen/Qwen3-ASR-1.7B | 旁证 ASR worker | ModelScope / HF |
-| Qwen2.5-7B-Instruct | 翻译主力 | HF |
-| facebook/m2m100_418M | 回译对照 | HF |
-| SimulStreaming (AlignAtt) | 流式解码引擎 | 已随仓库：`TT/research/refs/SimulStreaming-main` |
+全部 6 项模型权重的**下载命令、落盘路径、环境变量**见 §5 安装表（权重不入库）。
+一句话版：ATC 微调 whisper（主识别）· whisper-large-v3 原版（交叉验证）·
+Qwen3-ASR（旁证）· Qwen2.5-7B（翻译）· m2m100（回译对照）· SimulStreaming（流式引擎，代码已随仓库）。
 
 ## 9. 复现指南
 

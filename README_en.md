@@ -92,26 +92,45 @@ Every sub-project follows the same triad: `PLAN.md` (protocol & red lines) →
 - **Controlled K4 protocol**: token-WER computed against the corrected reference (284-token edition, J12 reference fix).
   The earlier protocol (phantom-repetition reference) is retired, with the change recorded in `JOURNAL.md`.
 
-## 5. Quick start & deploying on a new machine
+## 5. Quick start: model installation & first run
+
+Weights are never committed, and **every script loads models from fixed paths** —
+the Location column below must be followed exactly; "anywhere convenient" will not run.
+
+**Prerequisites** (versions in §2):
 
 ```bash
-# ① clone
-git clone git@github.com:CEasonK/ATC-Speech-Research.git && cd ATC-Speech-Research
-
-# ② environment (versions in §2; install the bundled funasr so it matches the research env)
 conda create -n atc python=3.10 -y && conda activate atc
-pip install -e .
-pip install torch transformers modelscope funasr noisereduce soundfile  # extend as needed
-
-# ③ weights: fetch per the table in §8 into TT/models/ (if HF is unreachable: export HF_ENDPOINT=https://hf-mirror.com)
-
-# ④ run your first transcription
-cd TT && python scripts/run_best_asr.py audio/CYYT_ATIS_a.wav
-# output: results/best_pipeline/CYYT_ATIS_a/result.txt
+pip install -e .                # install the bundled funasr to match the research env
+pip install -U huggingface_hub modelscope   # download tools
+export HF_ENDPOINT=https://hf-mirror.com    # required in mainland China; skip if HF is reachable
 ```
 
-No extra deployment is needed to reproduce the research phases (deep / streaming /
-translate) — just use the conda env described in §9.
+**Model installation table** (Location = the path scripts read by default; wrong directories = immediate errors):
+
+| # | Model | Download command | Location (repo-root relative) | Used by |
+|---|---|---|---|---|
+| 1 | whisper-large-v3-finetuned-for-ATC | `hf download jacktol/whisper-large-v3-finetuned-for-ATC --local-dir TT/models/whisper-large-v3-finetuned-for-ATC` | `TT/models/whisper-large-v3-finetuned-for-ATC/` | `run_best_asr` / `run_atc_whisper` / streaming primary engine |
+| 2 | Qwen3-ASR-1.7B | `modelscope download --model Qwen/Qwen3-ASR-1.7B --local_dir TT/models/Qwen3-ASR-1.7B` | `TT/models/Qwen3-ASR-1.7B/` + **required** `export QWEN_ASR_MODEL=$PWD/TT/models/Qwen3-ASR-1.7B` | `run_qwen` / streaming side-witness worker (or pass `run_2pass.py --qwen_model`) |
+| 3 | Qwen2.5-7B-Instruct | `hf download Qwen/Qwen2.5-7B-Instruct --local-dir TT/research/translate/models/qwen2.5-7b-instruct` | `TT/research/translate/models/qwen2.5-7b-instruct/` | primary translation model |
+| 4 | m2m100_418M | `hf download facebook/m2m100_418M --local-dir TT/research/translate/models/m2m100_418M` | `TT/research/translate/models/m2m100_418M/` | translation baseline / back-translation |
+| 5 | whisper-large-v3 (vanilla) | no manual step: `from_pretrained("openai/whisper-large-v3")` auto-fetches via mirror | `~/.cache/huggingface/` | cross-verification / streaming 2nd refiner |
+| 6 | faster-whisper (CT2) builds | converted locally from #1/#5 via `TT/research/streaming/src/convert_hf_to_openai.py` | `TT/research/streaming/downloads/_ct2_atc/`, `_ct2_v3/` | streaming phase only |
+
+**Environment variables & path dependencies**:
+
+- `QWEN_ASR_MODEL`: overrides the legacy default path for #2 (without it, scripts point at a
+  nonexistent `/siyuan/Qwen3_ASR/...` and fail immediately).
+- `HF_ENDPOINT=https://hf-mirror.com`: needed by everything that touches HF (#5 and the deep reproductions).
+- `TT/research/streaming/src/common.py` hard-codes `TT_ROOT` to the research machine's path —
+  edit this one constant when deploying streaming reproductions elsewhere, or mirror the same path.
+
+**Smoke test** (works as soon as #1 is installed):
+
+```bash
+cd TT && python scripts/run_best_asr.py audio/CYYT_ATIS_a.wav
+# compare verbatim against the committed results/best_pipeline/CYYT_ATIS_a/result.txt
+```
 
 ## 6. Production workflow (two steps)
 
@@ -149,13 +168,45 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
 ## 7. The three research phases
 
 ### Phase 1 · deep — authoritative transcription without ground truth (done)
-- **Deliverables**: `results/a_final.txt`, `b_final.txt`, `rjtt_final.txt` — authoritative final drafts
-  that serve as the reference standard for all later phases.
-- **Representative findings**: a and b are broadcasts from different dates (only two channel-level differences:
-  3023 vs 3033, AS vs WHEN REQUESTED); the three trailing lines of a are a genuine readback
-  (human listening + independent anchor-window probes), not model hallucination.
-- Reproduction: `research/deep/` (PLAN defines the four-fold evidence protocol; `src/` contains the scripts;
-  Appendix A lists every evidence file).
+
+**Task**: no reference text of any kind, only three recordings — get as close to ground
+truth as possible, with evidence available for every single word.
+
+**Method core: three judges × five classes of objective tools** ("it sounds right" is never a judge):
+
+1. **Tri-judge system**: whisper-atc (strong domain prior, self-biased) / whisper-large-v3
+   vanilla (neutral) / turbo-atcosim (third independent engine). Iron rule: **any field is
+   frozen only with ≥2 independent evidence sources agreeing; a single judge never decides**.
+2. **Paired-window adjudication**: competing hypotheses are forced-NLL scored inside the
+   *same* anchor window, removing window-drift artifacts (early trap: scoring text against a
+   silent window yields deceptively low NLL — the "silent-window illusion").
+3. **LM-prior contamination calibration**: measured that single-word-insertion ΔNLL can reach
+   1.2–1.4 nat purely from decoder language priors — within that band ΔNLL **must not decide
+   alone** (case v11 WIND, Δ1.27, triggered exactly this rule).
+4. **Slice decoding**: cut 14–16 s context-free snippets for independent free dictation by all
+   engines, breaking long-audio context anchoring. Key finding: **unanimous absence ≠ acoustic
+   absence** — reduced /ət/ and the nasal /wɪnd/ were missed 11/11 and 7/7 yet physically
+   present → free-decode voting is positive evidence of presence only, never of absence.
+5. **Energy-envelope physical probe (the tie-breaker)**: when NLL and decoding deadlock, a
+   language-free 10 ms RMS envelope + burst detection gives the final ruling. Both hard cases
+   were decided by it — a's reduced AT (voiced run at 57.88 s, RMS 0.06–0.14 vs 0.025–0.04 in
+   genuine inter-word gaps) and b's WIND (nasal-plateau signature + 7 bursts mapped word by word).
+6. **Grammar vetoes acoustics**: METAR/ATIS hard constraints (integer temperature, VHF
+   118–137 MHz, QNH 28.xx format) outright reject "best-sounding" hypotheses that are illegal.
+
+**Representative wins** (each reproducible via `exp/adjudicate_v*.py`):
+- **The v4 retrial**: callsign SIERRA→SHANGHAI AIR (v3 free decode hit it independently in two
+  segments + qwen paired-window agreement + domain prior — three sources; turbo's SIERRA kept
+  on file as the rival hypothesis); ORANGE NINER→ORANGE LINER (Japanese-track
+  オレンジライナー + qwen, two sources).
+- **a/b relationship**: not re-recordings but broadcasts from **different dates** — the whole
+  corpus differs in exactly two spots (QNH 3023 vs 3033; AS vs WHEN REQUESTED), both channel-level.
+- **Trailing readback**: human listening + anchor-window physical probe confirm the last three
+  lines of a are a genuine repetition, not model hallucination.
+
+**Deliverables**: `results/a_final.txt`, `b_final.txt`, `rjtt_final.txt` (RJTT synthesized from
+9 consensus segments with per-segment confidence tiers) — the reference standard for all
+streaming / translate research. Full evidence chain in `research/deep/FINAL_REPORT.md`, Appendix A.
 
 ### Phase 2 · streaming — true streaming recognition (in progress)
 - **Architecture**: SimulStreaming (AlignAtt) streaming engine on the ATC-finetuned whisper-large-v3 backbone;
@@ -184,16 +235,13 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
 - **Known boundary**: feeding zero-prior ASR output end-to-end drops metrics sharply
   (a: numeric 0.359 / terms 0.833; b worse) — end-to-end quality depends on the prior tier.
 
-## 8. Model dependencies (weights are not in git; fetch them into `TT/models/` or the HF cache)
+## 8. Model dependency overview
 
-| Model | Role | Source |
-|---|---|---|
-| [whisper-large-v3-finetuned-for-ATC](https://huggingface.co/jacktol/whisper-large-v3-finetuned-for-ATC) | primary ATC recognition engine | HF → `TT/models/` |
-| openai/whisper-large-v3 | cross-verification / ROVER side-witness | `from_pretrained` (via hf-mirror) |
-| Qwen/Qwen3-ASR-1.7B | side-witness ASR worker | ModelScope / HF |
-| Qwen2.5-7B-Instruct | primary translation model | HF |
-| facebook/m2m100_418M | back-translation baseline | HF |
-| SimulStreaming (AlignAtt) | streaming decoding engine | bundled: `TT/research/refs/SimulStreaming-main` |
+Download commands, exact locations and environment variables for all 6 model artifacts
+are in the §5 installation table (weights are not in git).
+One-liner: ATC-finetuned whisper (primary ASR) · whisper-large-v3 vanilla (cross-verification) ·
+Qwen3-ASR (side witness) · Qwen2.5-7B (translation) · m2m100 (back-translation baseline) ·
+SimulStreaming (streaming engine — code bundled in this repo).
 
 ## 9. Reproduction guide
 
