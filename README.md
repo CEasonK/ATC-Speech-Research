@@ -7,15 +7,15 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 ![last commit](https://img.shields.io/github/last-commit/CEasonK/ATC-Speech-Research)
 
-一个基于 [FunASR](https://github.com/modelscope/FunASR) 的**空管（Air Traffic Control）语音识别**研究仓库，
-在**无真实对照文本、仅 3 条录音**的极端约束下，用一套**全客观可复现的评测体系**
-（声学似然 / ICAO·METAR·ATIS 语法硬约束 / 多系统交叉验证），完成
-**权威转写 → 真流式识别 → 专业中文翻译**的全链路。
+本仓库在 [FunASR](https://github.com/modelscope/FunASR) 代码库基础上搭建，研究课题是**空管（Air Traffic
+Control）语音识别**：在**无真实对照文本、仅 3 条录音**的极端约束下，**能否**用一套**全客观可复现的评测
+体系**（声学似然 / ICAO·METAR·ATIS 语法硬约束 / 多系统交叉验证）打通**离线权威转写 → 真流式识别 →
+专业中文翻译**的全链路。这是一项**进行中的研究，并非已全部完成**——各阶段真实完成度见下方状态与 §10。
 
 > 方法论底线：全程只认客观裁判，**不自设主观评分**。
 >
-> **项目状态：进行中。** deep / translate 阶段已出权威终稿；streaming 阶段已完成
-> P4 审计并定版 L2/L1 档，**清洗词表后的干净 L0 复跑与重报正在进行**（见 §10）。
+> **阶段状态：** deep（离线转写）、translate（翻译）已交付权威终稿；streaming（真流式识别）**仍在攻关**——
+> 已完成 P4 审计并定版 L2/L1 档，**清洗词表后的干净 L0 复跑与重报正在进行**（见 §10）。
 
 ---
 

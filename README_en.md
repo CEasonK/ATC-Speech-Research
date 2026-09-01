@@ -7,17 +7,19 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 ![last commit](https://img.shields.io/github/last-commit/CEasonK/ATC-Speech-Research)
 
-An air-traffic-control (ATC) speech research repository built on [FunASR](https://github.com/modelscope/FunASR).
-Under the extreme constraint of **no ground-truth transcripts and only three recordings**, it delivers
-the full pipeline of **authoritative transcription → true streaming recognition → domain-grade Chinese
-translation**, backed by a **fully objective, reproducible evaluation system**
-(acoustic likelihood / hard ICAO·METAR·ATIS grammar constraints / cross-system verification).
+This repository is built on top of the [FunASR](https://github.com/modelscope/FunASR) codebase. Its research
+subject is **air-traffic-control (ATC) speech recognition**: under the extreme constraint of **no ground-truth
+transcripts and only three recordings**, *can* a **fully objective, reproducible evaluation system**
+(acoustic likelihood / hard ICAO·METAR·ATIS grammar constraints / cross-system verification) deliver the full
+pipeline of **offline authoritative transcription → true streaming recognition → domain-grade Chinese
+translation**? This is **a study in progress — not everything is finished yet**; the honest per-phase status
+is given below and in §10.
 
 > Methodological bottom line: only objective judges are trusted — **no subjective scoring, ever**.
 >
-> **Status: in progress.** The deep and translate phases have shipped authoritative final results;
-> the streaming phase has completed the P4 audit and frozen the L2/L1 tiers.
-> **A clean re-run of L0 with the sanitized lexicon is underway** (see §10).
+> **Per-phase status:** deep (offline transcription) and translate have shipped authoritative final drafts;
+> streaming (true streaming recognition) **is still under active work** — the P4 audit is done and the L2/L1
+> tiers are frozen, but **a clean re-run of L0 with the sanitized lexicon is underway** (see §10).
 
 ---
 
