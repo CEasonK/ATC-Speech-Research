@@ -16,7 +16,7 @@
 ## 0. 结果速览（真实端到端产物，非示意）
 
 ```
-🎧 CYYT_ATIS_a.wav（弱信道 ATIS 广播，循环 ~5 遍）
+🎧 CYYT_ATIS_a.wav（ATIS 循环广播，多遍质量不一）
         │  deep 阶段：四重客观证据定稿
         ▼
 SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU
@@ -41,7 +41,7 @@ L2 档 WER 0.0 / L1 档 0.0845（口径与成色见 §4、§7）。
 ## 2. 环境与依赖
 
 - 硬件：RTX 3090 24GB
-- conda 环境：`lingbot-map`（torch 2.13.0+cu130 / transformers 4.57.6 / funasr 1.4.2 本地安装）
+- conda 环境：研究机为 `lingbot-map`（torch 2.13.0+cu130 / transformers 4.57.6 / funasr 1.4.2 本地安装）；新机器按 §5 新建独立环境即可
 - 网络（国内机器实测配置）：
   - huggingface.co 直连不通 → 用 `export HF_ENDPOINT=https://hf-mirror.com`
   - pip 走清华源；clone GitHub 仓库需 ghproxy 代理

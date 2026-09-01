@@ -18,7 +18,7 @@
 ## 0. Results at a glance (real end-to-end output, not a mock-up)
 
 ```
-🎧 CYYT_ATIS_a.wav (weak-channel ATIS broadcast, ~5 looped passes)
+🎧 CYYT_ATIS_a.wav (ATIS looped broadcast, varying pass quality)
         │  deep phase: frozen by four-fold objective evidence
         ▼
 SAINT JOHNS INFORMATION FOXTROT WEATHER AT ZERO TWO ZERO ZERO ZULU
@@ -44,7 +44,7 @@ delay with automatic end-of-utterance refinement: L2 WER 0.0 / L1 0.0845
 ## 2. Environment & dependencies
 
 - GPU: RTX 3090 24 GB
-- Conda env: `lingbot-map` (torch 2.13.0+cu130 / transformers 4.57.6 / funasr 1.4.2 installed locally)
+- Conda env: `lingbot-map` on the research machine (torch 2.13.0+cu130 / transformers 4.57.6 / funasr 1.4.2 installed locally); on a new machine just create a fresh env per §5
 - Network (measured on a mainland-China machine):
   - huggingface.co unreachable → `export HF_ENDPOINT=https://hf-mirror.com`
   - pip via the Tsinghua mirror; GitHub clones need a ghproxy mirror
