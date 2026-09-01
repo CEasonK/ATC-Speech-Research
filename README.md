@@ -1,5 +1,7 @@
 # ATC 空管语音识别研究（ATC-Speech-Research）
 
+[简体中文](./README.md) | [English](./README_en.md)
+
 > 基于 FunASR 框架的空管（Air Traffic Control）语音研究工作区。
 > 核心命题：**在无真实对照文本、仅 3 条录音的极端约束下**，完成
 > 权威转写 → 真流式识别 → 专业中文翻译 的全链路，并建立一套

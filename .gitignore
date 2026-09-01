@@ -10,7 +10,6 @@ venv/
 .env
 .DS_Store
 # 训练产物与大数据(不入库)
-**/exp/
 **/tensorboard/
 *.pt
 *.pth
