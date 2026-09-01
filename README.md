@@ -194,7 +194,7 @@ conda run -n lingbot-map python scripts/qc_check.py audio/CYYT_ATIS_a.wav   # �
    译文独立复算两项指标。
 5. 任何数字有疑问 → 按 `JOURNAL.md` 逐轮日志回放（口径变更、勘误全部留痕）。
 
-## 9. 当前进度与待办（2026-08-31）
+## 10. 当前进度与待办（2026-08-31）
 
 - ✅ deep：三音频权威终稿定版，证据链闭环
 - ✅ translate：终稿 1.0/1.0，审计工具可独立复用

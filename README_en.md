@@ -92,7 +92,28 @@ Every sub-project follows the same triad: `PLAN.md` (protocol & red lines) →
 - **Controlled K4 protocol**: token-WER computed against the corrected reference (284-token edition, J12 reference fix).
   The earlier protocol (phantom-repetition reference) is retired, with the change recorded in `JOURNAL.md`.
 
-## 5. Production workflow (two steps)
+## 5. Quick start & deploying on a new machine
+
+```bash
+# ① clone
+git clone git@github.com:CEasonK/ATC-Speech-Research.git && cd ATC-Speech-Research
+
+# ② environment (versions in §2; install the bundled funasr so it matches the research env)
+conda create -n atc python=3.10 -y && conda activate atc
+pip install -e .
+pip install torch transformers modelscope funasr noisereduce soundfile  # extend as needed
+
+# ③ weights: fetch per the table in §8 into TT/models/ (if HF is unreachable: export HF_ENDPOINT=https://hf-mirror.com)
+
+# ④ run your first transcription
+cd TT && python scripts/run_best_asr.py audio/CYYT_ATIS_a.wav
+# output: results/best_pipeline/CYYT_ATIS_a/result.txt
+```
+
+No extra deployment is needed to reproduce the research phases (deep / streaming /
+translate) — just use the conda env described in §9.
+
+## 6. Production workflow (two steps)
 
 ```bash
 cd TT
@@ -186,7 +207,7 @@ Outputs land in `results/<model>/<recording>/result.txt + result.json`.
    terminology hit rate for any translation.
 5. Doubt any number? Replay it round-by-round through `JOURNAL.md` (protocol changes and errata are all on record).
 
-## 9. Current progress & TODO (2026-08-31)
+## 10. Current progress & TODO (2026-08-31)
 
 - ✅ deep: authoritative finals for all three recordings, evidence chain closed
 - ✅ translate: finals at 1.0/1.0; audit tooling independently reusable
